@@ -363,7 +363,7 @@ export default (() => {
 						position="relative"
 						right="70px"
 						min-height="-"
-						height="510px"
+						height="540px"
 						lg-height="570px"
 						md-padding="30px 80px 15px 50px"
 						md-margin="0px 0px 0px 150px"
@@ -375,7 +375,7 @@ export default (() => {
 					/>
 					{"        "}
 					<Text
-						font="normal 300 30px/1.5 --fontFamily-sans"
+						font="normal 300 40px/1.5 --fontFamily-sans"
 						margin="0px 0px 0px 0px"
 						display="inline-block"
 						height="50px"
@@ -389,6 +389,7 @@ export default (() => {
 							text-indent="0"
 							text-overflow="clip"
 							hyphens="manual"
+							font="300 40px/60px -apple-system, system-ui, &quot;Segoe UI&quot;, Roboto, Oxygen, Ubuntu, Cantarell, &quot;Fira Sans&quot;, &quot;Droid Sans&quot;, &quot;Helvetica Neue&quot;, sans-serif"
 						>
 							<Strong
 								overflow-wrap="normal"
@@ -397,11 +398,44 @@ export default (() => {
 								text-indent="0"
 								text-overflow="clip"
 								hyphens="manual"
-								font="600 30px/45px --fontFamily-googleSourceSansPro"
+								font="600 40px/45px --fontFamily-googleSourceSansPro"
+								sm-font="600 30px/1.55 --fontFamily-googleSourceSansPro"
 							>
-								Как получить{" "}
-								<br />
-								электронную визу?
+								Как получить электронную визу?
+							</Strong>
+							<br />
+						</Span>
+						<br />
+						{"\n\n"}
+					</Text>
+					<Text
+						font="normal 300 40px/1.5 --fontFamily-sans"
+						margin="0px 0px 0px 0px"
+						display="inline-block"
+						height="50px"
+						color="#333333"
+						sm-width="310px"
+						sm-display="none"
+					>
+						<Span
+							overflow-wrap="normal"
+							word-break="normal"
+							white-space="normal"
+							text-indent="0"
+							text-overflow="clip"
+							hyphens="manual"
+							font="300 40px/60px -apple-system, system-ui, &quot;Segoe UI&quot;, Roboto, Oxygen, Ubuntu, Cantarell, &quot;Fira Sans&quot;, &quot;Droid Sans&quot;, &quot;Helvetica Neue&quot;, sans-serif"
+						>
+							<Strong
+								overflow-wrap="normal"
+								word-break="normal"
+								white-space="normal"
+								text-indent="0"
+								text-overflow="clip"
+								hyphens="manual"
+								font="600 40px/45px --fontFamily-googleSourceSansPro"
+							>
+								Как получить электронную визу?
 							</Strong>
 							<br />
 						</Span>
@@ -410,7 +444,7 @@ export default (() => {
 					</Text>
 					<Text
 						color="#333333"
-						font="300 20px sans-serif"
+						font="300 20px/1.55 sans-serif"
 						lg-position="relative"
 						lg-bottom={0}
 						sm-width="310px"
@@ -724,7 +758,7 @@ export default (() => {
 				</Strong>
 			</Text>
 		</Section>
-		<Stack md-flex-direction="column-reverse">
+		<Stack md-flex-direction="column-reverse" width="100%">
 			{"    "}
 			<StackItem width="50%" display="flex" flex-direction="column" md-width="100%">
 				<Override
@@ -866,7 +900,7 @@ export default (() => {
 			</StackItem>
 			{"    "}
 		</Stack>
-		<Stack margin="50px -16px -16px -16px" md-flex-direction="column">
+		<Stack margin="50px -16px -16px -16px" md-flex-direction="column" width="100%">
 			{"    "}
 			<StackItem
 				width="50%"
@@ -1002,7 +1036,7 @@ export default (() => {
 			</StackItem>
 			{"    "}
 		</Stack>
-		<Stack margin="50px -16px -16px -16px" md-flex-direction="column-reverse">
+		<Stack margin="50px -16px -16px -16px" md-flex-direction="column-reverse" width="100%">
 			{"    "}
 			<StackItem width="50%" display="flex" flex-direction="column" md-width="100%">
 				<Override slot="StackItemContent" flex-direction="column" sm-justify-content="center" sm-align-items="center" />
@@ -1451,7 +1485,7 @@ export default (() => {
 				Мы принимаем
 			</Text>
 		</Section>
-		<Stack justify-content="center">
+		<Stack justify-content="center" width="100%">
 			{"    "}
 			<StackItem width="15%" display="flex">
 				{"        "}
@@ -1485,7 +1519,7 @@ export default (() => {
 			</StackItem>
 			{"    "}
 		</Stack>
-		<Stack justify-content="center">
+		<Stack justify-content="center" width="100%">
 			{"    "}
 			<StackItem width="15%" display="flex">
 				{"        "}
@@ -1711,7 +1745,13 @@ Account No. IT29G0306933082100000004613
 				</StackItem>
 			</Stack>
 		</Section>
-		<Stack background="#fff" align-items="center" justify-content="center" sm-flex-direction="column">
+		<Stack
+			background="#fff"
+			align-items="center"
+			justify-content="center"
+			sm-flex-direction="column"
+			width="100%"
+		>
 			{"    "}
 			<StackItem width="33%" display="flex" sm-width="100%">
 				<Override slot="StackItemContent" align-items="center" justify-content="center" />
