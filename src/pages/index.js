@@ -378,6 +378,8 @@ export default (() => {
 						sm-padding="30px 0p 15px 0px"
 						sm-left="0px"
 						sm-height="670p"
+						moy-margin="0px 0px 0px 0px"
+						moy-left="-100px"
 					/>
 					{"        "}
 					<Text
@@ -465,6 +467,7 @@ export default (() => {
 						sm-left="-350px"
 						sm-right="0px"
 						sm-margin="100px 0px 0px 0px"
+						moy-left="-350px"
 					/>
 					{"    "}
 				</StackItem>

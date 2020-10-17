@@ -30,6 +30,12 @@ export default {
 				"type": "min-width",
 				"value": "1366"
 			}
+		],
+		"moy": [
+			{
+				"type": "min-width",
+				"value": "1440"
+			}
 		]
 	},
 	"color": {
@@ -207,5 +213,5 @@ export default {
 			}
 		}
 	},
-	"version": 10
+	"version": 14
 }
