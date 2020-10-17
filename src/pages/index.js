@@ -1704,7 +1704,7 @@ Account No. IT29G0306933082100000004613
 							width="410px"
 							sm-width="380px"
 						>
-							Ответим на любые вопросы
+							Ответим на любые вопросы.
 						</Text>
 						<Text
 							as="h3"
@@ -1733,6 +1733,7 @@ Account No. IT29G0306933082100000004613
 									height="55px"
 									border-radius="50px"
 									font="normal 400 20px/1.5 --fontFamily-googleSourceSansPro"
+									hover-background="#cbab58"
 								>
 									ОТПРАВИТЬ
 								</Button>
