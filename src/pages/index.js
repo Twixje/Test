@@ -855,6 +855,8 @@ export default (() => {
 						box-shadow="0 6px 10px 0 rgba(0, 0, 0, 0.05)"
 						sm-position="relative"
 						sm-left="160px"
+						moy-position="relative"
+						moy-left="35px"
 					/>
 					<Image
 						width="400px"
@@ -1109,6 +1111,8 @@ export default (() => {
 						box-shadow="0 6px 10px 0 rgba(0, 0, 0, 0.05)"
 						sm-position="relative"
 						sm-left="160px"
+						moy-position="relative"
+						moy-left="35px"
 					/>
 					<Image
 						width="400px"
