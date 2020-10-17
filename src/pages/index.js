@@ -67,7 +67,13 @@ export default (() => {
 				<StackItem width="50%" md-width="100%">
 					<Override slot="StackItemContent" flex-direction="column" md-justify-content="center" md-align-items="center" />
 					{"        "}
-					<Text font="600 48px --fontFamily-googleSourceSansPro" lg-width="480px" color="#2a2a2a" sm-text-align="center">
+					<Text
+						font="600 48px --fontFamily-googleSourceSansPro"
+						lg-width="480px"
+						color="#2a2a2a"
+						sm-text-align="center"
+						sm-font="600 48px/0.85 --fontFamily-googleSourceSansPro"
+					>
 						<Span
 							overflow-wrap="normal"
 							word-break="normal"
@@ -75,7 +81,7 @@ export default (() => {
 							text-indent="0"
 							text-overflow="clip"
 							hyphens="manual"
-							sm-font="600 30px &quot;Source Sans Pro&quot;, sans-serif"
+							sm-font="normal 600 30px/0.7 &quot;Source Sans Pro&quot;, sans-serif"
 							sm-text-align="left"
 						>
 							Электронная виза и{" "}
@@ -363,7 +369,7 @@ export default (() => {
 						position="relative"
 						right="70px"
 						min-height="-"
-						height="510px"
+						height="540px"
 						lg-height="570px"
 						md-padding="30px 80px 15px 50px"
 						md-margin="0px 0px 0px 150px"
@@ -375,7 +381,7 @@ export default (() => {
 					/>
 					{"        "}
 					<Text
-						font="normal 300 30px/1.5 --fontFamily-sans"
+						font="normal 300 40px/1.5 --fontFamily-sans"
 						margin="0px 0px 0px 0px"
 						display="inline-block"
 						height="50px"
@@ -389,6 +395,7 @@ export default (() => {
 							text-indent="0"
 							text-overflow="clip"
 							hyphens="manual"
+							font="300 40px/60px -apple-system, system-ui, &quot;Segoe UI&quot;, Roboto, Oxygen, Ubuntu, Cantarell, &quot;Fira Sans&quot;, &quot;Droid Sans&quot;, &quot;Helvetica Neue&quot;, sans-serif"
 						>
 							<Strong
 								overflow-wrap="normal"
@@ -397,11 +404,10 @@ export default (() => {
 								text-indent="0"
 								text-overflow="clip"
 								hyphens="manual"
-								font="600 30px/45px --fontFamily-googleSourceSansPro"
+								font="600 40px/45px --fontFamily-googleSourceSansPro"
+								sm-font="600 30px/1.55 --fontFamily-googleSourceSansPro"
 							>
-								Как получить{" "}
-								<br />
-								электронную визу?
+								Как получить электронную визу?
 							</Strong>
 							<br />
 						</Span>
@@ -410,7 +416,7 @@ export default (() => {
 					</Text>
 					<Text
 						color="#333333"
-						font="300 20px sans-serif"
+						font="300 20px/1.55 sans-serif"
 						lg-position="relative"
 						lg-bottom={0}
 						sm-width="310px"
@@ -724,7 +730,7 @@ export default (() => {
 				</Strong>
 			</Text>
 		</Section>
-		<Stack md-flex-direction="column-reverse">
+		<Stack md-flex-direction="column-reverse" width="100%">
 			{"    "}
 			<StackItem width="50%" display="flex" flex-direction="column" md-width="100%">
 				<Override
@@ -861,18 +867,19 @@ export default (() => {
 					sm-position="relative"
 					sm-left="-100px"
 					sm-height="300px"
+					sm-width="395px"
 				/>
 				{"        "}{"    "}
 			</StackItem>
 			{"    "}
 		</Stack>
-		<Stack margin="50px -16px -16px -16px" md-flex-direction="column">
+		<Stack margin="50px -16px -16px -16px" md-flex-direction="column" width="100%">
 			{"    "}
 			<StackItem
 				width="50%"
 				display="flex"
 				flex-direction="column"
-				background="rgba(0, 0, 0, 0) url(https://static.tildacdn.com/tild3966-6130-4530-a234-363537333861/1.jpg) 0% 0% /auto repeat scroll padding-box"
+				background="rgba(0, 0, 0, 0) url(https://static.tildacdn.com/tild3966-6130-4530-a234-363537333861/1.jpg) 0% 0% /auto repeat fixed padding-box"
 				border-radius="15px"
 				margin="100 0px 0px 0px"
 				box-shadow="0 6px 10px 0 rgba(0, 0, 0, 0.05)"
@@ -1002,33 +1009,14 @@ export default (() => {
 			</StackItem>
 			{"    "}
 		</Stack>
-		<Stack margin="50px -16px -16px -16px" md-flex-direction="column-reverse">
+		<Stack margin="50px -16px -16px -16px" md-flex-direction="column-reverse" width="100%">
 			{"    "}
 			<StackItem width="50%" display="flex" flex-direction="column" md-width="100%">
 				<Override slot="StackItemContent" flex-direction="column" sm-justify-content="center" sm-align-items="center" />
 				{"        "}
-				<Box width="590px">
-					<Image
-						width="55px"
-						height="55px"
-						src="https://static.tildacdn.com/tild3361-6639-4263-b164-646338386363/tick_2.svg"
-						margin="15px 15px 0px 150px"
-						display="none"
-					/>
-					<Box display="flex" sm-justify-content="center">
-						<Image
-							width="70px"
-							height="70px"
-							src="https://static.tildacdn.com/tild3333-3039-4265-b636-353563623661/PSI_DSS.jpg"
-							margin="15px 15px 0px 150px"
-							sm-margin="15px 0px 0px 0px"
-						/>
-						<Image width="70px" height="70px" src="https://static.tildacdn.com/tild3964-3562-4661-a235-323937613461/ssl.jpg" margin="15px 15px 0px 0px" />
-					</Box>
-					<Text color="#333333" font="600 40px --fontFamily-googleSourceSansPro" text-align="right" sm-text-align="center">
-						Система защиты данных
-					</Text>
-				</Box>
+				<Text color="#333333" font="600 40px --fontFamily-googleSourceSansPro" text-align="right" sm-text-align="center">
+					Система защиты данных
+				</Text>
 				<Box display="flex" sm-width="85%">
 					<Image
 						width="55px"
@@ -1075,6 +1063,25 @@ export default (() => {
 						данные хранятся у Вас в браузере{"\n\n"}
 					</Text>
 				</Box>
+				<Box width="590px">
+					<Image
+						width="55px"
+						height="55px"
+						src="https://static.tildacdn.com/tild3361-6639-4263-b164-646338386363/tick_2.svg"
+						margin="15px 15px 0px 150px"
+						display="none"
+					/>
+					<Box display="flex" sm-justify-content="center">
+						<Image
+							width="70px"
+							height="70px"
+							src="https://static.tildacdn.com/tild3333-3039-4265-b636-353563623661/PSI_DSS.jpg"
+							margin="15px 15px 0px 150px"
+							sm-margin="15px 0px 0px 0px"
+						/>
+						<Image width="70px" height="70px" src="https://static.tildacdn.com/tild3964-3562-4661-a235-323937613461/ssl.jpg" margin="15px 15px 0px 0px" />
+					</Box>
+				</Box>
 				{"    "}
 			</StackItem>
 			<StackItem
@@ -1097,7 +1104,7 @@ export default (() => {
 				<Image
 					width="400px"
 					height="400px"
-					srcSet="https://static.tildacdn.com/tild3862-3265-4534-a230-623239303232/phone.png"
+					srcSet="https://static.tildacdn.com/tild3633-6666-4730-b932-626434346637/Vector_Smart_Object.png"
 					position="relative"
 					top="190px"
 					right="80px"
@@ -1152,7 +1159,7 @@ export default (() => {
 					display="flex"
 					md-width="45%"
 					md-margin="0px 0px 25px 30px"
-					sm-width="100%"
+					sm-width="90%"
 					sm-margin="0px 0px 25px 0px"
 				>
 					<Override slot="StackItemContent" justify-content="center" flex-direction="column" />
@@ -1226,7 +1233,7 @@ export default (() => {
 					display="flex"
 					md-width="45%"
 					md-margin="0px 0px 25px 30px"
-					sm-width="100%"
+					sm-width="90%"
 					sm-margin="0px 0px 25px 0px"
 				>
 					<Override slot="StackItemContent" justify-content="center" flex-direction="column" />
@@ -1299,7 +1306,7 @@ export default (() => {
 					flex-direction="column"
 					display="flex"
 					md-width="45%"
-					sm-width="100%"
+					sm-width="90%"
 					sm-margin="0px 0px 0px 0px"
 				>
 					<Override slot="StackItemContent" justify-content="center" flex-direction="column" />
@@ -1451,7 +1458,7 @@ export default (() => {
 				Мы принимаем
 			</Text>
 		</Section>
-		<Stack justify-content="center">
+		<Stack justify-content="center" width="100%">
 			{"    "}
 			<StackItem width="15%" display="flex">
 				{"        "}
@@ -1485,7 +1492,7 @@ export default (() => {
 			</StackItem>
 			{"    "}
 		</Stack>
-		<Stack justify-content="center">
+		<Stack justify-content="center" width="100%">
 			{"    "}
 			<StackItem width="15%" display="flex">
 				{"        "}
@@ -1711,7 +1718,13 @@ Account No. IT29G0306933082100000004613
 				</StackItem>
 			</Stack>
 		</Section>
-		<Stack background="#fff" align-items="center" justify-content="center" sm-flex-direction="column">
+		<Stack
+			background="#fff"
+			align-items="center"
+			justify-content="center"
+			sm-flex-direction="column"
+			width="100%"
+		>
 			{"    "}
 			<StackItem width="33%" display="flex" sm-width="100%">
 				<Override slot="StackItemContent" align-items="center" justify-content="center" />
