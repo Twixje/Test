@@ -19,21 +19,9 @@ export default {
 				"value": 992
 			}
 		],
-		"nout": [
-			{
-				"type": "",
-				"value": ""
-			}
-		],
-		"nout2": [
-			{
-				"type": "min-width",
-				"value": "1366"
-			}
-		],
 		"moy": [
 			{
-				"type": "min-width",
+				"type": "max-width",
 				"value": "1440"
 			}
 		]
@@ -213,5 +201,5 @@ export default {
 			}
 		}
 	},
-	"version": 14
+	"version": 19
 }

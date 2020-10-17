@@ -357,19 +357,17 @@ export default (() => {
 		</Section>
 		<Section background="#f7f7f7">
 			<Override slot="SectionContent" sm-height="600px" />
-			<Stack sm-flex-direction="column-reverse" sm-height="70%">
+			<Stack sm-flex-direction="column-reverse" sm-height="70%" max-width="1280px" gap="0px">
 				{"    "}
-				<StackItem width="70%" display="flex" md-width="100%">
+				<StackItem width="60%" display="flex" md-width="100%">
 					<Override
 						slot="StackItemContent"
 						background="#fff"
 						display="inline"
-						padding="30px 80px 15px 100px"
+						padding="30px 80px 30px 80px"
 						border-radius="15px"
-						position="relative"
+						position="static"
 						right="70px"
-						min-height="-"
-						height="540px"
 						lg-height="570px"
 						md-padding="30px 80px 15px 50px"
 						md-margin="0px 0px 0px 150px"
@@ -382,39 +380,8 @@ export default (() => {
 						moy-left="-100px"
 					/>
 					{"        "}
-					<Text
-						font="normal 300 40px/1.5 --fontFamily-sans"
-						margin="0px 0px 0px 0px"
-						display="inline-block"
-						height="50px"
-						color="#333333"
-						sm-width="310px"
-					>
-						<Span
-							overflow-wrap="normal"
-							word-break="normal"
-							white-space="normal"
-							text-indent="0"
-							text-overflow="clip"
-							hyphens="manual"
-							font="300 40px/60px -apple-system, system-ui, &quot;Segoe UI&quot;, Roboto, Oxygen, Ubuntu, Cantarell, &quot;Fira Sans&quot;, &quot;Droid Sans&quot;, &quot;Helvetica Neue&quot;, sans-serif"
-						>
-							<Strong
-								overflow-wrap="normal"
-								word-break="normal"
-								white-space="normal"
-								text-indent="0"
-								text-overflow="clip"
-								hyphens="manual"
-								font="600 40px/45px --fontFamily-googleSourceSansPro"
-								sm-font="600 30px/1.55 --fontFamily-googleSourceSansPro"
-							>
-								Как получить электронную визу?
-							</Strong>
-							<br />
-						</Span>
-						<br />
-						{"\n\n"}
+					<Text font="600 40px/45px --fontFamily-googleSourceSansPro" padding="0px 0px 20px 0px">
+						Как получить электронную визу?
 					</Text>
 					<Text
 						color="#333333"
@@ -442,25 +409,21 @@ export default (() => {
 					</Text>
 					{"    "}
 				</StackItem>
-				<StackItem display="flex" width="30%">
+				<StackItem display="flex" width="40%">
 					<Override
 						slot="StackItemContent"
 						display="inline"
-						padding="0 0 0 0"
+						padding="0px 0px 0px 0px"
 						border-radius="15px"
 						position="relative"
 						right="70px"
 						min-height="-"
-						height="450px"
 					/>
 					{"        "}
 					<Image
-						width="790px"
-						height="790px"
+						width="950px"
 						src="https://static.tildacdn.com/tild3639-3739-4234-a636-333762303437/VisaService.png"
-						position="relative"
-						bottom="150px"
-						right="110%"
+						bottom="auto"
 						sm-width="400px"
 						sm-height="300px"
 						sm-top="-210px"
@@ -468,6 +431,14 @@ export default (() => {
 						sm-right="0px"
 						sm-margin="100px 0px 0px 0px"
 						moy-left="-350px"
+						nout2-top="0px"
+						nout2-bottom="0px"
+						nout2-position="static"
+						nout2-width="90%"
+						left="auto"
+						right="-155px"
+						top="-70px"
+						position="absolute"
 					/>
 					{"    "}
 				</StackItem>
@@ -869,12 +840,15 @@ export default (() => {
 						nout-top={0}
 						md-top="0px"
 						sm-position="relative"
-						sm-left="-100px"
+						sm-left="auto"
 						sm-height="300px"
 						sm-width="395px"
 						nout-bottom="0px"
 						nout2-top="145px"
-						nout2-right="50px"
+						nout2-right="90px"
+						sm-right="120px"
+						moy-right="5550px"
+						nout2-left="0px"
 					/>
 					{"        "}{"    "}
 				</StackItem>
@@ -1125,8 +1099,9 @@ export default (() => {
 						nout-top="190px"
 						md-top="0px"
 						sm-position="relative"
-						sm-left="-100px"
+						sm-left="auto"
 						sm-height="300px"
+						sm-right="120px"
 					/>
 					{"        "}{"    "}
 				</StackItem>
