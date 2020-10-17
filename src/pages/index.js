@@ -67,7 +67,13 @@ export default (() => {
 				<StackItem width="50%" md-width="100%">
 					<Override slot="StackItemContent" flex-direction="column" md-justify-content="center" md-align-items="center" />
 					{"        "}
-					<Text font="600 48px --fontFamily-googleSourceSansPro" lg-width="480px" color="#2a2a2a" sm-text-align="center">
+					<Text
+						font="600 48px --fontFamily-googleSourceSansPro"
+						lg-width="480px"
+						color="#2a2a2a"
+						sm-text-align="center"
+						sm-font="600 48px/0.85 --fontFamily-googleSourceSansPro"
+					>
 						<Span
 							overflow-wrap="normal"
 							word-break="normal"
@@ -75,7 +81,7 @@ export default (() => {
 							text-indent="0"
 							text-overflow="clip"
 							hyphens="manual"
-							sm-font="600 30px &quot;Source Sans Pro&quot;, sans-serif"
+							sm-font="normal 600 30px/0.7 &quot;Source Sans Pro&quot;, sans-serif"
 							sm-text-align="left"
 						>
 							Электронная виза и{" "}
@@ -363,7 +369,7 @@ export default (() => {
 						position="relative"
 						right="70px"
 						min-height="-"
-						height="510px"
+						height="540px"
 						lg-height="570px"
 						md-padding="30px 80px 15px 50px"
 						md-margin="0px 0px 0px 150px"
@@ -375,7 +381,7 @@ export default (() => {
 					/>
 					{"        "}
 					<Text
-						font="normal 300 30px/1.5 --fontFamily-sans"
+						font="normal 300 40px/1.5 --fontFamily-sans"
 						margin="0px 0px 0px 0px"
 						display="inline-block"
 						height="50px"
@@ -389,6 +395,7 @@ export default (() => {
 							text-indent="0"
 							text-overflow="clip"
 							hyphens="manual"
+							font="300 40px/60px -apple-system, system-ui, &quot;Segoe UI&quot;, Roboto, Oxygen, Ubuntu, Cantarell, &quot;Fira Sans&quot;, &quot;Droid Sans&quot;, &quot;Helvetica Neue&quot;, sans-serif"
 						>
 							<Strong
 								overflow-wrap="normal"
@@ -397,11 +404,10 @@ export default (() => {
 								text-indent="0"
 								text-overflow="clip"
 								hyphens="manual"
-								font="600 30px/45px --fontFamily-googleSourceSansPro"
+								font="600 40px/45px --fontFamily-googleSourceSansPro"
+								sm-font="600 30px/1.55 --fontFamily-googleSourceSansPro"
 							>
-								Как получить{" "}
-								<br />
-								электронную визу?
+								Как получить электронную визу?
 							</Strong>
 							<br />
 						</Span>
@@ -410,7 +416,7 @@ export default (() => {
 					</Text>
 					<Text
 						color="#333333"
-						font="300 20px sans-serif"
+						font="300 20px/1.55 sans-serif"
 						lg-position="relative"
 						lg-bottom={0}
 						sm-width="310px"
@@ -723,395 +729,396 @@ export default (() => {
 					Преимущества нашего сервиса
 				</Strong>
 			</Text>
-		</Section>
-		<Stack md-flex-direction="column-reverse">
-			{"    "}
-			<StackItem width="50%" display="flex" flex-direction="column" md-width="100%">
-				<Override
-					slot="StackItemContent"
-					flex-direction="column"
-					sm-justify-content="center"
-					sm-align-items="center"
-					sm-width="100%"
-				/>
-				{"        "}
-				<Box display="flex" sm-width="85%" sm-justify-content="left" sm-align-items="center">
-					<Image
-						width="50px"
-						height="50px"
-						src="https://static.tildacdn.com/tild3730-6562-4533-a439-326133333239/1.svg"
-						margin="15px 15px 0px 150px"
-						sm-margin="15px 15px 0px 10px"
-					/>
-					<Text color="#333333" font="300 20px --fontFamily-googleSourceSansPro" sm-font="300 16px --fontFamily-googleSourceSansPro">
-						Поддержка 24/7/365 на английском языке
-						<br />
-						в чате WhatsApp, Telegram, Viber
-					</Text>
-				</Box>
-				<Box display="flex" sm-width="85%">
-					<Image
-						width="50px"
-						height="50px"
-						src="https://static.tildacdn.com/tild3362-6363-4537-b962-656235306432/2.svg"
-						margin="15px 15px 0px 150px"
-						sm-margin="15px 15px 0px 10px"
-					/>
-					<Text color="#333333" font="300 20px --fontFamily-googleSourceSansPro" sm-font="300 16px --fontFamily-googleSourceSansPro">
-						Быстрая и понятная авторизация на сайте
-					</Text>
-				</Box>
-				<Box display="flex" sm-width="85%">
-					<Image
-						width="50px"
-						height="50px"
-						src="https://static.tildacdn.com/tild6338-6231-4561-b536-343235653864/4.svg"
-						margin="15px 15px 0px 150px"
-						sm-margin="15px 15px 0px 10px"
-					/>
-					<Text color="#333333" font="300 20px --fontFamily-googleSourceSansPro" sm-font="300 16px --fontFamily-googleSourceSansPro">
-						Безопасное хранение персональных данных{" "}
-						<br />
-						и последующее удаление после получения визы
-					</Text>
-				</Box>
-				<Box display="flex" sm-width="85%">
-					<Image
-						width="50px"
-						height="50px"
-						src="https://static.tildacdn.com/tild3534-6333-4362-b738-643531633837/3.svg"
-						margin="15px 15px 0px 150px"
-						sm-margin="15px 15px 0px 10px"
-					/>
-					<Text color="#333333" font="300 20px --fontFamily-googleSourceSansPro" sm-font="300 16px --fontFamily-googleSourceSansPro">
-						Проверка анкеты специалистом перед отправкой
-					</Text>
-				</Box>
-				<Box display="flex" sm-width="85%">
-					<Image
-						width="50px"
-						height="50px"
-						src="https://static.tildacdn.com/tild3037-6136-4436-b932-396231323335/5.svg"
-						margin="15px 15px 0px 150px"
-						sm-margin="15px 15px 0px 10px"
-					/>
-					<Text color="#333333" font="300 20px --fontFamily-googleSourceSansPro" sm-font="300 16px --fontFamily-googleSourceSansPro">
-						Возможность вернуться к заполнению{" "}
-						<br />
-						данных в любой момент{"\n\n"}
-					</Text>
-				</Box>
-				<Box display="flex" sm-width="85%">
-					<Image
-						width="50px"
-						height="50px"
-						src="https://static.tildacdn.com/tild3234-6630-4666-b837-373336643839/6.svg"
-						margin="15px 15px 0px 150px"
-						sm-margin="15px 15px 0px 10px"
-					/>
-					<Text color="#333333" font="300 20px --fontFamily-googleSourceSansPro" sm-font="300 16px --fontFamily-googleSourceSansPro">
-						Оформление онлайн страховки
-						<br />
-						{" "}для въезда в Россию
-					</Text>
-				</Box>
-				<Box display="flex" sm-width="85%">
-					<Image
-						width="50px"
-						height="50px"
-						src="https://static.tildacdn.com/tild6330-3236-4637-a662-643431393763/7.svg"
-						margin="15px 15px 0px 150px"
-						sm-margin="15px 15px 0px 10px"
-					/>
-					<Text color="#333333" font="300 20px --fontFamily-googleSourceSansPro" sm-font="300 16px --fontFamily-googleSourceSansPro">
-						Надежная платежная система{" "}
-						<br />
-						со множеством способов оплаты
-					</Text>
-				</Box>
+			<Stack md-flex-direction="column-reverse" width="100%">
 				{"    "}
-			</StackItem>
-			<StackItem
-				width="50%"
-				display="flex"
-				flex-direction="column"
-				md-justify-content="center"
-				md-align-items="center"
-				sm-width="100%"
-			>
-				<Override
-					slot="StackItemContent"
+				<StackItem width="50%" display="flex" flex-direction="column" md-width="100%">
+					<Override
+						slot="StackItemContent"
+						flex-direction="column"
+						sm-justify-content="center"
+						sm-align-items="center"
+						sm-width="100%"
+					/>
+					{"        "}
+					<Box display="flex" sm-width="85%" sm-justify-content="left" sm-align-items="center">
+						<Image
+							width="50px"
+							height="50px"
+							src="https://static.tildacdn.com/tild3730-6562-4533-a439-326133333239/1.svg"
+							margin="15px 15px 0px 150px"
+							sm-margin="15px 15px 0px 10px"
+						/>
+						<Text color="#333333" font="300 20px --fontFamily-googleSourceSansPro" sm-font="300 16px --fontFamily-googleSourceSansPro">
+							Поддержка 24/7/365 на английском языке
+							<br />
+							в чате WhatsApp, Telegram, Viber
+						</Text>
+					</Box>
+					<Box display="flex" sm-width="85%">
+						<Image
+							width="50px"
+							height="50px"
+							src="https://static.tildacdn.com/tild3362-6363-4537-b962-656235306432/2.svg"
+							margin="15px 15px 0px 150px"
+							sm-margin="15px 15px 0px 10px"
+						/>
+						<Text color="#333333" font="300 20px --fontFamily-googleSourceSansPro" sm-font="300 16px --fontFamily-googleSourceSansPro">
+							Быстрая и понятная авторизация на сайте
+						</Text>
+					</Box>
+					<Box display="flex" sm-width="85%">
+						<Image
+							width="50px"
+							height="50px"
+							src="https://static.tildacdn.com/tild6338-6231-4561-b536-343235653864/4.svg"
+							margin="15px 15px 0px 150px"
+							sm-margin="15px 15px 0px 10px"
+						/>
+						<Text color="#333333" font="300 20px --fontFamily-googleSourceSansPro" sm-font="300 16px --fontFamily-googleSourceSansPro">
+							Безопасное хранение персональных данных{" "}
+							<br />
+							и последующее удаление после получения визы
+						</Text>
+					</Box>
+					<Box display="flex" sm-width="85%">
+						<Image
+							width="50px"
+							height="50px"
+							src="https://static.tildacdn.com/tild3534-6333-4362-b738-643531633837/3.svg"
+							margin="15px 15px 0px 150px"
+							sm-margin="15px 15px 0px 10px"
+						/>
+						<Text color="#333333" font="300 20px --fontFamily-googleSourceSansPro" sm-font="300 16px --fontFamily-googleSourceSansPro">
+							Проверка анкеты специалистом перед отправкой
+						</Text>
+					</Box>
+					<Box display="flex" sm-width="85%">
+						<Image
+							width="50px"
+							height="50px"
+							src="https://static.tildacdn.com/tild3037-6136-4436-b932-396231323335/5.svg"
+							margin="15px 15px 0px 150px"
+							sm-margin="15px 15px 0px 10px"
+						/>
+						<Text color="#333333" font="300 20px --fontFamily-googleSourceSansPro" sm-font="300 16px --fontFamily-googleSourceSansPro">
+							Возможность вернуться к заполнению{" "}
+							<br />
+							данных в любой момент{"\n\n"}
+						</Text>
+					</Box>
+					<Box display="flex" sm-width="85%">
+						<Image
+							width="50px"
+							height="50px"
+							src="https://static.tildacdn.com/tild3234-6630-4666-b837-373336643839/6.svg"
+							margin="15px 15px 0px 150px"
+							sm-margin="15px 15px 0px 10px"
+						/>
+						<Text color="#333333" font="300 20px --fontFamily-googleSourceSansPro" sm-font="300 16px --fontFamily-googleSourceSansPro">
+							Оформление онлайн страховки
+							<br />
+							{" "}для въезда в Россию
+						</Text>
+					</Box>
+					<Box display="flex" sm-width="85%">
+						<Image
+							width="50px"
+							height="50px"
+							src="https://static.tildacdn.com/tild6330-3236-4637-a662-643431393763/7.svg"
+							margin="15px 15px 0px 150px"
+							sm-margin="15px 15px 0px 10px"
+						/>
+						<Text color="#333333" font="300 20px --fontFamily-googleSourceSansPro" sm-font="300 16px --fontFamily-googleSourceSansPro">
+							Надежная платежная система{" "}
+							<br />
+							со множеством способов оплаты
+						</Text>
+					</Box>
+					{"    "}
+				</StackItem>
+				<StackItem
+					width="50%"
+					display="flex"
+					flex-direction="column"
+					md-justify-content="center"
+					md-align-items="center"
+					sm-width="100%"
+				>
+					<Override
+						slot="StackItemContent"
+						flex-direction="column"
+						background="rgba(0, 0, 0, 0) url(https://static.tildacdn.com/tild3966-6130-4530-a234-363537333861/1.jpg) 0% 0% /auto repeat fixed padding-box"
+						border-radius="15px"
+						box-shadow="0 6px 10px 0 rgba(0, 0, 0, 0.05)"
+						sm-position="relative"
+						sm-left="160px"
+					/>
+					<Image
+						width="400px"
+						height="400px"
+						srcSet="https://static.tildacdn.com/tild3862-3265-4534-a230-623239303232/phone.png"
+						position="relative"
+						top="190px"
+						right="80px"
+						lg-top="340px"
+						nout-top="190px"
+						md-top="0px"
+						sm-position="relative"
+						sm-left="-100px"
+						sm-height="300px"
+						sm-width="395px"
+					/>
+					{"        "}{"    "}
+				</StackItem>
+				{"    "}
+			</Stack>
+			<Stack margin="50px -16px -16px -16px" md-flex-direction="column" width="100%">
+				{"    "}
+				<StackItem
+					width="50%"
+					display="flex"
 					flex-direction="column"
 					background="rgba(0, 0, 0, 0) url(https://static.tildacdn.com/tild3966-6130-4530-a234-363537333861/1.jpg) 0% 0% /auto repeat fixed padding-box"
 					border-radius="15px"
+					margin="100 0px 0px 0px"
 					box-shadow="0 6px 10px 0 rgba(0, 0, 0, 0.05)"
-					sm-position="relative"
-					sm-left="160px"
-				/>
-				<Image
-					width="400px"
-					height="400px"
-					srcSet="https://static.tildacdn.com/tild3862-3265-4534-a230-623239303232/phone.png"
-					position="relative"
-					top="190px"
-					right="80px"
-					lg-top="340px"
-					nout-top="190px"
-					md-top="0px"
-					sm-position="relative"
-					sm-left="-100px"
-					sm-height="300px"
-				/>
-				{"        "}{"    "}
-			</StackItem>
-			{"    "}
-		</Stack>
-		<Stack margin="50px -16px -16px -16px" md-flex-direction="column">
-			{"    "}
-			<StackItem
-				width="50%"
-				display="flex"
-				flex-direction="column"
-				background="rgba(0, 0, 0, 0) url(https://static.tildacdn.com/tild3966-6130-4530-a234-363537333861/1.jpg) 0% 0% /auto repeat scroll padding-box"
-				border-radius="15px"
-				margin="100 0px 0px 0px"
-				box-shadow="0 6px 10px 0 rgba(0, 0, 0, 0.05)"
-				sm-width="65%"
-			>
-				<Override slot="StackItemContent" flex-direction="column" />
-				<Image
-					width="400px"
-					height="400px"
-					srcSet="https://static.tildacdn.com/tild3136-3366-4634-b330-656439356634/2nd.png "
-					position="relative"
-					top="75px"
-					right="0px"
-					left="350px"
-					lg-left="200px"
-					sm-height="300px"
-					sm-left={0}
-					sm-top="25px"
-				/>
-				{"        "}{"    "}
-			</StackItem>
-			<StackItem width="50%" display="flex" flex-direction="column" md-width="100%">
-				<Override
-					slot="StackItemContent"
-					flex-direction="column"
-					background="rgba(0, 0, 0, 0)"
-					border-radius="15px"
-					sm-width="100%"
-					sm-justify-content="center"
-					sm-align-items="center"
-				/>
-				<Box display="flex" sm-width="85%">
+					sm-width="65%"
+				>
+					<Override slot="StackItemContent" flex-direction="column" />
 					<Image
-						width="50px"
-						height="50px"
-						src="https://static.tildacdn.com/tild3834-3261-4131-b964-393439663431/8.svg"
-						margin="15px 15px 0px 100px"
-						sm-margin="15px 15px 0px 10px"
+						width="400px"
+						height="400px"
+						srcSet="https://static.tildacdn.com/tild3136-3366-4634-b330-656439356634/2nd.png "
+						position="relative"
+						top="75px"
+						right="0px"
+						left="350px"
+						lg-left="200px"
+						sm-height="300px"
+						sm-left={0}
+						sm-top="25px"
 					/>
-					<Text color="#333333" font="300 20px --fontFamily-googleSourceSansPro" sm-font="300 16px --fontFamily-googleSourceSansPro">
-						Простая анкета на визу (без лишних полей)
-					</Text>
-				</Box>
-				<Box display="flex" sm-width="85%">
-					<Image
-						width="50px"
-						height="50px"
-						src="https://static.tildacdn.com/tild3933-3765-4461-b237-376438626233/9.svg"
-						margin="15px 15px 0px 100px"
-						sm-margin="15px 15px 0px 10px"
+					{"        "}{"    "}
+				</StackItem>
+				<StackItem width="50%" display="flex" flex-direction="column" md-width="100%">
+					<Override
+						slot="StackItemContent"
+						flex-direction="column"
+						background="rgba(0, 0, 0, 0)"
+						border-radius="15px"
+						sm-width="100%"
+						sm-justify-content="center"
+						sm-align-items="center"
 					/>
-					<Text color="#333333" font="300 20px --fontFamily-googleSourceSansPro" sm-font="300 16px --fontFamily-googleSourceSansPro">
-						100% без ошибок – двухуровневая
-						<br />
-						проверка данных
-					</Text>
-				</Box>
-				<Box display="flex" sm-width="85%">
-					<Image
-						width="50px"
-						height="50px"
-						src="https://static.tildacdn.com/tild6538-6132-4034-b031-353139333238/10.svg"
-						margin="15px 15px 0px 100px"
-						sm-margin="15px 15px 0px 10px"
-					/>
-					<Text color="#333333" font="300 20px --fontFamily-googleSourceSansPro" sm-font="300 16px --fontFamily-googleSourceSansPro">
-						Загрузка фото и копии документа на визу с{" "}
-						<br />
-						помощью мобильного устройства
-					</Text>
-				</Box>
-				<Box display="flex" sm-width="85%">
-					<Image
-						width="50px"
-						height="50px"
-						src="https://static.tildacdn.com/tild3630-6362-4466-b030-633565313430/11.svg"
-						margin="15px 15px 0px 100px"
-						sm-margin="15px 15px 0px 10px"
-					/>
-					<Text color="#333333" font="300 20px --fontFamily-googleSourceSansPro" sm-font="300 16px --fontFamily-googleSourceSansPro">
-						Автоматическое распознавание данных паспорта{" "}
-						<br />
-						– нейросетями, для упрощения ввода данных
-					</Text>
-				</Box>
-				<Box display="flex" sm-width="85%">
-					<Image
-						width="50px"
-						height="50px"
-						src="https://static.tildacdn.com/tild3936-6539-4438-a464-313733396434/12.svg"
-						margin="15px 15px 0px 100px"
-						sm-margin="15px 15px 0px 10px"
-					/>
-					<Text color="#333333" font="300 20px --fontFamily-googleSourceSansPro" sm-font="300 16px --fontFamily-googleSourceSansPro">
-						Возврат консульского сбора в случае отказа{" "}
-						<br />
-						в визе в Россию, при условии страхования{"\n\n"}
-					</Text>
-				</Box>
-				<Box display="flex" sm-width="85%">
-					<Image
-						width="50px"
-						height="50px"
-						src="https://static.tildacdn.com/tild3163-3332-4836-a434-656561666536/13.svg"
-						margin="15px 15px 0px 100px"
-						sm-margin="15px 15px 0px 10px"
-					/>
-					<Text color="#333333" font="300 20px --fontFamily-googleSourceSansPro" sm-font="300 16px --fontFamily-googleSourceSansPro">
-						Мультиязычная форма с поддержкой{" "}
-						<br />
-						более 100 языков
-					</Text>
-				</Box>
-				<Box display="flex" sm-width="85%">
-					<Image
-						width="50px"
-						height="50px"
-						src="https://static.tildacdn.com/tild6163-6331-4638-b238-643566303134/14.svg"
-						margin="15px 15px 0px 100px"
-						sm-margin="15px 15px 0px 10px"
-					/>
-					<Text color="#333333" sm-font="300 16px --fontFamily-googleSourceSansPro">
-						Скидки, промокоды и прочие интересные акции
-					</Text>
-				</Box>
-				{"        "}{"    "}
-			</StackItem>
-			{"    "}
-		</Stack>
-		<Stack margin="50px -16px -16px -16px" md-flex-direction="column-reverse">
-			{"    "}
-			<StackItem width="50%" display="flex" flex-direction="column" md-width="100%">
-				<Override slot="StackItemContent" flex-direction="column" sm-justify-content="center" sm-align-items="center" />
-				{"        "}
-				<Box width="590px">
-					<Image
-						width="55px"
-						height="55px"
-						src="https://static.tildacdn.com/tild3361-6639-4263-b164-646338386363/tick_2.svg"
-						margin="15px 15px 0px 150px"
-						display="none"
-					/>
-					<Box display="flex" sm-justify-content="center">
+					<Box display="flex" sm-width="85%">
 						<Image
-							width="70px"
-							height="70px"
-							src="https://static.tildacdn.com/tild3333-3039-4265-b636-353563623661/PSI_DSS.jpg"
-							margin="15px 15px 0px 150px"
-							sm-margin="15px 0px 0px 0px"
+							width="50px"
+							height="50px"
+							src="https://static.tildacdn.com/tild3834-3261-4131-b964-393439663431/8.svg"
+							margin="15px 15px 0px 100px"
+							sm-margin="15px 15px 0px 10px"
 						/>
-						<Image width="70px" height="70px" src="https://static.tildacdn.com/tild3964-3562-4661-a235-323937613461/ssl.jpg" margin="15px 15px 0px 0px" />
+						<Text color="#333333" font="300 20px --fontFamily-googleSourceSansPro" sm-font="300 16px --fontFamily-googleSourceSansPro">
+							Простая анкета на визу (без лишних полей)
+						</Text>
 					</Box>
+					<Box display="flex" sm-width="85%">
+						<Image
+							width="50px"
+							height="50px"
+							src="https://static.tildacdn.com/tild3933-3765-4461-b237-376438626233/9.svg"
+							margin="15px 15px 0px 100px"
+							sm-margin="15px 15px 0px 10px"
+						/>
+						<Text color="#333333" font="300 20px --fontFamily-googleSourceSansPro" sm-font="300 16px --fontFamily-googleSourceSansPro">
+							100% без ошибок – двухуровневая
+							<br />
+							проверка данных
+						</Text>
+					</Box>
+					<Box display="flex" sm-width="85%">
+						<Image
+							width="50px"
+							height="50px"
+							src="https://static.tildacdn.com/tild6538-6132-4034-b031-353139333238/10.svg"
+							margin="15px 15px 0px 100px"
+							sm-margin="15px 15px 0px 10px"
+						/>
+						<Text color="#333333" font="300 20px --fontFamily-googleSourceSansPro" sm-font="300 16px --fontFamily-googleSourceSansPro">
+							Загрузка фото и копии документа на визу с{" "}
+							<br />
+							помощью мобильного устройства
+						</Text>
+					</Box>
+					<Box display="flex" sm-width="85%">
+						<Image
+							width="50px"
+							height="50px"
+							src="https://static.tildacdn.com/tild3630-6362-4466-b030-633565313430/11.svg"
+							margin="15px 15px 0px 100px"
+							sm-margin="15px 15px 0px 10px"
+						/>
+						<Text color="#333333" font="300 20px --fontFamily-googleSourceSansPro" sm-font="300 16px --fontFamily-googleSourceSansPro">
+							Автоматическое распознавание данных паспорта{" "}
+							<br />
+							– нейросетями, для упрощения ввода данных
+						</Text>
+					</Box>
+					<Box display="flex" sm-width="85%">
+						<Image
+							width="50px"
+							height="50px"
+							src="https://static.tildacdn.com/tild3936-6539-4438-a464-313733396434/12.svg"
+							margin="15px 15px 0px 100px"
+							sm-margin="15px 15px 0px 10px"
+						/>
+						<Text color="#333333" font="300 20px --fontFamily-googleSourceSansPro" sm-font="300 16px --fontFamily-googleSourceSansPro">
+							Возврат консульского сбора в случае отказа{" "}
+							<br />
+							в визе в Россию, при условии страхования{"\n\n"}
+						</Text>
+					</Box>
+					<Box display="flex" sm-width="85%">
+						<Image
+							width="50px"
+							height="50px"
+							src="https://static.tildacdn.com/tild3163-3332-4836-a434-656561666536/13.svg"
+							margin="15px 15px 0px 100px"
+							sm-margin="15px 15px 0px 10px"
+						/>
+						<Text color="#333333" font="300 20px --fontFamily-googleSourceSansPro" sm-font="300 16px --fontFamily-googleSourceSansPro">
+							Мультиязычная форма с поддержкой{" "}
+							<br />
+							более 100 языков
+						</Text>
+					</Box>
+					<Box display="flex" sm-width="85%">
+						<Image
+							width="50px"
+							height="50px"
+							src="https://static.tildacdn.com/tild6163-6331-4638-b238-643566303134/14.svg"
+							margin="15px 15px 0px 100px"
+							sm-margin="15px 15px 0px 10px"
+						/>
+						<Text color="#333333" sm-font="300 16px --fontFamily-googleSourceSansPro">
+							Скидки, промокоды и прочие интересные акции
+						</Text>
+					</Box>
+					{"        "}{"    "}
+				</StackItem>
+				{"    "}
+			</Stack>
+			<Stack margin="50px -16px -16px -16px" md-flex-direction="column-reverse" width="100%">
+				{"    "}
+				<StackItem width="50%" display="flex" flex-direction="column" md-width="100%">
+					<Override slot="StackItemContent" flex-direction="column" sm-justify-content="center" sm-align-items="center" />
+					{"        "}
 					<Text color="#333333" font="600 40px --fontFamily-googleSourceSansPro" text-align="right" sm-text-align="center">
 						Система защиты данных
 					</Text>
-				</Box>
-				<Box display="flex" sm-width="85%">
-					<Image
-						width="55px"
-						height="55px"
-						src="https://static.tildacdn.com/tild3361-6639-4263-b164-646338386363/tick_2.svg"
-						margin="15px 15px 0px 150px"
-						sm-margin="15px 15px 0px 10px"
-					/>
-					<Text color="#333333" font="300 20px --fontFamily-googleSourceSansPro" sm-font="300 16px --fontFamily-googleSourceSansPro">
-						Платежная система защищена в соответствии с международным стандартом безопасности при
-						<br />
-						работе с банковскими картами PSI DSS 3.1
-					</Text>
-				</Box>
-				<Box display="flex" sm-width="85%">
-					<Image
-						width="45px"
-						height="45px"
-						src="https://static.tildacdn.com/tild3361-6639-4263-b164-646338386363/tick_2.svg"
-						margin="15px 15px 0px 150px"
-						sm-margin="15px 15px 0px 10px"
-					/>
-					<Text color="#333333" font="300 20px --fontFamily-googleSourceSansPro" sm-font="300 16px --fontFamily-googleSourceSansPro">
-						На время оформления Вашей визы мы надежно
-						<br />
-						храним в зашифрованном виде Вашу информацию
-						<br />
-						с помощью программного обеспечения Secure{" "}
-						<br />
-						Sockets Layer (SSL) на нашем сервере, а после получения визы все удаляем
-					</Text>
-				</Box>
-				<Box display="flex" sm-width="85%">
-					<Image
-						width="30px"
-						height="30px"
-						src="https://static.tildacdn.com/tild3361-6639-4263-b164-646338386363/tick_2.svg"
-						margin="15px 15px 0px 150px"
-						sm-margin="15px 15px 0px 10px"
-					/>
-					<Text color="#333333" font="300 20px --fontFamily-googleSourceSansPro" sm-font="300 16px --fontFamily-googleSourceSansPro">
-						Пока вы заполняете анкету, все Ваши
-						<br />
-						данные хранятся у Вас в браузере{"\n\n"}
-					</Text>
-				</Box>
-				{"    "}
-			</StackItem>
-			<StackItem
-				width="50%"
-				display="flex"
-				flex-direction="column"
-				md-justify-content="center"
-				md-align-items="center"
-				sm-width="100%"
-			>
-				<Override
-					slot="StackItemContent"
+					<Box display="flex" sm-width="85%">
+						<Image
+							width="55px"
+							height="55px"
+							src="https://static.tildacdn.com/tild3361-6639-4263-b164-646338386363/tick_2.svg"
+							margin="15px 15px 0px 150px"
+							sm-margin="15px 15px 0px 10px"
+						/>
+						<Text color="#333333" font="300 20px --fontFamily-googleSourceSansPro" sm-font="300 16px --fontFamily-googleSourceSansPro">
+							Платежная система защищена в соответствии с международным стандартом безопасности при
+							<br />
+							работе с банковскими картами PSI DSS 3.1
+						</Text>
+					</Box>
+					<Box display="flex" sm-width="85%">
+						<Image
+							width="45px"
+							height="45px"
+							src="https://static.tildacdn.com/tild3361-6639-4263-b164-646338386363/tick_2.svg"
+							margin="15px 15px 0px 150px"
+							sm-margin="15px 15px 0px 10px"
+						/>
+						<Text color="#333333" font="300 20px --fontFamily-googleSourceSansPro" sm-font="300 16px --fontFamily-googleSourceSansPro">
+							На время оформления Вашей визы мы надежно
+							<br />
+							храним в зашифрованном виде Вашу информацию
+							<br />
+							с помощью программного обеспечения Secure{" "}
+							<br />
+							Sockets Layer (SSL) на нашем сервере, а после получения визы все удаляем
+						</Text>
+					</Box>
+					<Box display="flex" sm-width="85%">
+						<Image
+							width="30px"
+							height="30px"
+							src="https://static.tildacdn.com/tild3361-6639-4263-b164-646338386363/tick_2.svg"
+							margin="15px 15px 0px 150px"
+							sm-margin="15px 15px 0px 10px"
+						/>
+						<Text color="#333333" font="300 20px --fontFamily-googleSourceSansPro" sm-font="300 16px --fontFamily-googleSourceSansPro">
+							Пока вы заполняете анкету, все Ваши
+							<br />
+							данные хранятся у Вас в браузере{"\n\n"}
+						</Text>
+					</Box>
+					<Box width="590px">
+						<Image
+							width="55px"
+							height="55px"
+							src="https://static.tildacdn.com/tild3361-6639-4263-b164-646338386363/tick_2.svg"
+							margin="15px 15px 0px 150px"
+							display="none"
+						/>
+						<Box display="flex" sm-justify-content="center">
+							<Image
+								width="70px"
+								height="70px"
+								src="https://static.tildacdn.com/tild3333-3039-4265-b636-353563623661/PSI_DSS.jpg"
+								margin="15px 15px 0px 150px"
+								sm-margin="15px 0px 0px 0px"
+							/>
+							<Image width="70px" height="70px" src="https://static.tildacdn.com/tild3964-3562-4661-a235-323937613461/ssl.jpg" margin="15px 15px 0px 0px" />
+						</Box>
+					</Box>
+					{"    "}
+				</StackItem>
+				<StackItem
+					width="50%"
+					display="flex"
 					flex-direction="column"
-					background="rgba(0, 0, 0, 0) url(https://static.tildacdn.com/tild3966-6130-4530-a234-363537333861/1.jpg) 0% 0% /auto repeat fixed padding-box"
-					border-radius="15px"
-					box-shadow="0 6px 10px 0 rgba(0, 0, 0, 0.05)"
-					sm-position="relative"
-					sm-left="160px"
-				/>
-				<Image
-					width="400px"
-					height="400px"
-					srcSet="https://static.tildacdn.com/tild3862-3265-4534-a230-623239303232/phone.png"
-					position="relative"
-					top="190px"
-					right="80px"
-					lg-top="340px"
-					nout-top="190px"
-					md-top="0px"
-					sm-position="relative"
-					sm-left="-100px"
-					sm-height="300px"
-				/>
-				{"        "}{"    "}
-			</StackItem>
-			{"    "}
-		</Stack>
+					md-justify-content="center"
+					md-align-items="center"
+					sm-width="100%"
+				>
+					<Override
+						slot="StackItemContent"
+						flex-direction="column"
+						background="rgba(0, 0, 0, 0) url(https://static.tildacdn.com/tild3966-6130-4530-a234-363537333861/1.jpg) 0% 0% /auto repeat fixed padding-box"
+						border-radius="15px"
+						box-shadow="0 6px 10px 0 rgba(0, 0, 0, 0.05)"
+						sm-position="relative"
+						sm-left="160px"
+					/>
+					<Image
+						width="400px"
+						height="400px"
+						srcSet="https://static.tildacdn.com/tild3633-6666-4730-b932-626434346637/Vector_Smart_Object.png"
+						position="relative"
+						top="190px"
+						right="80px"
+						lg-top="340px"
+						nout-top="190px"
+						md-top="0px"
+						sm-position="relative"
+						sm-left="-100px"
+						sm-height="300px"
+					/>
+					{"        "}{"    "}
+				</StackItem>
+				{"    "}
+			</Stack>
+		</Section>
 		<Image
 			width="100%"
 			height="none"
@@ -1152,7 +1159,7 @@ export default (() => {
 					display="flex"
 					md-width="45%"
 					md-margin="0px 0px 25px 30px"
-					sm-width="100%"
+					sm-width="90%"
 					sm-margin="0px 0px 25px 0px"
 				>
 					<Override slot="StackItemContent" justify-content="center" flex-direction="column" />
@@ -1226,7 +1233,7 @@ export default (() => {
 					display="flex"
 					md-width="45%"
 					md-margin="0px 0px 25px 30px"
-					sm-width="100%"
+					sm-width="90%"
 					sm-margin="0px 0px 25px 0px"
 				>
 					<Override slot="StackItemContent" justify-content="center" flex-direction="column" />
@@ -1299,7 +1306,7 @@ export default (() => {
 					flex-direction="column"
 					display="flex"
 					md-width="45%"
-					sm-width="100%"
+					sm-width="90%"
 					sm-margin="0px 0px 0px 0px"
 				>
 					<Override slot="StackItemContent" justify-content="center" flex-direction="column" />
@@ -1450,70 +1457,70 @@ export default (() => {
 			<Text font="600 40px --fontFamily-googleSourceSansPro" text-align="center" color="#333333">
 				Мы принимаем
 			</Text>
+			<Stack justify-content="center" width="100%">
+				{"    "}
+				<StackItem width="15%" display="flex">
+					{"        "}
+					<Image width="100px" height="100px" srcSet="https://static.tildacdn.com/tild6566-3632-4635-b261-623861326630/11app.jpg" />
+					{"    "}
+				</StackItem>
+				<StackItem width="15%" display="flex">
+					{"        "}
+					<Image width="100px" height="100px" srcSet="https://static.tildacdn.com/tild3730-6166-4664-b937-663966316663/12G.jpg" />
+					{"    "}
+				</StackItem>
+				<StackItem width="15%" display="flex">
+					{"        "}
+					<Image width="100px" height="100px" srcSet="https://static.tildacdn.com/tild3334-6366-4730-b632-366635326563/14vis.jpg" />
+					{"    "}
+				</StackItem>
+				<StackItem width="15%" display="flex">
+					{"        "}
+					<Image width="100px" height="100px" srcSet="https://static.tildacdn.com/tild6338-3665-4333-b230-343966666562/15ms.jpg" />
+					{"    "}
+				</StackItem>
+				<StackItem width="15%" display="flex">
+					{"        "}
+					<Image width="100px" height="100px" srcSet="https://static.tildacdn.com/tild3536-3035-4831-a566-623165313564/16am.jpg" />
+					{"    "}
+				</StackItem>
+				<StackItem width="15%" display="flex">
+					{"        "}
+					<Image width="100px" height="100px" srcSet="https://static.tildacdn.com/tild3232-6366-4565-b930-616338633063/17jsb.jpg" />
+					{"    "}
+				</StackItem>
+				<Stack justify-content="center" width="100%">
+					{"    "}
+					<StackItem width="15%" display="flex">
+						{"        "}
+						<Image width="100px" height="100px" srcSet="https://static.tildacdn.com/tild3866-6365-4437-b033-663030316236/7giro.jpg" />
+						{"    "}
+					</StackItem>
+					<StackItem width="15%" display="flex">
+						{"        "}
+						<Image width="100px" height="100px" srcSet="https://static.tildacdn.com/tild3764-3537-4136-a463-333037366636/8eps.jpg" />
+						{"    "}
+					</StackItem>
+					<StackItem width="15%" display="flex">
+						{"        "}
+						<Image width="100px" height="100px" srcSet="https://static.tildacdn.com/tild6362-3566-4562-b565-623133356361/9cb.jpg" />
+						{"    "}
+					</StackItem>
+					<StackItem width="15%" display="flex">
+						{"        "}
+						<Image width="100px" height="100px" srcSet="https://static.tildacdn.com/tild6130-3935-4534-b935-646233663131/10banc.jpg" />
+						{"    "}
+					</StackItem>
+					<StackItem width="15%" display="flex">
+						{"        "}
+						<Image width="100px" height="100px" srcSet="https://static.tildacdn.com/tild6430-3665-4436-a133-666636656666/13ali.jpg" />
+						{"    "}
+					</StackItem>
+					{"    "}
+				</Stack>
+				{"    "}
+			</Stack>
 		</Section>
-		<Stack justify-content="center">
-			{"    "}
-			<StackItem width="15%" display="flex">
-				{"        "}
-				<Image width="100px" height="100px" srcSet="https://static.tildacdn.com/tild6566-3632-4635-b261-623861326630/11app.jpg" />
-				{"    "}
-			</StackItem>
-			<StackItem width="15%" display="flex">
-				{"        "}
-				<Image width="100px" height="100px" srcSet="https://static.tildacdn.com/tild3730-6166-4664-b937-663966316663/12G.jpg" />
-				{"    "}
-			</StackItem>
-			<StackItem width="15%" display="flex">
-				{"        "}
-				<Image width="100px" height="100px" srcSet="https://static.tildacdn.com/tild3334-6366-4730-b632-366635326563/14vis.jpg" />
-				{"    "}
-			</StackItem>
-			<StackItem width="15%" display="flex">
-				{"        "}
-				<Image width="100px" height="100px" srcSet="https://static.tildacdn.com/tild6338-3665-4333-b230-343966666562/15ms.jpg" />
-				{"    "}
-			</StackItem>
-			<StackItem width="15%" display="flex">
-				{"        "}
-				<Image width="100px" height="100px" srcSet="https://static.tildacdn.com/tild3536-3035-4831-a566-623165313564/16am.jpg" />
-				{"    "}
-			</StackItem>
-			<StackItem width="15%" display="flex">
-				{"        "}
-				<Image width="100px" height="100px" srcSet="https://static.tildacdn.com/tild3232-6366-4565-b930-616338633063/17jsb.jpg" />
-				{"    "}
-			</StackItem>
-			{"    "}
-		</Stack>
-		<Stack justify-content="center">
-			{"    "}
-			<StackItem width="15%" display="flex">
-				{"        "}
-				<Image width="100px" height="100px" srcSet="https://static.tildacdn.com/tild3866-6365-4437-b033-663030316236/7giro.jpg" />
-				{"    "}
-			</StackItem>
-			<StackItem width="15%" display="flex">
-				{"        "}
-				<Image width="100px" height="100px" srcSet="https://static.tildacdn.com/tild3764-3537-4136-a463-333037366636/8eps.jpg" />
-				{"    "}
-			</StackItem>
-			<StackItem width="15%" display="flex">
-				{"        "}
-				<Image width="100px" height="100px" srcSet="https://static.tildacdn.com/tild6362-3566-4562-b565-623133356361/9cb.jpg" />
-				{"    "}
-			</StackItem>
-			<StackItem width="15%" display="flex">
-				{"        "}
-				<Image width="100px" height="100px" srcSet="https://static.tildacdn.com/tild6130-3935-4534-b935-646233663131/10banc.jpg" />
-				{"    "}
-			</StackItem>
-			<StackItem width="15%" display="flex">
-				{"        "}
-				<Image width="100px" height="100px" srcSet="https://static.tildacdn.com/tild6430-3665-4436-a133-666636656666/13ali.jpg" />
-				{"    "}
-			</StackItem>
-			{"    "}
-		</Stack>
 		<Image
 			width="100%"
 			height="none"
@@ -1710,52 +1717,58 @@ Account No. IT29G0306933082100000004613
 					</Box>
 				</StackItem>
 			</Stack>
+			<Stack
+				background="#fff"
+				align-items="center"
+				justify-content="center"
+				sm-flex-direction="column"
+				width="100%"
+			>
+				{"    "}
+				<StackItem width="33%" display="flex" sm-width="100%">
+					<Override slot="StackItemContent" align-items="center" justify-content="center" />
+					{"        "}
+					<Text
+						font="--lead"
+						margin="0px 0px 0px 0px"
+						display="inline-block"
+						text-decoration-line="underline"
+						sm-font="normal 300 16px/1.5 --fontFamily-googleSourceSansPro"
+					>
+						Политика конфиденциальности
+					</Text>
+					{"    "}
+				</StackItem>
+				<StackItem width="33%" display="flex" sm-width="100%">
+					<Override slot="StackItemContent" align-items="center" justify-content="center" />
+					{"        "}
+					<Text
+						font="--lead"
+						margin="0px 0px 0px 0px"
+						display="inline-block"
+						text-decoration-line="underline"
+						sm-font="normal 300 16px/1.5 --fontFamily-googleSourceSansPro"
+					>
+						Пользовательское соглашение
+					</Text>
+					{"    "}
+				</StackItem>
+				<StackItem width="33%" display="flex" sm-width="100%">
+					<Override slot="StackItemContent" align-items="center" justify-content="center" />
+					{"        "}
+					<Text
+						font="--lead"
+						margin="0px 0px 0px 0px"
+						display="inline-block"
+						text-decoration-line="underline"
+						sm-font="normal 300 16px/1.5 --fontFamily-googleSourceSansPro"
+					>
+						Договор публичной оферты
+					</Text>
+					{"    "}
+				</StackItem>
+				{"    "}
+			</Stack>
 		</Section>
-		<Stack background="#fff" align-items="center" justify-content="center" sm-flex-direction="column">
-			{"    "}
-			<StackItem width="33%" display="flex" sm-width="100%">
-				<Override slot="StackItemContent" align-items="center" justify-content="center" />
-				{"        "}
-				<Text
-					font="--lead"
-					margin="0px 0px 0px 0px"
-					display="inline-block"
-					text-decoration-line="underline"
-					sm-font="normal 300 16px/1.5 --fontFamily-googleSourceSansPro"
-				>
-					Политика конфиденциальности
-				</Text>
-				{"    "}
-			</StackItem>
-			<StackItem width="33%" display="flex" sm-width="100%">
-				<Override slot="StackItemContent" align-items="center" justify-content="center" />
-				{"        "}
-				<Text
-					font="--lead"
-					margin="0px 0px 0px 0px"
-					display="inline-block"
-					text-decoration-line="underline"
-					sm-font="normal 300 16px/1.5 --fontFamily-googleSourceSansPro"
-				>
-					Пользовательское соглашение
-				</Text>
-				{"    "}
-			</StackItem>
-			<StackItem width="33%" display="flex" sm-width="100%">
-				<Override slot="StackItemContent" align-items="center" justify-content="center" />
-				{"        "}
-				<Text
-					font="--lead"
-					margin="0px 0px 0px 0px"
-					display="inline-block"
-					text-decoration-line="underline"
-					sm-font="normal 300 16px/1.5 --fontFamily-googleSourceSansPro"
-				>
-					Договор публичной оферты
-				</Text>
-				{"    "}
-			</StackItem>
-			{"    "}
-		</Stack>
 	</Theme>;
 });
