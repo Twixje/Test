@@ -465,7 +465,6 @@ export default (() => {
 						sm-left="-350px"
 						sm-right="0px"
 						sm-margin="100px 0px 0px 0px"
-						nout2-left="-350px"
 					/>
 					{"    "}
 				</StackItem>
@@ -853,8 +852,6 @@ export default (() => {
 						box-shadow="0 6px 10px 0 rgba(0, 0, 0, 0.05)"
 						sm-position="relative"
 						sm-left="160px"
-						nout2-position="relative"
-						nout2-left="35px"
 					/>
 					<Image
 						width="400px"
@@ -906,8 +903,7 @@ export default (() => {
 						nout2-width="500px"
 						nout2-height="500px"
 						nout2-left="270px"
-						nout2-bottom={0}
-						nout2-top="-20px"
+						nout2-bottom="-125px"
 					/>
 					{"        "}{"    "}
 				</StackItem>
@@ -1110,8 +1106,6 @@ export default (() => {
 						box-shadow="0 6px 10px 0 rgba(0, 0, 0, 0.05)"
 						sm-position="relative"
 						sm-left="160px"
-						nout2-position="relative"
-						nout2-left="35px"
 					/>
 					<Image
 						width="400px"
@@ -1126,7 +1120,6 @@ export default (() => {
 						sm-position="relative"
 						sm-left="-100px"
 						sm-height="300px"
-						nout2-top="100px"
 					/>
 					{"        "}{"    "}
 				</StackItem>
@@ -1139,6 +1132,7 @@ export default (() => {
 					z-index="0"
 					position="relative"
 					transform="rotate(180deg)"
+					sm-display="none"
 				/>
 				{"    "}
 			</Stack>
@@ -1467,6 +1461,7 @@ export default (() => {
 				bottom={0}
 				z-index="0"
 				position="relative"
+				sm-top="-35px"
 			/>
 		</Section>
 		<Section>
@@ -1548,6 +1543,7 @@ export default (() => {
 				z-index="99"
 				position="relative"
 				transform="rotate(180deg)"
+				sm-top="35px"
 			/>
 		</Section>
 		<Section
