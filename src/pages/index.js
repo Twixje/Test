@@ -465,6 +465,7 @@ export default (() => {
 						sm-left="-350px"
 						sm-right="0px"
 						sm-margin="100px 0px 0px 0px"
+						nout2-left="-350px"
 					/>
 					{"    "}
 				</StackItem>
