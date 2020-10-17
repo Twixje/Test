@@ -21,7 +21,13 @@ export default {
 		],
 		"nout": [
 			{
-				"type": "max-width",
+				"type": "",
+				"value": ""
+			}
+		],
+		"nout2": [
+			{
+				"type": "min-width",
 				"value": "1366"
 			}
 		]

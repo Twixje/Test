@@ -852,6 +852,8 @@ export default (() => {
 						box-shadow="0 6px 10px 0 rgba(0, 0, 0, 0.05)"
 						sm-position="relative"
 						sm-left="160px"
+						nout2-position="relative"
+						nout2-left="35px"
 					/>
 					<Image
 						width="400px"
@@ -861,12 +863,15 @@ export default (() => {
 						top="190px"
 						right="80px"
 						lg-top="340px"
-						nout-top="190px"
+						nout-top={0}
 						md-top="0px"
 						sm-position="relative"
 						sm-left="-100px"
 						sm-height="300px"
 						sm-width="395px"
+						nout-bottom="0px"
+						nout2-top="145px"
+						nout2-right="50px"
 					/>
 					{"        "}{"    "}
 				</StackItem>
@@ -897,6 +902,11 @@ export default (() => {
 						sm-height="300px"
 						sm-left={0}
 						sm-top="25px"
+						nout2-width="500px"
+						nout2-height="500px"
+						nout2-left="270px"
+						nout2-bottom={0}
+						nout2-top="-20px"
 					/>
 					{"        "}{"    "}
 				</StackItem>
@@ -1000,7 +1010,7 @@ export default (() => {
 							margin="15px 15px 0px 100px"
 							sm-margin="15px 15px 0px 10px"
 						/>
-						<Text color="#333333" sm-font="300 16px --fontFamily-googleSourceSansPro">
+						<Text color="#333333" sm-font="300 16px --fontFamily-googleSourceSansPro" nout2-font="300 20px --fontFamily-googleSourceSansPro">
 							Скидки, промокоды и прочие интересные акции
 						</Text>
 					</Box>
@@ -1099,6 +1109,8 @@ export default (() => {
 						box-shadow="0 6px 10px 0 rgba(0, 0, 0, 0.05)"
 						sm-position="relative"
 						sm-left="160px"
+						nout2-position="relative"
+						nout2-left="35px"
 					/>
 					<Image
 						width="400px"
@@ -1113,6 +1125,7 @@ export default (() => {
 						sm-position="relative"
 						sm-left="-100px"
 						sm-height="300px"
+						nout2-top="100px"
 					/>
 					{"        "}{"    "}
 				</StackItem>
