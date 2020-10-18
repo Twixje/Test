@@ -420,9 +420,9 @@ export default (() => {
 						min-height="-"
 					/>
 					<Image
-						width="950px"
+						width="837.3333658854167px"
 						src="https://static.tildacdn.com/tild3639-3739-4234-a636-333762303437/VisaService.png"
-						bottom="auto"
+						bottom="-284.8000081380208px"
 						sm-width="400px"
 						sm-height="300px"
 						sm-top="-210px"
@@ -434,10 +434,11 @@ export default (() => {
 						nout2-bottom="0px"
 						nout2-position="static"
 						nout2-width="90%"
-						left="auto"
+						left="-170.3333658854167px"
 						right="-155px"
 						top="-70px"
 						position="absolute"
+						height="603.6620081380208px"
 					/>
 					{"        "}{"    "}
 				</StackItem>
