@@ -404,7 +404,14 @@ export default (() => {
 				px-flex-direction="row-reverse"
 			>
 				{"    "}
-				<StackItem px-width="30%" sm-width="60%" sm-height="30%">
+				<StackItem
+					px-width="30%"
+					sm-width="60%"
+					sm-height="30%"
+					moy-width="30%"
+					moy-height="100%"
+				>
+					<Override slot="StackItemContent" px-width="100%" px-height="100%" />
 					<Image
 						width="64px"
 						height="64px"
@@ -414,7 +421,9 @@ export default (() => {
 						sm-width="100%"
 						sm-height="100%"
 						sm-position="relative"
-						sm-top="70px"
+						sm-top="80px"
+						px-position="relative"
+						px-right="150px"
 					/>
 				</StackItem>
 				<StackItem
@@ -434,6 +443,7 @@ export default (() => {
 					moy-height="100%"
 					md-height="95%"
 					sm-height="70%"
+					px-width="70%"
 				>
 					<Override
 						slot="StackItemContent"
