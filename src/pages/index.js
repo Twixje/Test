@@ -419,7 +419,6 @@ export default (() => {
 						right="70px"
 						min-height="-"
 					/>
-					{"        "}
 					<Image
 						width="950px"
 						src="https://static.tildacdn.com/tild3639-3739-4234-a636-333762303437/VisaService.png"
@@ -429,7 +428,7 @@ export default (() => {
 						sm-top="-210px"
 						sm-left="-350px"
 						sm-right="0px"
-						sm-margin="100px 0px 0px 0px"
+						sm-margin="-300px 0px 0px 0px"
 						moy-left="-350px"
 						nout2-top="0px"
 						nout2-bottom="0px"
@@ -440,7 +439,7 @@ export default (() => {
 						top="-70px"
 						position="absolute"
 					/>
-					{"    "}
+					{"        "}{"    "}
 				</StackItem>
 				{"    "}
 			</Stack>
@@ -828,7 +827,6 @@ export default (() => {
 						sm-left="160px"
 						moy-position="relative"
 						moy-left="35px"
-						sm-width="190px"
 					/>
 					<Image
 						width="400px"
@@ -843,7 +841,7 @@ export default (() => {
 						sm-position="relative"
 						sm-left="auto"
 						sm-height="300px"
-						sm-width="290px"
+						sm-width="395px"
 						nout-bottom="0px"
 						nout2-top="145px"
 						nout2-right="90px"
@@ -884,7 +882,6 @@ export default (() => {
 						nout2-height="500px"
 						nout2-left="270px"
 						nout2-bottom="-125px"
-						sm-width="290px"
 					/>
 					{"        "}{"    "}
 				</StackItem>
@@ -1720,7 +1717,7 @@ Account No. IT29G0306933082100000004613
 						<Input width="300px" border-width="1px" height="50px" margin="0px 0px 30px 0px" />
 						<Stack>
 							{"    "}
-							<StackItem width="60%" display="flex">
+							<StackItem width="60%" display="flex" sm-width="50%">
 								<Override slot="StackItemContent" width="30%" />
 								{"        "}
 								<Button
@@ -1736,7 +1733,7 @@ Account No. IT29G0306933082100000004613
 								{"    "}
 							</StackItem>
 							{"    "}
-							<StackItem width="40%" display="flex" padding="0PX 16px 16px 16px">
+							<StackItem width="40%" display="flex" padding="0PX 16px 16px 16px" sm-width="50%">
 								{"        "}
 								<Text font="13px --fontFamily-googleSourceSansPro" color="#333333" margin="0PX 0px 16px 0px">
 									Нажимая на кнопку, Вы соглашаетесьс{" "}
