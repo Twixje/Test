@@ -357,13 +357,13 @@ export default (() => {
 			</Stack>
 		</Section>
 		<Section background="#f7f7f7" sm-height="100%">
-			<Override slot="SectionContent" sm-height="600px" />
+			<Override slot="SectionContent" sm-height="600px" width="100%" flex-direction="row" />
 			<StackItem
-				width="25%"
-				background="rgba(0, 0, 0, 0) url(https://static.tildacdn.com/tild6163-6231-4431-b064-383764366431/01.jpg) 0% 0% /auto repeat scroll padding-box"
+				width="70%"
+				background="#fff"
 				border-radius="15px"
-				margin="0px 40px 0px 40px"
-				padding="16px 16px 16px 16px"
+				margin="0px 0px 0px 0px"
+				padding="26px 16px 26px 16px"
 				box-shadow="0 6px 10px 0 rgba(0, 0, 0, 0.05)"
 				position="relative"
 				z-index="50"
@@ -372,9 +372,23 @@ export default (() => {
 				sm-background="#fff"
 				sm-height="100%"
 			>
-				<Override slot="StackItemContent" sm-flex-direction="column" sm-padding="0px 15px 0px 15px" />
+				<Override
+					slot="StackItemContent"
+					sm-flex-direction="column"
+					sm-padding="0px 15px 0px 15px"
+					width="70%"
+					height="100%"
+					flex-direction="column"
+					padding="0px 0px 0px 35px"
+				/>
 				{"        "}
-				<Text font="600 40px/45px --fontFamily-googleSourceSansPro" padding="0px 0px 20px 0px" sm-height="50%" sm-width="100%">
+				<Text
+					font="600 40px/45px --fontFamily-googleSourceSansPro"
+					padding="0px 0px 20px 0px"
+					sm-height="50%"
+					sm-width="100%"
+					width="120%"
+				>
 					Как получить электронную визу?
 				</Text>
 				<Text
@@ -385,6 +399,7 @@ export default (() => {
 					sm-width="100%"
 					sm-font="200 16px --fontFamily-googleSourceSansPro"
 					sm-height="100%"
+					width="100%"
 				>
 					Наш сервис сделан для туристов, которые хотят быстро и без ошибок оформить электронную визу в Россию.{" "}
 					<Strong
@@ -402,6 +417,37 @@ export default (() => {
 					<br />
 					В случае заполнения с ПК, вы с легкостью сможете прикрепить Ваше фото и копию документа, отсканировав QR-код, при помощи Вашего мобильного устройства. Форма поддерживает более 100 языков, вы сможете заполнить все данные на родном Вам языке.{" \n\n"}
 				</Text>
+				{"    "}
+			</StackItem>
+			<StackItem
+				width="40%"
+				border-radius="15px"
+				margin="0px 0px 0px 0px"
+				padding="16px 16px 26px1 16px"
+				position="relative"
+				z-index="50"
+				sm-width="100%"
+				sm-margin="0px 0px 0px 0px"
+				sm-height="100%"
+				sm-background="#fff"
+			>
+				<Override
+					slot="StackItemContent"
+					sm-flex-direction="column"
+					sm-padding="0px 15px 0px 15px"
+					width="100%"
+					height="100%"
+					flex-direction="column"
+					padding="0px 0px 0px 35px"
+				/>
+				{"        "}
+				<Image
+					width="100%"
+					height="100%"
+					src="https://uploads.quarkly.io/5f82bd438a25ab001e4e7636/images/VisaService%20(1).png?v=2020-10-11T10:56:17.020Z"
+					object-position="50% 50%"
+					object-fit="contain"
+				/>
 				{"    "}
 			</StackItem>
 		</Section>
