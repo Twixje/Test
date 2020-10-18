@@ -129,7 +129,7 @@ export default (() => {
 						sm-border-width="1px"
 						sm-border-style="solid"
 						sm-border-color="#a98428"
-						sm-margin="-10px 0px 0px 0px"
+						sm-margin="0px 0px 0px 0px"
 						sm-padding="0px 0px 0px 0px"
 					>
 						<Text font="18PX sans-serif" padding="0px 0px 0px 20px" md-text-align="center" color="#2a2a2a">
@@ -419,28 +419,28 @@ export default (() => {
 						right="70px"
 						min-height="-"
 					/>
+					{"        "}
 					<Image
-						width="837.3333658854167px"
+						width="950px"
 						src="https://static.tildacdn.com/tild3639-3739-4234-a636-333762303437/VisaService.png"
-						bottom="-284.8000081380208px"
+						bottom="auto"
 						sm-width="400px"
 						sm-height="300px"
 						sm-top="-210px"
 						sm-left="-350px"
 						sm-right="0px"
-						sm-margin="-300px 0px 0px 0px"
+						sm-margin="100px 0px 0px 0px"
 						moy-left="-350px"
 						nout2-top="0px"
 						nout2-bottom="0px"
 						nout2-position="static"
 						nout2-width="90%"
-						left="-170.3333658854167px"
+						left="auto"
 						right="-155px"
 						top="-70px"
 						position="absolute"
-						height="603.6620081380208px"
 					/>
-					{"        "}{"    "}
+					{"    "}
 				</StackItem>
 				{"    "}
 			</Stack>
@@ -828,6 +828,7 @@ export default (() => {
 						sm-left="160px"
 						moy-position="relative"
 						moy-left="35px"
+						sm-width="37%"
 					/>
 					<Image
 						width="400px"
@@ -842,11 +843,11 @@ export default (() => {
 						sm-position="relative"
 						sm-left="auto"
 						sm-height="300px"
-						sm-width="395px"
+						sm-width="248px"
 						nout-bottom="0px"
 						nout2-top="145px"
 						nout2-right="90px"
-						sm-right="150px"
+						sm-right="120px"
 						moy-right="5550px"
 						nout2-left="0px"
 					/>
@@ -883,6 +884,7 @@ export default (() => {
 						nout2-height="500px"
 						nout2-left="270px"
 						nout2-bottom="-125px"
+						sm-width="290px"
 					/>
 					{"        "}{"    "}
 				</StackItem>
@@ -1084,11 +1086,10 @@ export default (() => {
 						border-radius="15px"
 						box-shadow="0 6px 10px 0 rgba(0, 0, 0, 0.05)"
 						sm-position="relative"
-						sm-left="auto"
+						sm-left="160px"
 						moy-position="relative"
 						moy-left="35px"
 						sm-width="190px"
-						sm-right="-100px"
 					/>
 					<Image
 						width="400px"
@@ -1103,7 +1104,7 @@ export default (() => {
 						sm-position="relative"
 						sm-left="auto"
 						sm-height="300px"
-						sm-right="150px"
+						sm-right="120px"
 						sm-width="290px"
 					/>
 					{"        "}{"    "}
@@ -1698,7 +1699,6 @@ Account No. IT29G0306933082100000004613
 							color="#333333"
 							width="410px"
 							sm-width="380px"
-							sm-font="normal 500 22px/1.2 -apple-system, system-ui, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif"
 						>
 							Ответим на любые вопросы.
 						</Text>
@@ -1709,7 +1709,7 @@ Account No. IT29G0306933082100000004613
 							color="#333333"
 							width="410px"
 							sm-width="380px"
-							sm-font="normal 300 16px/1.2 --fontFamily-googleSourceSansPro"
+							sm-font="normal 300 18px/1.2 --fontFamily-googleSourceSansPro"
 						>
 							Оставьте Ваши контакты и мы свяжемся с Вами.
 							<br />
@@ -1720,7 +1720,7 @@ Account No. IT29G0306933082100000004613
 						<Input width="300px" border-width="1px" height="50px" margin="0px 0px 30px 0px" />
 						<Stack>
 							{"    "}
-							<StackItem width="60%" display="flex" sm-width="50%">
+							<StackItem width="60%" display="flex">
 								<Override slot="StackItemContent" width="30%" />
 								{"        "}
 								<Button
@@ -1736,7 +1736,7 @@ Account No. IT29G0306933082100000004613
 								{"    "}
 							</StackItem>
 							{"    "}
-							<StackItem width="40%" display="flex" padding="0PX 16px 16px 16px" sm-width="50%">
+							<StackItem width="40%" display="flex" padding="0PX 16px 16px 16px">
 								{"        "}
 								<Text font="13px --fontFamily-googleSourceSansPro" color="#333333" margin="0PX 0px 16px 0px">
 									Нажимая на кнопку, Вы соглашаетесьс{" "}
