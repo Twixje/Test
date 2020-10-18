@@ -407,7 +407,7 @@ export default (() => {
 					{"        "}
 					<Text
 						font="600 40px/45px --fontFamily-googleSourceSansPro"
-						padding="35px 0px 20px 0px"
+						padding="35px 0px 0px 0px"
 						sm-height="auto"
 						sm-width="100%"
 						width="80%"
@@ -416,6 +416,7 @@ export default (() => {
 					>
 						Как получить электронную визу?
 					</Text>
+					<Box width="30%" height="2px" min-height={0} background="#d4bd6a" />
 					<Text
 						color="#333333"
 						font="300 20px/1.55 sans-serif"
