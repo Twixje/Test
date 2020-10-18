@@ -55,6 +55,7 @@ export default (() => {
 						src="https://static.tildacdn.com/tild3630-3935-4130-b663-396530623263/telegram_4.svg"
 						padding="10px 0px 0px px"
 						margin="0px 0px 0px 10px"
+						px-margin="0px 50px 0px 10px"
 					/>
 					{"    "}
 				</StackItem>
