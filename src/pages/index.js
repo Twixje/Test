@@ -63,7 +63,7 @@ export default (() => {
 		<Section lazy-load background="rgba(0, 0, 0, 0) url(https://static.tildacdn.com/tild6335-6165-4430-a265-343166313765/1.jpg) 0% 0% /auto repeat scroll padding-box" md-height="770px" padding="40px 0 40px 0">
 			<Stack>
 				{"    "}
-				<StackItem width="50%" md-width="100%">
+				<StackItem width="50%" md-width="100%" margin="0px 0px 0px 0px">
 					<Override slot="StackItemContent" flex-direction="column" md-justify-content="center" md-align-items="center" />
 					{"        "}
 					<Text
@@ -89,16 +89,15 @@ export default (() => {
 							страховка в Россию
 						</Span>
 					</Text>
-					<Text font="22px --fontFamily-sans" color="#2a2a2a" sm-text-align="center">
+					<Text font="200 22px --fontFamily-googleSourceSansPro" color="#2a2a2a" sm-text-align="center" margin="16px 0px 30px 0px">
 						За 5 минут без ошибок, фотоателье и сложных анкет.
-						<br />
 					</Text>
 					<Button
 						width="260px"
 						height="54px"
 						border-radius="50px"
 						background="#c1a050"
-						margin="0px 0px 20px 0px"
+						margin="0px 0px 30px 0px"
 						hover-background="#cbab58"
 					>
 						ОФОРМИТЬ ВИЗУ
@@ -186,7 +185,7 @@ export default (() => {
 				padding="20px 0px 20px 0px"
 				margin="-16px -16px -16px -16px"
 				position="relative"
-				bottom="100px"
+				bottom="80px"
 				nout-background="#ffffff"
 				background="#fff"
 				nout-left="0px"
