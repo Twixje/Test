@@ -133,6 +133,7 @@ export default (() => {
 						height="85px"
 						background="#FFF"
 						border-width="0px"
+						border-color="#c1a050"
 						lg-height="100px"
 						md-width="450px"
 						md-display="block"
@@ -145,8 +146,6 @@ export default (() => {
 						sm-border-color="#a98428"
 						sm-margin="0px 0px 0px 0px"
 						sm-padding="0px 0px 0px 0px"
-						border-left="2px solid"
-						px-border-color="#12579a"
 					>
 						<Text
 							font="18PX sans-serif"
@@ -382,7 +381,7 @@ export default (() => {
 				{"        "}
 			</Stack>
 		</Section>
-		<Section background="#f7f7f7" sm-height="auto">
+		<Section background="#f7f7f7" sm-height="auto" moy-height="100%">
 			<Override
 				slot="SectionContent"
 				sm-height="auto"
@@ -392,22 +391,34 @@ export default (() => {
 				sm-align-items="center"
 				sm-flex-direction="column"
 			/>
-			<Stack sm-flex-direction="column-reverse" sm-width="100%">
+			<Stack
+				sm-width="95%"
+				sm-height="100%"
+				md-flex-direction="row"
+				md-width="100%"
+				md-height="100%"
+				moy-width="100%"
+				moy-height="100%"
+				sm-justify-content="center"
+				sm-flex-direction="row"
+			>
 				{"    "}
 				<StackItem
 					width="70%"
 					display="flex"
 					moy-width="70%"
-					sm-width="95%"
+					sm-width="100%"
 					sm-justify-content="center"
 					sm-align-items="center"
-					sm-padding="16px 0px 16px 0px"
+					sm-padding="16px 0px 16px 10px"
 					background="#fff"
 					border-radius="15px"
 					box-shadow="0 6px 10px 0 rgba(0, 0, 0, 0.05)"
 					padding="16px 20px 16px 20px"
 					margin="0px 0px 0px 0px"
-					sm-margin="0px 0px 0px 8px"
+					px-height="100%"
+					moy-height="100%"
+					md-height="95%"
 				>
 					<Override
 						slot="StackItemContent"
@@ -465,30 +476,16 @@ export default (() => {
 					</Text>
 					{"    "}
 				</StackItem>
-				{"    "}
-				<StackItem
-					width="30%"
-					display="flex"
-					moy-width="30%"
-					sm-width="100%"
-					sm-justify-content="center"
-					sm-align-items="center"
-					px-min-height="none"
-					px-min-width="none"
-					px-height="100%"
-				>
-					<Override slot="StackItemContent" px-min-width="none" px-min-height="none" />
+				<StackItem px-width="30%">
 					<Image
-						height="100%"
-						srcSet="https://static.tildacdn.com/tild3639-3739-4234-a636-333762303437/VisaService.png"
+						width="64px"
+						height="64px"
+						src="https://uploads.quarkly.io/5f82bd438a25ab001e4e7636/images/VisaService%20(1).png?v=2020-10-11T10:56:17.020Z"
 						px-width="100%"
 						px-height="100%"
-						px-position="relative"
-						px-right="60%"
-						width="100%"
 					/>
-					{"            "}
 				</StackItem>
+				{"    "}
 			</Stack>
 		</Section>
 		<Section
@@ -525,10 +522,9 @@ export default (() => {
 					sm-margin="50px 40px 0px 40px"
 					sm-background="#fff url(https://static.tildacdn.com/tild6163-6231-4431-b064-383764366431/01.jpg) 0% 0% /auto no-repeat scroll padding-box"
 					sm-height="100%"
-					md-width="25%"
+					md-width="30%"
 					md-height="100%"
 					md-margin="0px 0px 0px 0px"
-					md-min-height="190px"
 				>
 					{"        "}
 					<Text font="normal 300 20px/1.55 --fontFamily-googleSourceSansPro" margin="0px 0px 0px 0px" display="inline-block" color="#333333">
@@ -576,9 +572,8 @@ export default (() => {
 					sm-height="190px"
 					sm-margin="10px 40px 0px 40px"
 					sm-background="#fff url(https://static.tildacdn.com/tild3539-3536-4533-b637-656532396134/02.jpg) 0% 0% /auto no-repeat scroll padding-box"
-					md-width="25%"
+					md-width="30%"
 					md-height="100%"
-					md-min-height="190px"
 				>
 					{"        "}
 					<Text font="normal 300 20px/1.55 --fontFamily-googleSourceSansPro" margin="0px 0px 0px 0px" display="inline-block" color="#333333">
@@ -611,9 +606,8 @@ export default (() => {
 					sm-margin="10px 40px 0px 40px"
 					sm-height="190px"
 					sm-background="#fff url(https://static.tildacdn.com/tild3437-6234-4563-b231-656265353231/03.jpg) 0% 0% /auto no-repeat scroll padding-box"
-					md-width="25%"
+					md-width="30%"
 					md-height="100%"
-					md-min-height="190px"
 				>
 					{"        "}
 					<Text font="normal 300 20px/1.55 --fontFamily-googleSourceSansPro" margin="0px 0px 0px 0px" display="inline-block" color="#333333">
@@ -648,9 +642,8 @@ export default (() => {
 					sm-margin="10px 40px 0 40px"
 					sm-height="190px"
 					sm-background="#fff url(https://static.tildacdn.com/tild3430-3138-4831-b465-373233653064/04.jpg) 0% 0% /auto no-repeat scroll padding-box"
-					md-width="25%"
+					md-width="30%"
 					md-height="100%"
-					md-min-height="190px"
 				>
 					{"        "}
 					<Text font="normal 300 20px/1.55 --fontFamily-googleSourceSansPro" margin="0px 0px 0px 0px" display="inline-block" color="#333333">
@@ -685,9 +678,8 @@ export default (() => {
 					sm-margin="10px 40px 0px 40px"
 					sm-height="190px"
 					sm-background="#fff url(https://static.tildacdn.com/tild3331-6262-4336-b932-386665373830/05.jpg) 0% 0% /auto no-repeat scroll padding-box"
-					md-width="25%"
+					md-width="30%"
 					md-height="100%"
-					md-min-height="190px"
 				>
 					{"        "}
 					<Text font="normal 300 20px/1.55 --fontFamily-googleSourceSansPro" margin="0px 0px 0px 0px" display="inline-block" color="#333333">
@@ -722,9 +714,8 @@ export default (() => {
 					sm-margin="10px 40px 0px 40px"
 					sm-height="100%"
 					sm-background="#fff url(https://static.tildacdn.com/tild6235-6332-4231-b632-343134386565/06.jpg) 0% 0% /auto no-repeat scroll padding-box"
-					md-width="25%"
+					md-width="30%"
 					md-height="100%"
-					md-min-height="190px"
 				>
 					{"        "}
 					<Text font="normal 300 20px/1.55 --fontFamily-googleSourceSansPro" margin="0px 0px 0px 0px" display="inline-block" color="#333333">
