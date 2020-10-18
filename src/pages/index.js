@@ -366,23 +366,6 @@ export default (() => {
 				sm-align-items="center"
 				sm-flex-direction="column"
 			/>
-			<StackItem moy-width="30%">
-				<Image
-					width="64px"
-					height="64px"
-					src="https://uploads.quarkly.io/5f82bd438a25ab001e4e7636/images/VisaService%20(1).png?v=2020-10-11T10:56:17.020Z"
-					moy-width="100%"
-					moy-height="500px"
-					moy-position="relative"
-					moy-top="0px"
-					moy-right="150px"
-					moy-z-index="99"
-					sm-width="100%"
-					sm-height="100%"
-					sm-left="0px"
-					sm-top="50px"
-				/>
-			</StackItem>
 			<StackItem
 				width="70%"
 				background="#fff"
@@ -448,6 +431,23 @@ export default (() => {
 					В случае заполнения с ПК, вы с легкостью сможете прикрепить Ваше фото и копию документа, отсканировав QR-код, при помощи Вашего мобильного устройства. Форма поддерживает более 100 языков, вы сможете заполнить все данные на родном Вам языке.{" \n\n"}
 				</Text>
 				{"    "}
+			</StackItem>
+			<StackItem moy-width="30%">
+				<Image
+					width="64px"
+					height="64px"
+					src="https://uploads.quarkly.io/5f82bd438a25ab001e4e7636/images/VisaService%20(1).png?v=2020-10-11T10:56:17.020Z"
+					moy-width="100%"
+					moy-height="500px"
+					moy-position="relative"
+					moy-top="0px"
+					moy-right="150px"
+					moy-z-index="99"
+					sm-width="100%"
+					sm-height="100%"
+					sm-left="0px"
+					sm-top="50px"
+				/>
 			</StackItem>
 		</Section>
 		<Section
