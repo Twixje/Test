@@ -400,12 +400,13 @@ export default (() => {
 					sm-width="95%"
 					sm-justify-content="center"
 					sm-align-items="center"
-					sm-padding="16px 0px 16px 10px"
+					sm-padding="16px 0px 16px 0px"
 					background="#fff"
 					border-radius="15px"
 					box-shadow="0 6px 10px 0 rgba(0, 0, 0, 0.05)"
 					padding="16px 20px 16px 20px"
 					margin="0px 0px 0px 0px"
+					sm-margin="0px 0px 0px 8px"
 				>
 					<Override
 						slot="StackItemContent"
@@ -471,27 +472,20 @@ export default (() => {
 					sm-width="100%"
 					sm-justify-content="center"
 					sm-align-items="center"
+					px-min-height="none"
+					px-min-width="none"
+					px-height="100%"
 				>
-					<Override slot="StackItemContent" />
-					{"        "}
+					<Override slot="StackItemContent" px-min-width="none" px-min-height="none" />
 					<Image
-						width="400px"
-						height="400px"
-						src="https://uploads.quarkly.io/5f82bd438a25ab001e4e7636/images/VisaService%20(1).png?v=2020-10-11T10:56:17.020Z"
-						moy-width="100%"
-						moy-height="500px"
-						moy-position="relative"
-						moy-top="0px"
-						moy-right="150px"
-						moy-z-index="99"
-						sm-width="100%"
-						sm-height="100%"
-						sm-left="0px"
-						sm-top="110px"
-						position="relative"
-						right="140px"
+						width="100%"
+						height="100%"
+						px-width="100%"
+						px-height="100%"
+						px-position="relative"
+						px-right="60%"
 					/>
-					{"    "}
+					{"        "}{"    "}
 				</StackItem>
 			</Stack>
 		</Section>
@@ -529,9 +523,10 @@ export default (() => {
 					sm-margin="50px 40px 0px 40px"
 					sm-background="#fff url(https://static.tildacdn.com/tild6163-6231-4431-b064-383764366431/01.jpg) 0% 0% /auto no-repeat scroll padding-box"
 					sm-height="100%"
-					md-width="30%"
+					md-width="25%"
 					md-height="100%"
 					md-margin="0px 0px 0px 0px"
+					md-min-height="190px"
 				>
 					{"        "}
 					<Text font="normal 300 20px/1.55 --fontFamily-googleSourceSansPro" margin="0px 0px 0px 0px" display="inline-block" color="#333333">
@@ -579,8 +574,9 @@ export default (() => {
 					sm-height="190px"
 					sm-margin="10px 40px 0px 40px"
 					sm-background="#fff url(https://static.tildacdn.com/tild3539-3536-4533-b637-656532396134/02.jpg) 0% 0% /auto no-repeat scroll padding-box"
-					md-width="30%"
+					md-width="25%"
 					md-height="100%"
+					md-min-height="190px"
 				>
 					{"        "}
 					<Text font="normal 300 20px/1.55 --fontFamily-googleSourceSansPro" margin="0px 0px 0px 0px" display="inline-block" color="#333333">
@@ -613,8 +609,9 @@ export default (() => {
 					sm-margin="10px 40px 0px 40px"
 					sm-height="190px"
 					sm-background="#fff url(https://static.tildacdn.com/tild3437-6234-4563-b231-656265353231/03.jpg) 0% 0% /auto no-repeat scroll padding-box"
-					md-width="30%"
+					md-width="25%"
 					md-height="100%"
+					md-min-height="190px"
 				>
 					{"        "}
 					<Text font="normal 300 20px/1.55 --fontFamily-googleSourceSansPro" margin="0px 0px 0px 0px" display="inline-block" color="#333333">
@@ -649,8 +646,9 @@ export default (() => {
 					sm-margin="10px 40px 0 40px"
 					sm-height="190px"
 					sm-background="#fff url(https://static.tildacdn.com/tild3430-3138-4831-b465-373233653064/04.jpg) 0% 0% /auto no-repeat scroll padding-box"
-					md-width="30%"
+					md-width="25%"
 					md-height="100%"
+					md-min-height="190px"
 				>
 					{"        "}
 					<Text font="normal 300 20px/1.55 --fontFamily-googleSourceSansPro" margin="0px 0px 0px 0px" display="inline-block" color="#333333">
@@ -685,8 +683,9 @@ export default (() => {
 					sm-margin="10px 40px 0px 40px"
 					sm-height="190px"
 					sm-background="#fff url(https://static.tildacdn.com/tild3331-6262-4336-b932-386665373830/05.jpg) 0% 0% /auto no-repeat scroll padding-box"
-					md-width="30%"
+					md-width="25%"
 					md-height="100%"
+					md-min-height="190px"
 				>
 					{"        "}
 					<Text font="normal 300 20px/1.55 --fontFamily-googleSourceSansPro" margin="0px 0px 0px 0px" display="inline-block" color="#333333">
@@ -721,8 +720,9 @@ export default (() => {
 					sm-margin="10px 40px 0px 40px"
 					sm-height="100%"
 					sm-background="#fff url(https://static.tildacdn.com/tild6235-6332-4231-b632-343134386565/06.jpg) 0% 0% /auto no-repeat scroll padding-box"
-					md-width="30%"
+					md-width="25%"
 					md-height="100%"
+					md-min-height="190px"
 				>
 					{"        "}
 					<Text font="normal 300 20px/1.55 --fontFamily-googleSourceSansPro" margin="0px 0px 0px 0px" display="inline-block" color="#333333">
