@@ -129,7 +129,7 @@ export default (() => {
 						sm-border-width="1px"
 						sm-border-style="solid"
 						sm-border-color="#a98428"
-						sm-margin="0px 0px 0px 0px"
+						sm-margin="-10px 0px 0px 0px"
 						sm-padding="0px 0px 0px 0px"
 					>
 						<Text font="18PX sans-serif" padding="0px 0px 0px 20px" md-text-align="center" color="#2a2a2a">
@@ -845,7 +845,7 @@ export default (() => {
 						nout-bottom="0px"
 						nout2-top="145px"
 						nout2-right="90px"
-						sm-right="120px"
+						sm-right="150px"
 						moy-right="5550px"
 						nout2-left="0px"
 					/>
@@ -1083,10 +1083,11 @@ export default (() => {
 						border-radius="15px"
 						box-shadow="0 6px 10px 0 rgba(0, 0, 0, 0.05)"
 						sm-position="relative"
-						sm-left="160px"
+						sm-left="auto"
 						moy-position="relative"
 						moy-left="35px"
 						sm-width="190px"
+						sm-right="-100px"
 					/>
 					<Image
 						width="400px"
@@ -1101,7 +1102,7 @@ export default (() => {
 						sm-position="relative"
 						sm-left="auto"
 						sm-height="300px"
-						sm-right="120px"
+						sm-right="150px"
 						sm-width="290px"
 					/>
 					{"        "}{"    "}
@@ -1696,6 +1697,7 @@ Account No. IT29G0306933082100000004613
 							color="#333333"
 							width="410px"
 							sm-width="380px"
+							sm-font="normal 500 22px/1.2 -apple-system, system-ui, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif"
 						>
 							Ответим на любые вопросы.
 						</Text>
@@ -1706,7 +1708,7 @@ Account No. IT29G0306933082100000004613
 							color="#333333"
 							width="410px"
 							sm-width="380px"
-							sm-font="normal 300 18px/1.2 --fontFamily-googleSourceSansPro"
+							sm-font="normal 300 16px/1.2 --fontFamily-googleSourceSansPro"
 						>
 							Оставьте Ваши контакты и мы свяжемся с Вами.
 							<br />
