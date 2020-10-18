@@ -455,10 +455,11 @@ export default (() => {
 					sm-justify-content="center"
 					sm-align-items="center"
 				>
+					<Override slot="StackItemContent" />
 					{"        "}
 					<Image
-						width="100%"
-						height="500px"
+						width="400px"
+						height="400px"
 						src="https://uploads.quarkly.io/5f82bd438a25ab001e4e7636/images/VisaService%20(1).png?v=2020-10-11T10:56:17.020Z"
 						moy-width="100%"
 						moy-height="500px"
@@ -1839,14 +1840,14 @@ Account No. IT29G0306933082100000004613
 							<br />
 						</Text>
 						<Input
-							width="300px"
+							width="100%"
 							border-width="1px"
 							margin="0px 0px 30px 0px"
 							height="50px"
 							sm-width="100%"
 						/>
 						<Input
-							width="300px"
+							width="100%"
 							border-width="1px"
 							margin="0px 0px 30px 0px"
 							height="50px"
