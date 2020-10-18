@@ -379,7 +379,6 @@ export default (() => {
 				sm-background="#fff"
 				sm-height="100%"
 				height="100%"
-				sm-max-height="470px"
 			>
 				<Override
 					slot="StackItemContent"
@@ -390,6 +389,7 @@ export default (() => {
 					padding="0px 0px 0px 35px"
 					sm-width="100%"
 					sm-height="auto"
+					sm-flex-direction="column"
 				/>
 				{"        "}
 				<Text
@@ -1783,14 +1783,14 @@ Account No. IT29G0306933082100000004613
 							{"\n\n"}
 						</Text>
 						<Input
-							width="100%"
+							width="300px"
 							border-width="1px"
 							margin="0px 0px 30px 0px"
 							height="50px"
 							sm-width="100%"
 						/>
 						<Input
-							width="100%"
+							width="300px"
 							border-width="1px"
 							margin="0px 0px 30px 0px"
 							height="50px"
