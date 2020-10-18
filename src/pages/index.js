@@ -1783,21 +1783,21 @@ Account No. IT29G0306933082100000004613
 							{"\n\n"}
 						</Text>
 						<Input
-							width="300px"
+							width="100%"
 							border-width="1px"
 							margin="0px 0px 30px 0px"
 							height="50px"
 							sm-width="100%"
 						/>
 						<Input
-							width="300px"
+							width="100%"
 							border-width="1px"
 							margin="0px 0px 30px 0px"
 							height="50px"
 							sm-width="100%"
 						/>
 						<Input
-							width="300px"
+							width="100%"
 							border-width="1px"
 							height="50px"
 							margin="0px 0px 30px 0px"
