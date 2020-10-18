@@ -424,6 +424,7 @@ export default (() => {
 						sm-top="80px"
 						px-position="relative"
 						px-right="150px"
+						sm-left="0px"
 					/>
 				</StackItem>
 				<StackItem
