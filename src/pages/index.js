@@ -379,7 +379,7 @@ export default (() => {
 				sm-align-items="center"
 				sm-flex-direction="column"
 			/>
-			<Stack sm-flex-direction="column-reverse">
+			<Stack sm-flex-direction="column-reverse" sm-width="100%">
 				{"    "}
 				<StackItem
 					width="50%"
@@ -397,7 +397,7 @@ export default (() => {
 						moy-padding="0px 30px 0px 30px"
 						moy-margin="0px 0px 0px 0px"
 						moy-border-radius="15px"
-						moy-box-shadow="0 6px 0 0 rgba(0, 0, 0, 0.05)"
+						moy-box-shadow="0 6px 10px 0 rgba(0, 0, 0, 0.05)"
 						sm-justify-content="center"
 						sm-align-items="center"
 						sm-padding="0px 10px 0px 10px"
@@ -446,7 +446,14 @@ export default (() => {
 					{"    "}
 				</StackItem>
 				{"    "}
-				<StackItem width="50%" display="flex" moy-width="30%" sm-width="100%">
+				<StackItem
+					width="50%"
+					display="flex"
+					moy-width="30%"
+					sm-width="100%"
+					sm-justify-content="center"
+					sm-align-items="center"
+				>
 					<Override slot="StackItemContent" />
 					{"        "}
 					<Image
@@ -526,6 +533,8 @@ export default (() => {
 							text-indent="0"
 							text-overflow="clip"
 							hyphens="manual"
+							moy-color="#c1a050"
+							moy-font="500 20px/31px &quot;Source Sans Pro&quot;, sans-serif"
 						>
 							Перейти →{" "}
 						</Strong>
