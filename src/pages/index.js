@@ -73,6 +73,7 @@ export default (() => {
 						color="#2a2a2a"
 						sm-text-align="center"
 						sm-font="600 48px/0.85 --fontFamily-googleSourceSansPro"
+						sm-width="100%"
 					>
 						<Span
 							overflow-wrap="normal"
@@ -424,10 +425,10 @@ export default (() => {
 						width="950px"
 						src="https://static.tildacdn.com/tild3639-3739-4234-a636-333762303437/VisaService.png"
 						bottom="auto"
-						sm-width="400px"
-						sm-height="300px"
+						sm-width="343.92499389648435px"
+						sm-height="273.5999755859375px"
 						sm-top="-210px"
-						sm-left="-350px"
+						sm-left="-260.3999938964844px"
 						sm-right="0px"
 						sm-margin="100px 0px 0px 0px"
 						moy-left="-350px"
@@ -439,6 +440,7 @@ export default (() => {
 						right="-155px"
 						top="-70px"
 						position="absolute"
+						sm-bottom="26.4000244140625px"
 					/>
 					{"    "}
 				</StackItem>
@@ -1053,7 +1055,7 @@ export default (() => {
 							данные хранятся у Вас в браузере{"\n\n"}
 						</Text>
 					</Box>
-					<Box width="590px">
+					<Box width="590px" sm-width="100%">
 						<Image
 							width="55px"
 							height="55px"
@@ -1061,7 +1063,7 @@ export default (() => {
 							margin="15px 15px 0px 150px"
 							display="none"
 						/>
-						<Box display="flex" sm-justify-content="center">
+						<Box display="flex" sm-justify-content="center" sm-width="100%" sm-max-width="200px">
 							<Image
 								width="70px"
 								height="70px"
@@ -1696,6 +1698,7 @@ Account No. IT29G0306933082100000004613
 						box-shadow="0 6px 10px 0 rgba(0, 0, 0, 0.05)"
 						border-radius="15px"
 						sm-padding="56px 24px 56px 24px"
+						sm-height="100%"
 					>
 						<Text
 							as="h3"
@@ -1703,7 +1706,7 @@ Account No. IT29G0306933082100000004613
 							margin="0 0 20px 0"
 							color="#333333"
 							width="410px"
-							sm-width="380px"
+							sm-width="100%"
 						>
 							Ответим на любые вопросы.
 						</Text>
@@ -1713,16 +1716,34 @@ Account No. IT29G0306933082100000004613
 							margin="0 0 20px 0"
 							color="#333333"
 							width="410px"
-							sm-width="380px"
+							sm-width="100%"
 							sm-font="normal 300 18px/1.2 --fontFamily-googleSourceSansPro"
 						>
 							Оставьте Ваши контакты и мы свяжемся с Вами.
 							<br />
 							{"\n\n"}
 						</Text>
-						<Input width="300px" border-width="1px" margin="0px 0px 30px 0px" height="50px" />
-						<Input width="300px" border-width="1px" margin="0px 0px 30px 0px" height="50px" />
-						<Input width="300px" border-width="1px" height="50px" margin="0px 0px 30px 0px" />
+						<Input
+							width="300px"
+							border-width="1px"
+							margin="0px 0px 30px 0px"
+							height="50px"
+							sm-width="100%"
+						/>
+						<Input
+							width="300px"
+							border-width="1px"
+							margin="0px 0px 30px 0px"
+							height="50px"
+							sm-width="100%"
+						/>
+						<Input
+							width="300px"
+							border-width="1px"
+							height="50px"
+							margin="0px 0px 30px 0px"
+							sm-width="100%"
+						/>
 						<Stack>
 							{"    "}
 							<StackItem width="60%" display="flex">
@@ -1741,9 +1762,9 @@ Account No. IT29G0306933082100000004613
 								{"    "}
 							</StackItem>
 							{"    "}
-							<StackItem width="40%" display="flex" padding="0PX 16px 16px 16px">
+							<StackItem width="40%" display="flex" padding="0PX 16px 16px 16px" sm-width="100%">
 								{"        "}
-								<Text font="13px --fontFamily-googleSourceSansPro" color="#333333" margin="0PX 0px 16px 0px">
+								<Text font="13px --fontFamily-googleSourceSansPro" color="#333333" margin="0PX 0px 16px 0px" sm-width="100%">
 									Нажимая на кнопку, Вы соглашаетесьс{" "}
 									<Link
 										href="https://travelrussiatoday.com/#popup:policyru"
@@ -1754,6 +1775,7 @@ Account No. IT29G0306933082100000004613
 										text-overflow="clip"
 										hyphens="manual"
 										color="#98989d"
+										sm-width="100%"
 									>
 										политикой обработки данных
 									</Link>
