@@ -382,27 +382,32 @@ export default (() => {
 			<Stack sm-flex-direction="column-reverse" sm-width="100%">
 				{"    "}
 				<StackItem
-					width="50%"
+					width="70%"
 					display="flex"
 					moy-width="70%"
 					sm-width="95%"
 					sm-justify-content="center"
 					sm-align-items="center"
 					sm-padding="16px 0px 16px 10px"
+					background="#fff"
+					border-radius="15px"
+					box-shadow="0 6px 10px 0 rgba(0, 0, 0, 0.05)"
+					padding="16px 20px 16px 20px"
+					margin="0px 0px 0px 0px"
 				>
 					<Override
 						slot="StackItemContent"
 						moy-flex-direction="column"
-						moy-background="#fff"
 						moy-padding="0px 30px 0px 30px"
 						moy-margin="0px 0px 0px 0px"
 						moy-border-radius="15px"
-						moy-box-shadow="0 6px 10px 0 rgba(0, 0, 0, 0.05)"
 						sm-justify-content="center"
 						sm-align-items="center"
 						sm-padding="0px 10px 0px 10px"
 						sm-flex-direction="column"
 						sm-margin="0px 0px 0px 10px"
+						flex-direction="column"
+						padding="0px 0px 0px 30px"
 					/>
 					{"        "}
 					<Text
@@ -410,7 +415,7 @@ export default (() => {
 						padding="35px 0px 20px 0px"
 						sm-height="auto"
 						sm-width="100%"
-						width="120%"
+						width="80%"
 						moy-width="100%"
 						sm-font="600 30px/45px --fontFamily-googleSourceSansPro"
 					>
@@ -423,7 +428,7 @@ export default (() => {
 						lg-bottom={0}
 						sm-width="100%"
 						sm-font="200 16px --fontFamily-googleSourceSansPro"
-						width="100%"
+						width="80%"
 						padding="0px 0px 35px 0px"
 						sm-height="auto"
 					>
@@ -447,7 +452,7 @@ export default (() => {
 				</StackItem>
 				{"    "}
 				<StackItem
-					width="50%"
+					width="30%"
 					display="flex"
 					moy-width="30%"
 					sm-width="100%"
@@ -457,8 +462,8 @@ export default (() => {
 					<Override slot="StackItemContent" />
 					{"        "}
 					<Image
-						width="64px"
-						height="64px"
+						width="100%"
+						height="500px"
 						src="https://uploads.quarkly.io/5f82bd438a25ab001e4e7636/images/VisaService%20(1).png?v=2020-10-11T10:56:17.020Z"
 						moy-width="100%"
 						moy-height="500px"
@@ -470,6 +475,8 @@ export default (() => {
 						sm-height="100%"
 						sm-left="0px"
 						sm-top="110px"
+						position="relative"
+						right="140px"
 					/>
 					{"    "}
 				</StackItem>
