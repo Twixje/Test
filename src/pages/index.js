@@ -356,63 +356,54 @@ export default (() => {
 				{"    "}{"    "}
 			</Stack>
 		</Section>
-		<Section background="#f7f7f7">
+		<Section background="#f7f7f7" sm-height="100%">
 			<Override slot="SectionContent" sm-height="600px" />
-			<Stack sm-flex-direction="column-reverse" sm-height="70%" max-width="1280px" gap="0px">
-				{"    "}
-				<StackItem width="60%" display="flex" md-width="100%">
-					<Override
-						slot="StackItemContent"
-						background="#fff"
-						display="inline"
-						padding="30px 80px 30px 80px"
-						border-radius="15px"
-						position="static"
-						right="70px"
-						lg-height="570px"
-						md-padding="30px 80px 15px 50px"
-						md-margin="0px 0px 0px 150px"
-						sm-width="100%"
-						sm-margin="100px 0px 0px 0px"
-						sm-padding="30px 0p 15px 0px"
-						sm-left="0px"
-						sm-height="100%"
-						moy-margin="0px 0px 0px 0px"
-						moy-left="-100px"
-					/>
-					{"        "}
-					<Text font="600 40px/45px --fontFamily-googleSourceSansPro" padding="0px 0px 20px 0px" sm-height="50%" sm-width="100%">
-						Как получить электронную визу?
-					</Text>
-					<Text
-						color="#333333"
-						font="300 20px/1.55 sans-serif"
-						lg-position="relative"
-						lg-bottom={0}
-						sm-width="100%"
-						sm-font="200 16px --fontFamily-googleSourceSansPro"
-						sm-height="100%"
+			<StackItem
+				width="25%"
+				background="rgba(0, 0, 0, 0) url(https://static.tildacdn.com/tild6163-6231-4431-b064-383764366431/01.jpg) 0% 0% /auto repeat scroll padding-box"
+				border-radius="15px"
+				margin="0px 40px 0px 40px"
+				padding="16px 16px 16px 16px"
+				box-shadow="0 6px 10px 0 rgba(0, 0, 0, 0.05)"
+				position="relative"
+				z-index="50"
+				sm-width="100%"
+				sm-margin="0px 0px 0px 0px"
+				sm-background="#fff"
+				sm-height="100%"
+			>
+				<Override slot="StackItemContent" sm-flex-direction="column" sm-padding="0px 15px 0px 15px" />
+				{"        "}
+				<Text font="600 40px/45px --fontFamily-googleSourceSansPro" padding="0px 0px 20px 0px" sm-height="50%" sm-width="100%">
+					Как получить электронную визу?
+				</Text>
+				<Text
+					color="#333333"
+					font="300 20px/1.55 sans-serif"
+					lg-position="relative"
+					lg-bottom={0}
+					sm-width="100%"
+					sm-font="200 16px --fontFamily-googleSourceSansPro"
+					sm-height="100%"
+				>
+					Наш сервис сделан для туристов, которые хотят быстро и без ошибок оформить электронную визу в Россию.{" "}
+					<Strong
+						overflow-wrap="normal"
+						word-break="normal"
+						white-space="normal"
+						text-indent="0"
+						text-overflow="clip"
+						hyphens="manual"
 					>
-						Наш сервис сделан для туристов, которые хотят быстро и без ошибок оформить электронную визу в Россию.{" "}
-						<Strong
-							overflow-wrap="normal"
-							word-break="normal"
-							white-space="normal"
-							text-indent="0"
-							text-overflow="clip"
-							hyphens="manual"
-						>
-							Оформление займет не больше 5 минут
-						</Strong>
-						, так как большинство данных, необходимых для оформления визы, будет взято из копии вашего документа и автоматически распознано с помощью нейросети.
-						<br />
-						<br />
-						В случае заполнения с ПК, вы с легкостью сможете прикрепить Ваше фото и копию документа, отсканировав QR-код, при помощи Вашего мобильного устройства. Форма поддерживает более 100 языков, вы сможете заполнить все данные на родном Вам языке.{" \n\n"}
-					</Text>
-					{"    "}
-				</StackItem>
+						Оформление займет не больше 5 минут
+					</Strong>
+					, так как большинство данных, необходимых для оформления визы, будет взято из копии вашего документа и автоматически распознано с помощью нейросети.
+					<br />
+					<br />
+					В случае заполнения с ПК, вы с легкостью сможете прикрепить Ваше фото и копию документа, отсканировав QR-код, при помощи Вашего мобильного устройства. Форма поддерживает более 100 языков, вы сможете заполнить все данные на родном Вам языке.{" \n\n"}
+				</Text>
 				{"    "}
-			</Stack>
+			</StackItem>
 		</Section>
 		<Section
 			background="#f7f7f7 url(https://static.tildacdn.com/tild3532-6264-4463-a631-393261623939/mapWhite.png) 0% 0%/1200px no-repeat"
@@ -445,6 +436,7 @@ export default (() => {
 					sm-width="100%"
 					sm-margin="50px 40px 0px 40px"
 					sm-background="#fff url(https://static.tildacdn.com/tild6163-6231-4431-b064-383764366431/01.jpg) 0% 0% /auto no-repeat scroll padding-box"
+					sm-height="100%"
 				>
 					{"        "}
 					<Text font="normal 300 20px/1.55 --fontFamily-googleSourceSansPro" margin="0px 0px 0px 0px" display="inline-block" color="#333333">
