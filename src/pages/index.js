@@ -817,6 +817,7 @@ export default (() => {
 					md-justify-content="center"
 					md-align-items="center"
 					sm-width="100%"
+					sm-align-items="flex-end"
 				>
 					<Override
 						slot="StackItemContent"
@@ -824,11 +825,13 @@ export default (() => {
 						background="rgba(0, 0, 0, 0) url(https://static.tildacdn.com/tild3966-6130-4530-a234-363537333861/1.jpg) 0% 0% /auto repeat fixed padding-box"
 						border-radius="15px"
 						box-shadow="0 6px 10px 0 rgba(0, 0, 0, 0.05)"
-						sm-position="relative"
+						sm-position="static"
 						sm-left="160px"
 						moy-position="relative"
 						moy-left="35px"
 						sm-width="37%"
+						sm-justify-content="right"
+						sm-align-items="flex-end"
 					/>
 					<Image
 						width="400px"
@@ -843,11 +846,11 @@ export default (() => {
 						sm-position="relative"
 						sm-left="auto"
 						sm-height="300px"
-						sm-width="248px"
+						sm-width="230px"
 						nout-bottom="0px"
 						nout2-top="145px"
 						nout2-right="90px"
-						sm-right="120px"
+						sm-right="0px"
 						moy-right="5550px"
 						nout2-left="0px"
 					/>
@@ -884,7 +887,7 @@ export default (() => {
 						nout2-height="500px"
 						nout2-left="270px"
 						nout2-bottom="-125px"
-						sm-width="290px"
+						sm-width="230px"
 					/>
 					{"        "}{"    "}
 				</StackItem>
@@ -1078,6 +1081,8 @@ export default (() => {
 					md-justify-content="center"
 					md-align-items="center"
 					sm-width="100%"
+					sm-justify-content="right"
+					sm-align-items="flex-end"
 				>
 					<Override
 						slot="StackItemContent"
@@ -1085,11 +1090,11 @@ export default (() => {
 						background="rgba(0, 0, 0, 0) url(https://static.tildacdn.com/tild3966-6130-4530-a234-363537333861/1.jpg) 0% 0% /auto repeat fixed padding-box"
 						border-radius="15px"
 						box-shadow="0 6px 10px 0 rgba(0, 0, 0, 0.05)"
-						sm-position="relative"
-						sm-left="160px"
+						sm-position="static"
+						sm-left="140px"
 						moy-position="relative"
 						moy-left="35px"
-						sm-width="190px"
+						sm-width="37%"
 					/>
 					<Image
 						width="400px"
@@ -1105,7 +1110,7 @@ export default (() => {
 						sm-left="auto"
 						sm-height="300px"
 						sm-right="120px"
-						sm-width="290px"
+						sm-width="230px"
 					/>
 					{"        "}{"    "}
 				</StackItem>
