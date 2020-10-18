@@ -133,7 +133,6 @@ export default (() => {
 						height="85px"
 						background="#FFF"
 						border-width="0px"
-						border-color="#c1a050"
 						lg-height="100px"
 						md-width="450px"
 						md-display="block"
@@ -146,6 +145,8 @@ export default (() => {
 						sm-border-color="#a98428"
 						sm-margin="0px 0px 0px 0px"
 						sm-padding="0px 0px 0px 0px"
+						border-left="2px solid"
+						px-border-color="#12579a"
 					>
 						<Text
 							font="18PX sans-serif"
@@ -478,14 +479,15 @@ export default (() => {
 				>
 					<Override slot="StackItemContent" px-min-width="none" px-min-height="none" />
 					<Image
-						width="100%"
 						height="100%"
+						srcSet="https://static.tildacdn.com/tild3639-3739-4234-a636-333762303437/VisaService.png"
 						px-width="100%"
 						px-height="100%"
 						px-position="relative"
 						px-right="60%"
+						width="100%"
 					/>
-					{"        "}{"    "}
+					{"            "}
 				</StackItem>
 			</Stack>
 		</Section>
