@@ -394,15 +394,29 @@ export default (() => {
 			<Stack
 				sm-width="95%"
 				sm-height="100%"
-				md-flex-direction="row"
+				md-flex-direction="row-reverse"
 				md-width="100%"
 				md-height="100%"
 				moy-width="100%"
 				moy-height="100%"
 				sm-justify-content="center"
 				sm-flex-direction="row"
+				px-flex-direction="row-reverse"
 			>
 				{"    "}
+				<StackItem px-width="30%" sm-width="60%" sm-height="30%">
+					<Image
+						width="64px"
+						height="64px"
+						src="https://uploads.quarkly.io/5f82bd438a25ab001e4e7636/images/VisaService%20(1).png?v=2020-10-11T10:56:17.020Z"
+						px-width="100%"
+						px-height="100%"
+						sm-width="100%"
+						sm-height="100%"
+						sm-position="relative"
+						sm-top="70px"
+					/>
+				</StackItem>
 				<StackItem
 					width="70%"
 					display="flex"
@@ -419,6 +433,7 @@ export default (() => {
 					px-height="100%"
 					moy-height="100%"
 					md-height="95%"
+					sm-height="70%"
 				>
 					<Override
 						slot="StackItemContent"
@@ -475,15 +490,6 @@ export default (() => {
 						В случае заполнения с ПК, вы с легкостью сможете прикрепить Ваше фото и копию документа, отсканировав QR-код, при помощи Вашего мобильного устройства. Форма поддерживает более 100 языков, вы сможете заполнить все данные на родном Вам языке.
 					</Text>
 					{"    "}
-				</StackItem>
-				<StackItem px-width="30%">
-					<Image
-						width="64px"
-						height="64px"
-						src="https://uploads.quarkly.io/5f82bd438a25ab001e4e7636/images/VisaService%20(1).png?v=2020-10-11T10:56:17.020Z"
-						px-width="100%"
-						px-height="100%"
-					/>
 				</StackItem>
 				{"    "}
 			</Stack>
