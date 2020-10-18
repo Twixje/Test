@@ -359,7 +359,7 @@ export default (() => {
 		<Section background="#f7f7f7" sm-height="auto">
 			<Override
 				slot="SectionContent"
-				sm-height="600px"
+				sm-height="auto"
 				width="100%"
 				flex-direction="row"
 				sm-justify-content="center"
@@ -410,6 +410,7 @@ export default (() => {
 					sm-font="200 16px --fontFamily-googleSourceSansPro"
 					width="100%"
 					padding="0px 0px 35px 0px"
+					sm-height="auto"
 				>
 					Наш сервис сделан для туристов, которые хотят быстро и без ошибок оформить электронную визу в Россию.{" "}
 					<Strong
