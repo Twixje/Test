@@ -24,6 +24,12 @@ export default {
 				"type": "max-width",
 				"value": "1440"
 			}
+		],
+		"px": [
+			{
+				"type": "max-width",
+				"value": "1920"
+			}
 		]
 	},
 	"color": {

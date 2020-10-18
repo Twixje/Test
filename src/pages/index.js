@@ -69,8 +69,16 @@ export default (() => {
 		>
 			<Stack>
 				{"    "}
-				<StackItem width="50%" md-width="100%" margin="0px 0px 0px 0px">
-					<Override slot="StackItemContent" flex-direction="column" md-justify-content="center" md-align-items="center" />
+				<StackItem width="50%" md-width="100%" margin="0px 0px 0px 0px" px-margin="0px 0px 0px 100p">
+					<Override
+						slot="StackItemContent"
+						flex-direction="column"
+						md-justify-content="center"
+						md-align-items="center"
+						margin="0px 0px 0px 100p"
+						px-margin="0px 0px 0px 100px"
+						sm-margin="0px 0px 0px 0px"
+					/>
 					{"        "}
 					<Text
 						font="600 48px --fontFamily-googleSourceSansPro"
