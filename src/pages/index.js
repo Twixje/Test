@@ -2,7 +2,7 @@ import React from "react";
 import theme from "theme";
 import { Theme, Image, Text, Span, Button, Strong, Box, Input, Link } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
-import { Override, StackItem, Stack, Section, Formspree } from "@quarkly/components";
+import { StackItem, Override, Stack, Section, Formspree } from "@quarkly/components";
 export default (() => {
 	return <Theme theme={theme}>
 		<Helmet>
@@ -16,7 +16,6 @@ export default (() => {
 			<Stack>
 				{"    "}
 				<StackItem width="40%" display="flex" md-width="40%" sm-width="30%">
-					<Override slot="StackItemContent" />
 					{"        "}
 					<Image width="118px" height="59px" src="https://static.tildacdn.com/tild3365-3965-4062-b565-333661316334/logo2.svg" />
 					{"    "}
@@ -87,13 +86,12 @@ export default (() => {
 						>
 							Электронная виза и{" "}
 							<br />
-							страховка в Россию{"\n\n"}
+							страховка в Россию
 						</Span>
 					</Text>
 					<Text font="22px --fontFamily-sans" color="#2a2a2a" sm-text-align="center">
 						За 5 минут без ошибок, фотоателье и сложных анкет.
 						<br />
-						{"\n\n"}
 					</Text>
 					<Button
 						width="260px"
@@ -151,7 +149,6 @@ export default (() => {
 							>
 								2,99 евро
 							</Strong>
-							{"\n\n"}
 						</Text>
 						<Text
 							font="18PX sans-serif"
@@ -161,7 +158,7 @@ export default (() => {
 							sm-padding="0px 0px 0px 0px"
 							sm-margin="16px 0px 16px 0px"
 						>
-							Мы вернем Вам деньги, если Вы не получите визу.{"\n\n"}
+							Мы вернем Вам деньги, если Вы не получите визу.
 						</Text>
 					</Box>
 					{"    "}
@@ -176,12 +173,11 @@ export default (() => {
 						md-height="300px"
 						md-display="none"
 					/>
-					{"        "}{"    "}
+					{"            "}
 				</StackItem>
 			</Stack>
 		</Section>
 		<Section background="#f7f7f7" padding="0px 0 0px 0">
-			<Override slot="SectionContent" />
 			<Stack
 				nout-padding="20px 0px 20px 0px"
 				nout-margin="-16px -16px -16px -16px"
@@ -230,7 +226,6 @@ export default (() => {
 					<Text font="normal 400 22px/1.5 --fontFamily-googleOpenSans" color="#2a2a2a" lg-text-align="center" sm-font="normal 400 18px/1.5 --fontFamily-googleOpenSans">
 						Бизнес виза
 						<br />
-						{"\n\n"}
 					</Text>
 				</StackItem>
 				<StackItem
@@ -366,7 +361,7 @@ export default (() => {
 						Научная виза
 					</Text>
 				</StackItem>
-				{"    "}{"    "}
+				{"        "}
 			</Stack>
 		</Section>
 		<Section background="#f7f7f7" sm-height="auto">
@@ -459,7 +454,6 @@ export default (() => {
 					sm-justify-content="center"
 					sm-align-items="center"
 				>
-					<Override slot="StackItemContent" />
 					{"        "}
 					<Image
 						width="100%"
@@ -532,7 +526,6 @@ export default (() => {
 						Заполните короткую анкету на визу.
 						<br />
 						<br />
-						{"\n"}
 						<Strong
 							overflow-wrap="normal"
 							word-break="normal"
@@ -545,7 +538,6 @@ export default (() => {
 						>
 							Перейти →{" "}
 						</Strong>
-						{"\n\n"}
 					</Text>
 					{"    "}
 				</StackItem>
@@ -737,6 +729,7 @@ export default (() => {
 				color="#333333"
 				sm-font="600 30px --fontFamily-googleSourceSansPro"
 				moy-margin="16px 0px 60px 0px"
+				margin="16px 0px 60px 0px"
 			>
 				<Strong
 					overflow-wrap="normal"
@@ -825,7 +818,7 @@ export default (() => {
 						<Text color="#333333" font="300 20px --fontFamily-googleSourceSansPro" sm-font="300 16px --fontFamily-googleSourceSansPro">
 							Возможность вернуться к заполнению{" "}
 							<br />
-							данных в любой момент{"\n\n"}
+							данных в любой момент
 						</Text>
 					</Box>
 					<Box display="flex" sm-width="85%">
@@ -903,7 +896,7 @@ export default (() => {
 						nout2-left="0px"
 						right="80px"
 					/>
-					{"        "}{"    "}
+					{"            "}
 				</StackItem>
 				{"    "}
 			</Stack>
@@ -940,7 +933,7 @@ export default (() => {
 						nout2-bottom="-125px"
 						sm-width="100%"
 					/>
-					{"        "}{"    "}
+					{"            "}
 				</StackItem>
 				<StackItem width="50%" display="flex" flex-direction="column" md-width="100%">
 					<Override
@@ -1017,7 +1010,7 @@ export default (() => {
 						<Text color="#333333" font="300 20px --fontFamily-googleSourceSansPro" sm-font="300 16px --fontFamily-googleSourceSansPro">
 							Возврат консульского сбора в случае отказа{" "}
 							<br />
-							в визе в Россию, при условии страхования{"\n\n"}
+							в визе в Россию, при условии страхования
 						</Text>
 					</Box>
 					<Box display="flex" sm-width="85%">
@@ -1046,7 +1039,7 @@ export default (() => {
 							Скидки, промокоды и прочие интересные акции
 						</Text>
 					</Box>
-					{"        "}{"    "}
+					{"            "}
 				</StackItem>
 				{"    "}
 			</Stack>
@@ -1058,10 +1051,11 @@ export default (() => {
 					<Text
 						color="#333333"
 						font="600 40px --fontFamily-googleSourceSansPro"
-						text-align="right"
+						text-align="center"
 						sm-text-align="center"
 						sm-width="100%"
 						moy-margin="16px 0px 60px 0px"
+						margin="16px 0px 60px 0px"
 					>
 						Система защиты данных
 					</Text>
@@ -1108,7 +1102,7 @@ export default (() => {
 						<Text color="#333333" font="300 20px --fontFamily-googleSourceSansPro" sm-font="300 16px --fontFamily-googleSourceSansPro">
 							Пока вы заполняете анкету, все Ваши
 							<br />
-							данные хранятся у Вас в браузере{"\n\n"}
+							данные хранятся у Вас в браузере
 						</Text>
 					</Box>
 					<Box width="590px" sm-width="100%">
@@ -1169,7 +1163,7 @@ export default (() => {
 						sm-width="100%"
 						left="-100px"
 					/>
-					{"        "}{"    "}
+					{"            "}
 				</StackItem>
 				<Image
 					width="100%"
@@ -1187,7 +1181,7 @@ export default (() => {
 		</Section>
 		<Section background="#f7f7f7" padding="24px 0 100px 0">
 			<Text text-align="center" font="600 40px --fontFamily-googleSourceSansPro" color="#333333" moy-margin="16px 0px 30px 0px">
-				Отзывы клиентов{"\n\n"}
+				Отзывы клиентов
 			</Text>
 			<Text font="300 20px --fontFamily-googleSourceSansPro" text-align="center" color="#333333" sm-font="300 16px --fontFamily-googleSourceSansPro">
 				Больше отзывов о нашем сервисе на{" "}
@@ -1201,7 +1195,6 @@ export default (() => {
 				>
 					Google
 				</Strong>
-				{"\n\n"}
 			</Text>
 			<Stack margin="50px -16px -16px -16px" padding="0px 0px 0px 0" md-justify-content="center">
 				{"    "}
@@ -1236,7 +1229,6 @@ export default (() => {
 							<Text font="16px --fontFamily-googleSourceSansPro" color="#333333">
 								10/07/20
 								<br />
-								{"\n\n"}
 							</Text>
 						</StackItem>
 					</Box>
@@ -1244,7 +1236,7 @@ export default (() => {
 						<StackItem>
 							<Override slot="StackItemContent" display="block" />
 							<Text font="300 18px --fontFamily-googleSourceSansPro" color="#333333">
-								Наш сервис сделан для туристов которые хотят быстро и без ошибок оформить электронную визу в Россию. Оформление займет не больше 5 минут.{"\n\n"}
+								Наш сервис сделан для туристов которые хотят быстро и без ошибок оформить электронную визу в Россию. Оформление займет не больше 5 минут.
 							</Text>
 							<Stack>
 								{"    "}
@@ -1310,7 +1302,6 @@ export default (() => {
 							<Text font="16px --fontFamily-googleSourceSansPro" color="#333333">
 								10/07/20
 								<br />
-								{"\n\n"}
 							</Text>
 						</StackItem>
 					</Box>
@@ -1318,7 +1309,7 @@ export default (() => {
 						<StackItem>
 							<Override slot="StackItemContent" display="block" />
 							<Text font="300 18px --fontFamily-googleSourceSansPro" color="#333333">
-								Наш сервис сделан для туристов которые хотят быстро и без ошибок оформить электронную визу в Россию. Оформление займет не больше 5 минут.{"\n\n"}
+								Наш сервис сделан для туристов которые хотят быстро и без ошибок оформить электронную визу в Россию. Оформление займет не больше 5 минут.
 							</Text>
 							<Stack>
 								{"    "}
@@ -1383,7 +1374,6 @@ export default (() => {
 							<Text font="16px --fontFamily-googleSourceSansPro" color="#333333">
 								10/07/20
 								<br />
-								{"\n\n"}
 							</Text>
 						</StackItem>
 					</Box>
@@ -1391,7 +1381,7 @@ export default (() => {
 						<StackItem>
 							<Override slot="StackItemContent" display="block" />
 							<Text font="300 18px --fontFamily-googleSourceSansPro" color="#333333">
-								Наш сервис сделан для туристов которые хотят быстро и без ошибок оформить электронную визу в Россию. Оформление займет не больше 5 минут.{"\n\n"}
+								Наш сервис сделан для туристов которые хотят быстро и без ошибок оформить электронную визу в Россию. Оформление займет не больше 5 минут.
 							</Text>
 							<Stack>
 								{"    "}
@@ -1454,7 +1444,6 @@ export default (() => {
 							<Text font="16px --fontFamily-googleSourceSansPro" color="#333333">
 								10/07/20
 								<br />
-								{"\n\n"}
 							</Text>
 						</StackItem>
 					</Box>
@@ -1462,7 +1451,7 @@ export default (() => {
 						<StackItem>
 							<Override slot="StackItemContent" display="block" />
 							<Text font="300 18px --fontFamily-googleSourceSansPro" color="#333333">
-								Наш сервис сделан для туристов которые хотят быстро и без ошибок оформить электронную визу в Россию. Оформление займет не больше 5 минут.{"\n\n"}
+								Наш сервис сделан для туристов которые хотят быстро и без ошибок оформить электронную визу в Россию. Оформление займет не больше 5 минут.
 							</Text>
 							<Stack>
 								{"    "}
@@ -1513,7 +1502,13 @@ export default (() => {
 			/>
 		</Section>
 		<Section>
-			<Text font="600 40px --fontFamily-googleSourceSansPro" text-align="center" color="#333333" moy-margin="16px 0px 30px 0px">
+			<Text
+				font="600 40px --fontFamily-googleSourceSansPro"
+				text-align="center"
+				color="#333333"
+				moy-margin="16px 0px 30px 0px"
+				margin="16px 0px 60px 0px"
+			>
 				Мы принимаем
 			</Text>
 			<Stack justify-content="center" width="100%">
@@ -1647,7 +1642,6 @@ export default (() => {
 			</Stack>
 		</Section>
 		<Section>
-			<Override slot="SectionContent" />
 			<Image
 				width="100%"
 				height="none"
@@ -1842,7 +1836,6 @@ Account No. IT29G0306933082100000004613
 						>
 							Оставьте Ваши контакты и мы свяжемся с Вами.
 							<br />
-							{"\n\n"}
 						</Text>
 						<Input
 							width="300px"
@@ -1900,7 +1893,6 @@ Account No. IT29G0306933082100000004613
 									>
 										политикой обработки данных
 									</Link>
-									{"\n\n"}
 								</Text>
 								{"    "}
 							</StackItem>
