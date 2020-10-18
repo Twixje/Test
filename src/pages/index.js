@@ -32,7 +32,7 @@ export default (() => {
 						padding="0px 0px 0px 0"
 						sm-display="none"
 					/>
-					<Text margin="16px 0px 16px 10px" sm-display="none">
+					<Text margin="16px 0px 16px 10px" sm-display="none" px-font="20px --fontFamily-googleSourceSansPro">
 						+7 (707) 535-55-55
 					</Text>
 					<Image
