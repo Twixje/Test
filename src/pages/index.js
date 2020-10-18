@@ -423,7 +423,7 @@ export default (() => {
 						sm-position="relative"
 						sm-top="80px"
 						px-position="relative"
-						px-right="150px"
+						px-right="65%"
 						sm-left="0px"
 					/>
 				</StackItem>
