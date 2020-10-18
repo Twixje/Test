@@ -356,7 +356,7 @@ export default (() => {
 				{"    "}{"    "}
 			</Stack>
 		</Section>
-		<Section background="#f7f7f7" sm-height="auto">
+		<Section background="#f7f7f7" sm-height="auto" sm-flex-direction="column">
 			<Override
 				slot="SectionContent"
 				sm-height="auto"
@@ -364,7 +364,25 @@ export default (() => {
 				flex-direction="row"
 				sm-justify-content="center"
 				sm-align-items="center"
+				sm-flex-direction="column"
 			/>
+			<StackItem moy-width="30%">
+				<Image
+					width="64px"
+					height="64px"
+					src="https://uploads.quarkly.io/5f82bd438a25ab001e4e7636/images/VisaService%20(1).png?v=2020-10-11T10:56:17.020Z"
+					moy-width="100%"
+					moy-height="500px"
+					moy-position="relative"
+					moy-top="0px"
+					moy-right="150px"
+					moy-z-index="99"
+					sm-width="100%"
+					sm-height="100%"
+					sm-left="0px"
+					sm-top="50px"
+				/>
+			</StackItem>
 			<StackItem
 				width="70%"
 				background="#fff"
@@ -398,6 +416,7 @@ export default (() => {
 					sm-height="auto"
 					sm-width="100%"
 					width="120%"
+					moy-width="100%"
 				>
 					Как получить электронную визу?
 				</Text>
@@ -678,7 +697,13 @@ export default (() => {
 				position="relative"
 				sm-top="-60px"
 			/>
-			<Text font="600 40px --fontFamily-googleSourceSansPro" text-align="center" color="#333333" sm-font="600 30px --fontFamily-googleSourceSansPro">
+			<Text
+				font="600 40px --fontFamily-googleSourceSansPro"
+				text-align="center"
+				color="#333333"
+				sm-font="600 30px --fontFamily-googleSourceSansPro"
+				moy-margin="16px 0px 60px 0px"
+			>
 				<Strong
 					overflow-wrap="normal"
 					word-break="normal"
@@ -686,6 +711,8 @@ export default (() => {
 					text-indent="0"
 					text-overflow="clip"
 					hyphens="manual"
+					moy-margin="0px 0px 0px 0px"
+					moy-padding="0px 0px 0px 0px"
 				>
 					Преимущества нашего сервиса
 				</Strong>
@@ -1000,6 +1027,7 @@ export default (() => {
 						text-align="right"
 						sm-text-align="center"
 						sm-width="100%"
+						moy-margin="16px 0px 60px 0px"
 					>
 						Система защиты данных
 					</Text>
@@ -1124,7 +1152,7 @@ export default (() => {
 			</Stack>
 		</Section>
 		<Section background="#f7f7f7" padding="24px 0 100px 0">
-			<Text text-align="center" font="600 40px --fontFamily-googleSourceSansPro" color="#333333">
+			<Text text-align="center" font="600 40px --fontFamily-googleSourceSansPro" color="#333333" moy-margin="16px 0px 30px 0px">
 				Отзывы клиентов{"\n\n"}
 			</Text>
 			<Text font="300 20px --fontFamily-googleSourceSansPro" text-align="center" color="#333333" sm-font="300 16px --fontFamily-googleSourceSansPro">
@@ -1451,7 +1479,7 @@ export default (() => {
 			/>
 		</Section>
 		<Section>
-			<Text font="600 40px --fontFamily-googleSourceSansPro" text-align="center" color="#333333">
+			<Text font="600 40px --fontFamily-googleSourceSansPro" text-align="center" color="#333333" moy-margin="16px 0px 30px 0px">
 				Мы принимаем
 			</Text>
 			<Stack justify-content="center" width="100%">
