@@ -499,7 +499,7 @@ export default (() => {
 				{"    "}
 				<StackItem
 					width="25%"
-					background="rgba(0, 0, 0, 0) url(https://static.tildacdn.com/tild6163-6231-4431-b064-383764366431/01.jpg) 0% 0% /auto repeat scroll padding-box"
+					background="#fff url(https://static.tildacdn.com/tild6163-6231-4431-b064-383764366431/01.jpg) 0% 0% /auto no-repeat scroll padding-box"
 					border-radius="15px"
 					margin="0px 40px 0px 40px"
 					padding="16px 16px 16px 16px"
@@ -545,7 +545,7 @@ export default (() => {
 				</StackItem>
 				<StackItem
 					width="25%"
-					background="rgba(0, 0, 0, 0) url(https://static.tildacdn.com/tild3539-3536-4533-b637-656532396134/02.jpg) 0% 0% /auto repeat scroll padding-box"
+					background="#fff url(https://static.tildacdn.com/tild3539-3536-4533-b637-656532396134/02.jpg) 0% 0% /auto no-repeat scroll padding-box"
 					border-radius="15px"
 					margin="0px 40px 0px 40px"
 					padding="16px 16px 16px 16px"
@@ -578,7 +578,7 @@ export default (() => {
 				</StackItem>
 				<StackItem
 					width="25%"
-					background="rgba(0, 0, 0, 0) url(https://static.tildacdn.com/tild3437-6234-4563-b231-656265353231/03.jpg) 0% 0% /auto repeat scroll padding-box"
+					background="#fff url(https://static.tildacdn.com/tild3437-6234-4563-b231-656265353231/03.jpg) 0% 0% /auto no-repeat scroll padding-box"
 					border-radius="15px"
 					margin="0px 40px 0px 40px"
 					padding="16px 16px 16px 16px"
@@ -610,7 +610,7 @@ export default (() => {
 				</StackItem>
 				<StackItem
 					width="25%"
-					background="rgba(0, 0, 0, 0) url(https://static.tildacdn.com/tild3430-3138-4831-b465-373233653064/04.jpg) 0% 0% /auto repeat scroll padding-box"
+					background="#fff url(https://static.tildacdn.com/tild3430-3138-4831-b465-373233653064/04.jpg) 0% 0% /auto no-repeat scroll padding-box"
 					border-radius="15px"
 					margin="70px 40px 0 40px"
 					padding="16px 16px 30px 16px"
@@ -645,7 +645,7 @@ export default (() => {
 				</StackItem>
 				<StackItem
 					width="25%"
-					background="rgba(0, 0, 0, 0) url(https://static.tildacdn.com/tild3331-6262-4336-b932-386665373830/05.jpg) 0% 0% /auto repeat scroll padding-box"
+					background="#fff url(https://static.tildacdn.com/tild3331-6262-4336-b932-386665373830/05.jpg) 0% 0% /auto no-repeat scroll padding-box"
 					border-radius="15px"
 					margin="70px 40px 0px 40px"
 					padding="16px 16px 30px 16px"
@@ -678,7 +678,7 @@ export default (() => {
 				</StackItem>
 				<StackItem
 					width="25%"
-					background="rgba(0, 0, 0, 0) url(https://static.tildacdn.com/tild6235-6332-4231-b632-343134386565/06.jpg) 0% 0% /auto repeat scroll padding-box"
+					background="#fff url(https://static.tildacdn.com/tild6235-6332-4231-b632-343134386565/06.jpg) 0% 0% /auto no-repeat scroll padding-box"
 					border-radius="15px"
 					margin="70px 40px 0px 40px"
 					padding="16px 16px 30px 16px"
