@@ -826,7 +826,6 @@ export default (() => {
 						srcSet="https://static.tildacdn.com/tild3862-3265-4534-a230-623239303232/phone.png"
 						position="relative"
 						top="190px"
-						right="80px"
 						lg-top="340px"
 						nout-top={0}
 						md-top="0px"
@@ -840,6 +839,7 @@ export default (() => {
 						sm-right="0px"
 						moy-right="5550px"
 						nout2-left="0px"
+						right="80px"
 					/>
 					{"        "}{"    "}
 				</StackItem>
@@ -1096,8 +1096,6 @@ export default (() => {
 						height="400px"
 						srcSet="https://static.tildacdn.com/tild3633-6666-4730-b932-626434346637/Vector_Smart_Object.png"
 						position="relative"
-						top="190px"
-						right="80px"
 						lg-top="340px"
 						nout-top="190px"
 						md-top="0px"
@@ -1106,6 +1104,7 @@ export default (() => {
 						sm-height="300px"
 						sm-right={0}
 						sm-width="100%"
+						left="-100px"
 					/>
 					{"        "}{"    "}
 				</StackItem>
