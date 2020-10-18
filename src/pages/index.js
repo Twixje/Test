@@ -372,16 +372,16 @@ export default (() => {
 						lg-height="570px"
 						md-padding="30px 80px 15px 50px"
 						md-margin="0px 0px 0px 150px"
-						sm-width="290px"
+						sm-width="100%"
 						sm-margin="100px 0px 0px 0px"
 						sm-padding="30px 0p 15px 0px"
 						sm-left="0px"
-						sm-height="670p"
+						sm-height="100%"
 						moy-margin="0px 0px 0px 0px"
 						moy-left="-100px"
 					/>
 					{"        "}
-					<Text font="600 40px/45px --fontFamily-googleSourceSansPro" padding="0px 0px 20px 0px">
+					<Text font="600 40px/45px --fontFamily-googleSourceSansPro" padding="0px 0px 20px 0px" sm-height="50%" sm-width="100%">
 						Как получить электронную визу?
 					</Text>
 					<Text
@@ -389,8 +389,9 @@ export default (() => {
 						font="300 20px/1.55 sans-serif"
 						lg-position="relative"
 						lg-bottom={0}
-						sm-width="310px"
+						sm-width="100%"
 						sm-font="200 16px --fontFamily-googleSourceSansPro"
+						sm-height="100%"
 					>
 						Наш сервис сделан для туристов, которые хотят быстро и без ошибок оформить электронную визу в Россию.{" "}
 						<Strong
@@ -408,40 +409,6 @@ export default (() => {
 						<br />
 						В случае заполнения с ПК, вы с легкостью сможете прикрепить Ваше фото и копию документа, отсканировав QR-код, при помощи Вашего мобильного устройства. Форма поддерживает более 100 языков, вы сможете заполнить все данные на родном Вам языке.{" \n\n"}
 					</Text>
-					{"    "}
-				</StackItem>
-				<StackItem display="flex" width="40%">
-					<Override
-						slot="StackItemContent"
-						display="inline"
-						padding="0px 0px 0px 0px"
-						border-radius="15px"
-						position="relative"
-						right="70px"
-						min-height="-"
-					/>
-					{"        "}
-					<Image
-						width="950px"
-						src="https://static.tildacdn.com/tild3639-3739-4234-a636-333762303437/VisaService.png"
-						bottom="auto"
-						sm-width="343.92499389648435px"
-						sm-height="273.5999755859375px"
-						sm-top="-210px"
-						sm-left="-260.3999938964844px"
-						sm-right="0px"
-						sm-margin="100px 0px 0px 0px"
-						moy-left="-350px"
-						nout2-top="0px"
-						nout2-bottom="0px"
-						nout2-position="static"
-						nout2-width="90%"
-						left="auto"
-						right="-155px"
-						top="-70px"
-						position="absolute"
-						sm-bottom="26.4000244140625px"
-					/>
 					{"    "}
 				</StackItem>
 				{"    "}
@@ -657,7 +624,7 @@ export default (() => {
 					lg-height="190.4px"
 					sm-width="100%"
 					sm-margin="10px 40px 0px 40px"
-					sm-height="190px"
+					sm-height="100%"
 					sm-background="#fff url(https://static.tildacdn.com/tild6235-6332-4231-b632-343134386565/06.jpg) 0% 0% /auto no-repeat scroll padding-box"
 				>
 					{"        "}
@@ -831,7 +798,7 @@ export default (() => {
 						sm-left="160px"
 						moy-position="relative"
 						moy-left="35px"
-						sm-width="37%"
+						sm-width="100%"
 						sm-justify-content="right"
 						sm-align-items="flex-end"
 					/>
@@ -848,7 +815,7 @@ export default (() => {
 						sm-position="relative"
 						sm-left="auto"
 						sm-height="300px"
-						sm-width="230px"
+						sm-width="100%"
 						nout-bottom="0px"
 						nout2-top="145px"
 						nout2-right="90px"
@@ -870,7 +837,7 @@ export default (() => {
 					border-radius="15px"
 					margin="100 0px 0px 0px"
 					box-shadow="0 6px 10px 0 rgba(0, 0, 0, 0.05)"
-					sm-width="190px"
+					sm-width="100%"
 				>
 					<Override slot="StackItemContent" flex-direction="column" />
 					<Image
@@ -889,7 +856,7 @@ export default (() => {
 						nout2-height="500px"
 						nout2-left="270px"
 						nout2-bottom="-125px"
-						sm-width="230px"
+						sm-width="100%"
 					/>
 					{"        "}{"    "}
 				</StackItem>
@@ -1006,7 +973,13 @@ export default (() => {
 				<StackItem width="50%" display="flex" flex-direction="column" md-width="100%">
 					<Override slot="StackItemContent" flex-direction="column" sm-justify-content="center" sm-align-items="center" />
 					{"        "}
-					<Text color="#333333" font="600 40px --fontFamily-googleSourceSansPro" text-align="right" sm-text-align="center">
+					<Text
+						color="#333333"
+						font="600 40px --fontFamily-googleSourceSansPro"
+						text-align="right"
+						sm-text-align="center"
+						sm-width="100%"
+					>
 						Система защиты данных
 					</Text>
 					<Box display="flex" sm-width="85%">
@@ -1096,7 +1069,7 @@ export default (() => {
 						sm-left="140px"
 						moy-position="relative"
 						moy-left="35px"
-						sm-width="37%"
+						sm-width="100%"
 					/>
 					<Image
 						width="400px"
@@ -1111,8 +1084,8 @@ export default (() => {
 						sm-position="relative"
 						sm-left="auto"
 						sm-height="300px"
-						sm-right="120px"
-						sm-width="230px"
+						sm-right={0}
+						sm-width="100%"
 					/>
 					{"        "}{"    "}
 				</StackItem>
