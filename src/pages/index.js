@@ -356,25 +356,6 @@ export default (() => {
 				{"    "}{"    "}
 			</Stack>
 		</Section>
-		<Section sm-background="#f7f7f7">
-			<Override
-				slot="SectionContent"
-				sm-justify-content="center"
-				sm-align-items="center"
-				sm-height="100%"
-				sm-width="100%"
-			/>
-			<Image
-				width="64px"
-				height="64px"
-				src="https://uploads.quarkly.io/5f82bd438a25ab001e4e7636/images/VisaService%20(1).png?v=2020-10-11T10:56:17.020Z"
-				sm-width="50%"
-				sm-height="50%"
-				sm-position="relative"
-				sm-top="150px"
-				sm-z-index="999"
-			/>
-		</Section>
 		<Section background="#f7f7f7" sm-height="auto">
 			<Override
 				slot="SectionContent"
