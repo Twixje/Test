@@ -363,7 +363,7 @@ export default (() => {
 				background="#fff"
 				border-radius="15px"
 				margin="0px 0px 0px 0px"
-				padding="26px 16px 26px 16px"
+				padding="16px 16px 16px 16px"
 				box-shadow="0 6px 10px 0 rgba(0, 0, 0, 0.05)"
 				position="relative"
 				z-index="50"
@@ -371,12 +371,13 @@ export default (() => {
 				sm-margin="0px 0px 0px 0px"
 				sm-background="#fff"
 				sm-height="100%"
+				height="100%"
 			>
 				<Override
 					slot="StackItemContent"
 					sm-flex-direction="column"
 					sm-padding="0px 15px 0px 15px"
-					width="70%"
+					width="77%"
 					height="100%"
 					flex-direction="column"
 					padding="0px 0px 0px 35px"
@@ -384,7 +385,7 @@ export default (() => {
 				{"        "}
 				<Text
 					font="600 40px/45px --fontFamily-googleSourceSansPro"
-					padding="0px 0px 20px 0px"
+					padding="35px 0px 20px 0px"
 					sm-height="50%"
 					sm-width="100%"
 					width="120%"
@@ -400,6 +401,7 @@ export default (() => {
 					sm-font="200 16px --fontFamily-googleSourceSansPro"
 					sm-height="100%"
 					width="100%"
+					padding="0px 0px 35px 0px"
 				>
 					Наш сервис сделан для туристов, которые хотят быстро и без ошибок оформить электронную визу в Россию.{" "}
 					<Strong
@@ -442,11 +444,13 @@ export default (() => {
 				/>
 				{"        "}
 				<Image
-					width="100%"
+					width="130%"
 					height="100%"
 					src="https://uploads.quarkly.io/5f82bd438a25ab001e4e7636/images/VisaService%20(1).png?v=2020-10-11T10:56:17.020Z"
 					object-position="50% 50%"
-					object-fit="contain"
+					object-fit="cover"
+					position="relative"
+					right="200px"
 				/>
 				{"    "}
 			</StackItem>
