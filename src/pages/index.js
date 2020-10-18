@@ -133,7 +133,13 @@ export default (() => {
 						sm-margin="0px 0px 0px 0px"
 						sm-padding="0px 0px 0px 0px"
 					>
-						<Text font="18PX sans-serif" padding="0px 0px 0px 20px" md-text-align="center" color="#2a2a2a">
+						<Text
+							font="18PX sans-serif"
+							padding="0px 0px 0px 20px"
+							md-text-align="center"
+							color="#2a2a2a"
+							sm-padding="0px 0px 0px 0px"
+						>
 							Всего за{" "}
 							<Strong
 								overflow-wrap="normal"
@@ -147,7 +153,14 @@ export default (() => {
 							</Strong>
 							{"\n\n"}
 						</Text>
-						<Text font="18PX sans-serif" padding="0px 0px 0px 20px" md-text-align="center" color="#2a2a2a">
+						<Text
+							font="18PX sans-serif"
+							padding="0px 0px 0px 20px"
+							md-text-align="center"
+							color="#2a2a2a"
+							sm-padding="0px 0px 0px 0px"
+							sm-margin="16px 0px 16px 0px"
+						>
 							Мы вернем Вам деньги, если Вы не получите визу.{"\n\n"}
 						</Text>
 					</Box>
@@ -356,7 +369,7 @@ export default (() => {
 				{"    "}{"    "}
 			</Stack>
 		</Section>
-		<Section background="#f7f7f7" sm-height="auto" sm-flex-direction="column">
+		<Section background="#f7f7f7" sm-height="auto">
 			<Override
 				slot="SectionContent"
 				sm-height="auto"
@@ -366,89 +379,94 @@ export default (() => {
 				sm-align-items="center"
 				sm-flex-direction="column"
 			/>
-			<StackItem
-				width="70%"
-				background="#fff"
-				border-radius="15px"
-				margin="0px 0px 0px 0px"
-				padding="16px 16px 16px 16px"
-				box-shadow="0 6px 10px 0 rgba(0, 0, 0, 0.05)"
-				position="relative"
-				z-index="50"
-				sm-width="90%"
-				sm-margin="0px 0px 0px 0px"
-				sm-background="#fff"
-				sm-height="100%"
-				height="100%"
-			>
-				<Override
-					slot="StackItemContent"
-					sm-padding="0px 15px 0px 15px"
-					width="77%"
-					height="100%"
-					flex-direction="column"
-					padding="0px 0px 0px 35px"
-					sm-width="100%"
-					sm-height="auto"
-					sm-flex-direction="column"
-				/>
-				{"        "}
-				<Text
-					font="600 40px/45px --fontFamily-googleSourceSansPro"
-					padding="35px 0px 20px 0px"
-					sm-height="auto"
-					sm-width="100%"
-					width="120%"
-					moy-width="100%"
-				>
-					Как получить электронную визу?
-				</Text>
-				<Text
-					color="#333333"
-					font="300 20px/1.55 sans-serif"
-					lg-position="relative"
-					lg-bottom={0}
-					sm-width="100%"
-					sm-font="200 16px --fontFamily-googleSourceSansPro"
-					width="100%"
-					padding="0px 0px 35px 0px"
-					sm-height="auto"
-				>
-					Наш сервис сделан для туристов, которые хотят быстро и без ошибок оформить электронную визу в Россию.{" "}
-					<Strong
-						overflow-wrap="normal"
-						word-break="normal"
-						white-space="normal"
-						text-indent="0"
-						text-overflow="clip"
-						hyphens="manual"
-					>
-						Оформление займет не больше 5 минут
-					</Strong>
-					, так как большинство данных, необходимых для оформления визы, будет взято из копии вашего документа и автоматически распознано с помощью нейросети.
-					<br />
-					<br />
-					В случае заполнения с ПК, вы с легкостью сможете прикрепить Ваше фото и копию документа, отсканировав QR-код, при помощи Вашего мобильного устройства. Форма поддерживает более 100 языков, вы сможете заполнить все данные на родном Вам языке.{" \n\n"}
-				</Text>
+			<Stack sm-flex-direction="column-reverse">
 				{"    "}
-			</StackItem>
-			<StackItem moy-width="30%">
-				<Image
-					width="64px"
-					height="64px"
-					src="https://uploads.quarkly.io/5f82bd438a25ab001e4e7636/images/VisaService%20(1).png?v=2020-10-11T10:56:17.020Z"
-					moy-width="100%"
-					moy-height="500px"
-					moy-position="relative"
-					moy-top="0px"
-					moy-right="150px"
-					moy-z-index="99"
-					sm-width="100%"
-					sm-height="100%"
-					sm-left="0px"
-					sm-top="50px"
-				/>
-			</StackItem>
+				<StackItem
+					width="50%"
+					display="flex"
+					moy-width="70%"
+					sm-width="95%"
+					sm-justify-content="center"
+					sm-align-items="center"
+					sm-padding="16px 0px 16px 10px"
+				>
+					<Override
+						slot="StackItemContent"
+						moy-flex-direction="column"
+						moy-background="#fff"
+						moy-padding="0px 30px 0px 30px"
+						moy-margin="0px 0px 0px 0px"
+						moy-border-radius="15px"
+						moy-box-shadow="0 6px 0 0 rgba(0, 0, 0, 0.05)"
+						sm-justify-content="center"
+						sm-align-items="center"
+						sm-padding="0px 10px 0px 10px"
+						sm-flex-direction="column"
+						sm-margin="0px 0px 0px 10px"
+					/>
+					{"        "}
+					<Text
+						font="600 40px/45px --fontFamily-googleSourceSansPro"
+						padding="35px 0px 20px 0px"
+						sm-height="auto"
+						sm-width="100%"
+						width="120%"
+						moy-width="100%"
+						sm-font="600 30px/45px --fontFamily-googleSourceSansPro"
+					>
+						Как получить электронную визу?
+					</Text>
+					<Text
+						color="#333333"
+						font="300 20px/1.55 sans-serif"
+						lg-position="relative"
+						lg-bottom={0}
+						sm-width="100%"
+						sm-font="200 16px --fontFamily-googleSourceSansPro"
+						width="100%"
+						padding="0px 0px 35px 0px"
+						sm-height="auto"
+					>
+						Наш сервис сделан для туристов, которые хотят быстро и без ошибок оформить электронную визу в Россию.{" "}
+						<Strong
+							overflow-wrap="normal"
+							word-break="normal"
+							white-space="normal"
+							text-indent="0"
+							text-overflow="clip"
+							hyphens="manual"
+						>
+							Оформление займет не больше 5 минут
+						</Strong>
+						, так как большинство данных, необходимых для оформления визы, будет взято из копии вашего документа и автоматически распознано с помощью нейросети.
+						<br />
+						<br />
+						В случае заполнения с ПК, вы с легкостью сможете прикрепить Ваше фото и копию документа, отсканировав QR-код, при помощи Вашего мобильного устройства. Форма поддерживает более 100 языков, вы сможете заполнить все данные на родном Вам языке.{" \n\n"}
+					</Text>
+					{"    "}
+				</StackItem>
+				{"    "}
+				<StackItem width="50%" display="flex" moy-width="30%" sm-width="100%">
+					<Override slot="StackItemContent" />
+					{"        "}
+					<Image
+						width="64px"
+						height="64px"
+						src="https://uploads.quarkly.io/5f82bd438a25ab001e4e7636/images/VisaService%20(1).png?v=2020-10-11T10:56:17.020Z"
+						moy-width="100%"
+						moy-height="500px"
+						moy-position="relative"
+						moy-top="0px"
+						moy-right="150px"
+						moy-z-index="99"
+						sm-width="100%"
+						sm-height="100%"
+						sm-left="0px"
+						sm-top="110px"
+					/>
+					{"    "}
+				</StackItem>
+			</Stack>
 		</Section>
 		<Section
 			background="#f7f7f7 url(https://static.tildacdn.com/tild3532-6264-4463-a631-393261623939/mapWhite.png) 0% 0%/1200px no-repeat"
