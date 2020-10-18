@@ -828,6 +828,7 @@ export default (() => {
 						sm-left="160px"
 						moy-position="relative"
 						moy-left="35px"
+						sm-width="190px"
 					/>
 					<Image
 						width="400px"
@@ -842,7 +843,7 @@ export default (() => {
 						sm-position="relative"
 						sm-left="auto"
 						sm-height="300px"
-						sm-width="395px"
+						sm-width="290px"
 						nout-bottom="0px"
 						nout2-top="145px"
 						nout2-right="90px"
@@ -864,7 +865,7 @@ export default (() => {
 					border-radius="15px"
 					margin="100 0px 0px 0px"
 					box-shadow="0 6px 10px 0 rgba(0, 0, 0, 0.05)"
-					sm-width="65%"
+					sm-width="190px"
 				>
 					<Override slot="StackItemContent" flex-direction="column" />
 					<Image
@@ -883,6 +884,7 @@ export default (() => {
 						nout2-height="500px"
 						nout2-left="270px"
 						nout2-bottom="-125px"
+						sm-width="290px"
 					/>
 					{"        "}{"    "}
 				</StackItem>
@@ -1087,6 +1089,7 @@ export default (() => {
 						sm-left="160px"
 						moy-position="relative"
 						moy-left="35px"
+						sm-width="190px"
 					/>
 					<Image
 						width="400px"
@@ -1102,6 +1105,7 @@ export default (() => {
 						sm-left="auto"
 						sm-height="300px"
 						sm-right="120px"
+						sm-width="290px"
 					/>
 					{"        "}{"    "}
 				</StackItem>
