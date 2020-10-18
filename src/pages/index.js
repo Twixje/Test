@@ -60,7 +60,13 @@ export default (() => {
 				</StackItem>
 			</Stack>
 		</Section>
-		<Section lazy-load background="rgba(0, 0, 0, 0) url(https://static.tildacdn.com/tild6335-6165-4430-a265-343166313765/1.jpg) 0% 0% /auto repeat scroll padding-box" md-height="770px" padding="40px 0 40px 0">
+		<Section
+			lazy-load
+			background="rgba(0, 0, 0, 0) url(https://static.tildacdn.com/tild6335-6165-4430-a265-343166313765/1.jpg) 0% 0% /auto repeat scroll padding-box"
+			md-height="770px"
+			padding="40px 0 40px 0"
+			height="620px"
+		>
 			<Stack>
 				{"    "}
 				<StackItem width="50%" md-width="100%" margin="0px 0px 0px 0px">
@@ -165,8 +171,8 @@ export default (() => {
 				{"    "}
 				<StackItem width="50%" display="flex">
 					<Image
-						width="500px"
-						height="500px"
+						width="550px"
+						height="550px"
 						srcSet="https://static.tildacdn.com/tild6338-3235-4163-a262-303730343833/Layer_3.png"
 						md-width="300px"
 						md-height="300px"
@@ -185,7 +191,7 @@ export default (() => {
 				padding="20px 0px 20px 0px"
 				margin="-16px -16px -16px -16px"
 				position="relative"
-				bottom="80px"
+				bottom="120px"
 				nout-background="#ffffff"
 				background="#fff"
 				nout-left="0px"
