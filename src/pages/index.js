@@ -356,8 +356,34 @@ export default (() => {
 				{"    "}{"    "}
 			</Stack>
 		</Section>
-		<Section background="#f7f7f7" sm-height="100%">
-			<Override slot="SectionContent" sm-height="600px" width="100%" flex-direction="row" />
+		<Section sm-background="#f7f7f7">
+			<Override
+				slot="SectionContent"
+				sm-justify-content="center"
+				sm-align-items="center"
+				sm-height="100%"
+				sm-width="100%"
+			/>
+			<Image
+				width="64px"
+				height="64px"
+				src="https://uploads.quarkly.io/5f82bd438a25ab001e4e7636/images/VisaService%20(1).png?v=2020-10-11T10:56:17.020Z"
+				sm-width="50%"
+				sm-height="50%"
+				sm-position="relative"
+				sm-top="150px"
+				sm-z-index="999"
+			/>
+		</Section>
+		<Section background="#f7f7f7" sm-height="auto">
+			<Override
+				slot="SectionContent"
+				sm-height="600px"
+				width="100%"
+				flex-direction="row"
+				sm-justify-content="center"
+				sm-align-items="center"
+			/>
 			<StackItem
 				width="70%"
 				background="#fff"
@@ -367,26 +393,28 @@ export default (() => {
 				box-shadow="0 6px 10px 0 rgba(0, 0, 0, 0.05)"
 				position="relative"
 				z-index="50"
-				sm-width="100%"
+				sm-width="90%"
 				sm-margin="0px 0px 0px 0px"
 				sm-background="#fff"
 				sm-height="100%"
 				height="100%"
+				sm-max-height="470px"
 			>
 				<Override
 					slot="StackItemContent"
-					sm-flex-direction="column"
 					sm-padding="0px 15px 0px 15px"
 					width="77%"
 					height="100%"
 					flex-direction="column"
 					padding="0px 0px 0px 35px"
+					sm-width="100%"
+					sm-height="auto"
 				/>
 				{"        "}
 				<Text
 					font="600 40px/45px --fontFamily-googleSourceSansPro"
 					padding="35px 0px 20px 0px"
-					sm-height="50%"
+					sm-height="auto"
 					sm-width="100%"
 					width="120%"
 				>
@@ -399,7 +427,6 @@ export default (() => {
 					lg-bottom={0}
 					sm-width="100%"
 					sm-font="200 16px --fontFamily-googleSourceSansPro"
-					sm-height="100%"
 					width="100%"
 					padding="0px 0px 35px 0px"
 				>
@@ -419,39 +446,6 @@ export default (() => {
 					<br />
 					В случае заполнения с ПК, вы с легкостью сможете прикрепить Ваше фото и копию документа, отсканировав QR-код, при помощи Вашего мобильного устройства. Форма поддерживает более 100 языков, вы сможете заполнить все данные на родном Вам языке.{" \n\n"}
 				</Text>
-				{"    "}
-			</StackItem>
-			<StackItem
-				width="40%"
-				border-radius="15px"
-				margin="0px 0px 0px 0px"
-				padding="16px 16px 26px1 16px"
-				position="relative"
-				z-index="50"
-				sm-width="100%"
-				sm-margin="0px 0px 0px 0px"
-				sm-height="100%"
-				sm-background="#fff"
-			>
-				<Override
-					slot="StackItemContent"
-					sm-flex-direction="column"
-					sm-padding="0px 15px 0px 15px"
-					width="100%"
-					height="100%"
-					flex-direction="column"
-					padding="0px 0px 0px 35px"
-				/>
-				{"        "}
-				<Image
-					width="130%"
-					height="100%"
-					src="https://uploads.quarkly.io/5f82bd438a25ab001e4e7636/images/VisaService%20(1).png?v=2020-10-11T10:56:17.020Z"
-					object-position="50% 50%"
-					object-fit="cover"
-					position="relative"
-					right="200px"
-				/>
 				{"    "}
 			</StackItem>
 		</Section>
