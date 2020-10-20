@@ -1191,8 +1191,17 @@ export default (() => {
 								src="https://static.tildacdn.com/tild3333-3039-4265-b636-353563623661/PSI_DSS.jpg"
 								margin="15px 15px 0px 150px"
 								sm-margin="15px 0px 0px 0px"
+								px-width="120px"
+								px-height="68px"
 							/>
-							<Image width="70px" height="70px" src="https://static.tildacdn.com/tild3964-3562-4661-a235-323937613461/ssl.jpg" margin="15px 15px 0px 0px" />
+							<Image
+								width="70px"
+								height="70px"
+								src="https://static.tildacdn.com/tild3964-3562-4661-a235-323937613461/ssl.jpg"
+								margin="15px 15px 0px 0px"
+								px-width="120px"
+								px-height="68px"
+							/>
 						</Box>
 					</Box>
 					{"    "}
