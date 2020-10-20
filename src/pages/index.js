@@ -2039,6 +2039,7 @@ Account No. IT29G0306933082100000004613
 							as="input"
 							px-font="normal 300 20px/1.5 --fontFamily-googleSourceSansPro"
 							moy-border-width="0px 0px 1px 0px"
+							placeholder="Ваше имя"
 						/>
 						<Input
 							width="100%"
@@ -2048,12 +2049,13 @@ Account No. IT29G0306933082100000004613
 							sm-width="100%"
 							px-border-color="#c4c4c4"
 							px-border-style="1px solid"
-							type="number"
+							type="tel"
 							name="Телефон"
 							required={false}
 							disabled={false}
 							px-font="normal 300 20px/1.5 --fontFamily-googleSourceSansPro"
 							moy-border-width="0px 0px 1px 0px"
+							placeholder="Ваш телефон"
 						/>
 						<Input
 							width="100%"
@@ -2069,6 +2071,7 @@ Account No. IT29G0306933082100000004613
 							px-height="85px"
 							px-font="normal 300 20px/1.5 --fontFamily-googleSourceSansPro"
 							moy-border-width="0px 0px 1px 0px"
+							placeholder="Ваш вопрос"
 						/>
 						<Stack>
 							{"    "}
