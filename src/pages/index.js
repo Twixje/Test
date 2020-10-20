@@ -7,10 +7,19 @@ export default (() => {
 	return <Theme theme={theme}>
 		<Helmet>
 			<title>
-				Quarkly export
+				Электронная виза в Россию от TravelRussiaToday
 			</title>
-			<meta name={"description"} content={"Web site created using quarkly.io"} />
-			<link rel={"shortcut icon"} href={"https://uploads.quarkly.io/readme/cra/favicon-32x32.ico"} type={"image/x-icon"} />
+			<meta name={"description"} content={"Электронная виза в Россию"} />
+			<meta property={"og:title"} content={"Электронная виза в Россию от TravelRussiaToday"} />
+			<meta property={"og:description"} content={"Электронная виза в Россию от TravelRussiaToday"} />
+			<meta property={"og:image"} content={"https://static.tildacdn.com/tild3365-3965-4062-b565-333661316334/logo2.svg"} />
+			<link rel={"shortcut icon"} href={"https://uploads.quarkly.io/5f82bd438a25ab001e4e7636/images/favicons.png?v=2020-10-20T08:26:54.650Z"} type={"image/x-icon"} />
+			<link rel={"apple-touch-icon"} href={"https://uploads.quarkly.io/5f82bd438a25ab001e4e7636/images/favicons.png?v=2020-10-20T08:26:54.650Z"} />
+			<link rel={"apple-touch-icon"} sizes={"76x76"} href={"https://uploads.quarkly.io/5f82bd438a25ab001e4e7636/images/favicons.png?v=2020-10-20T08:26:54.650Z"} />
+			<link rel={"apple-touch-icon"} sizes={"152x152"} href={"https://uploads.quarkly.io/5f82bd438a25ab001e4e7636/images/favicons.png?v=2020-10-20T08:26:54.650Z"} />
+			<link rel={"apple-touch-startup-image"} href={"https://uploads.quarkly.io/5f82bd438a25ab001e4e7636/images/favicons.png?v=2020-10-20T08:26:54.650Z"} />
+			<meta name={"msapplication-TileImage"} content={"https://uploads.quarkly.io/5f82bd438a25ab001e4e7636/images/favicons.png?v=2020-10-20T08:26:54.650Z"} />
+			<meta name={"msapplication-TileColor"} content={"https://uploads.quarkly.io/5f82bd438a25ab001e4e7636/images/favicons.png?v=2020-10-20T08:26:54.650Z"} />
 		</Helmet>
 		<Section padding="10px 0 10px 0" max-width="100%" px-padding="0px 0 0px 0" px-height="70px">
 			<Stack>
