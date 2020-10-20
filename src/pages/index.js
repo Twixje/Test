@@ -27,7 +27,7 @@ export default (() => {
 			px-padding="0px 0 0px 0"
 			px-height="70px"
 			px-width="100%"
-			width="1521px"
+			width="100%"
 			lg-width="100%"
 			moy-width="100%"
 		>
