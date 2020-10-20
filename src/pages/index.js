@@ -425,8 +425,8 @@ export default (() => {
 				>
 					<Override slot="StackItemContent" px-width="100%" px-height="100%" />
 					<Image
-						width="64px"
-						height="64px"
+						width="100%"
+						height="100%"
 						src="https://uploads.quarkly.io/5f82bd438a25ab001e4e7636/images/VisaService%20(1).png?v=2020-10-11T10:56:17.020Z"
 						px-width="100%"
 						px-height="100%"
