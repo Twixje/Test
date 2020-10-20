@@ -1881,6 +1881,13 @@ export default (() => {
 							Контакты
 						</Text>
 					</Box>
+					<Box
+						width="30%"
+						height="2px"
+						min-height={0}
+						background="#d4bd6a"
+						px-margin="0px 0px 0px 67px"
+					/>
 					<Text
 						color="#333333"
 						font="200 20px --fontFamily-googleSourceSansPro"
