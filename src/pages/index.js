@@ -1953,7 +1953,7 @@ export default (() => {
 								color="#333333"
 								font="400 20px/33.6px --fontFamily-googleSourceSansPro"
 							>
-								+7 (705) 385-58-55)
+								+7 (705) 385-58-55
 							</Link>
 						</Text>
 					</Box>
@@ -2042,6 +2042,8 @@ Account No. IT29G0306933082100000004613
 							placeholder="Ваше имя"
 							padding="6px 16px 6px 0px"
 							px-border-width="0px 0px 1px 0px"
+							required
+							disabled={false}
 						/>
 						<Input
 							width="100%"
