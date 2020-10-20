@@ -150,7 +150,7 @@ export default (() => {
 					/>
 					<Box
 						max-width="480px"
-						height="85px"
+						height="100%"
 						background="#FFF"
 						border-width="0px"
 						border-color="#c1a050"
@@ -434,10 +434,11 @@ export default (() => {
 					sm-height="30%"
 					moy-width="30%"
 					moy-height="100%"
+					width="30%"
 				>
-					<Override slot="StackItemContent" px-width="100%" px-height="100%" />
+					<Override slot="StackItemContent" px-width="100%" px-height="100%" width="100%" />
 					<Image
-						width="100%"
+						width="30%"
 						height="100%"
 						src="https://uploads.quarkly.io/5f82bd438a25ab001e4e7636/images/VisaService%20(1).png?v=2020-10-11T10:56:17.020Z"
 						px-width="100%"
