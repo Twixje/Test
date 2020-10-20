@@ -585,6 +585,7 @@ export default (() => {
 							hyphens="manual"
 							moy-color="#c1a050"
 							moy-font="500 20px/31px &quot;Source Sans Pro&quot;, sans-serif"
+							px-color="#c1a050"
 						>
 							Перейти →{" "}
 						</Strong>
@@ -1888,7 +1889,9 @@ export default (() => {
 						sm-text-align="center"
 						sm-padding="0px 0px 0px 0px"
 					>
-						Как получить промокод
+						<Link href="#" px-color="#333333" px-hover-color="#c1a050">
+							Как получить промокод
+						</Link>
 					</Text>
 					<Text
 						color="#333333"
@@ -1898,7 +1901,9 @@ export default (() => {
 						sm-text-align="center"
 						sm-padding="0px 0px 0px 0px"
 					>
-						Партенерская программа
+						<Link href="#" px-color="#333333" px-hover-color="#c1a050">
+							Партенерская программа
+						</Link>
 					</Text>
 					<Box
 						padding="0 0 0 64px"
