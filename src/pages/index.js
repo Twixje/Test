@@ -2025,6 +2025,7 @@ Account No. IT29G0306933082100000004613
 							type="text"
 							name="Ваше имя"
 							as="input"
+							px-font="normal 300 20px/1.5 --fontFamily-googleSourceSansPro"
 						/>
 						<Input
 							width="100%"
@@ -2038,6 +2039,7 @@ Account No. IT29G0306933082100000004613
 							name="Телефон"
 							required={false}
 							disabled={false}
+							px-font="normal 300 20px/1.5 --fontFamily-googleSourceSansPro"
 						/>
 						<Input
 							width="100%"
@@ -2050,6 +2052,8 @@ Account No. IT29G0306933082100000004613
 							type="text"
 							name="Ваш вопрос"
 							as="textarea"
+							px-height="85px"
+							px-font="normal 300 20px/1.5 --fontFamily-googleSourceSansPro"
 						/>
 						<Stack>
 							{"    "}
