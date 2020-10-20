@@ -148,6 +148,7 @@ export default (() => {
 						sm-border-color="#a98428"
 						sm-margin="0px 0px 0px 0px"
 						sm-padding="0px 0px 0px 0px"
+						border-left="1px solid #d4bd6a"
 					>
 						<Text
 							font="18PX --fontFamily-googleSourceSansPro"
@@ -1991,7 +1992,7 @@ Account No. IT29G0306933082100000004613
 							height="50px"
 							sm-width="100%"
 							px-border-color="#c4c4c4"
-							px-border-style="none"
+							px-border-style="1px solid"
 						/>
 						<Input
 							width="100%"
@@ -2000,16 +2001,16 @@ Account No. IT29G0306933082100000004613
 							height="50px"
 							sm-width="100%"
 							px-border-color="#c4c4c4"
-							px-border-style="none"
+							px-border-style="1px solid"
 						/>
 						<Input
 							width="100%"
 							border-width="1px"
-							height="50px"
 							margin="0px 0px 30px 0px"
+							height="50px"
 							sm-width="100%"
 							px-border-color="#c4c4c4"
-							px-border-style="none"
+							px-border-style="1px solid"
 						/>
 						<Stack>
 							{"    "}
