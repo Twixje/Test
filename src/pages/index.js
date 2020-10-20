@@ -32,7 +32,7 @@ export default (() => {
 						padding="0px 0px 0px 0"
 						sm-display="none"
 					/>
-					<Text margin="16px 0px 16px 10px" sm-display="none" px-font="20px --fontFamily-googleSourceSansPro">
+					<Text margin="16px 0px 16px 10px" sm-display="none" px-font="20px --fontFamily-googleSourceSansPro" font="20px --fontFamily-googleSourceSansPro">
 						+7 (707) 535-55-55
 					</Text>
 					<Image
@@ -100,6 +100,7 @@ export default (() => {
 							hyphens="manual"
 							sm-font="normal 600 30px/0.7 &quot;Source Sans Pro&quot;, sans-serif"
 							sm-text-align="left"
+							font="600 48px --fontFamily-googleSourceSansPro"
 						>
 							Электронная виза и{" "}
 							<br />
@@ -116,6 +117,7 @@ export default (() => {
 						background="#c1a050"
 						margin="0px 0px 30px 0px"
 						hover-background="#cbab58"
+						font="normal 300 16px/1.5 --fontFamily-googleSourceSansPro"
 					>
 						ОФОРМИТЬ ВИЗУ
 					</Button>
@@ -148,7 +150,7 @@ export default (() => {
 						sm-padding="0px 0px 0px 0px"
 					>
 						<Text
-							font="18PX sans-serif"
+							font="18PX --fontFamily-googleSourceSansPro"
 							padding="0px 0px 0px 20px"
 							md-text-align="center"
 							color="#2a2a2a"
@@ -167,7 +169,7 @@ export default (() => {
 							</Strong>
 						</Text>
 						<Text
-							font="18PX sans-serif"
+							font="18PX --fontFamily-googleSourceSansPro"
 							padding="0px 0px 0px 20px"
 							md-text-align="center"
 							color="#2a2a2a"
@@ -240,7 +242,7 @@ export default (() => {
 						sm-height="50px"
 						sm-padding="0px 25px 0px 0px"
 					/>
-					<Text font="normal 400 22px/1.5 --fontFamily-googleOpenSans" color="#2a2a2a" lg-text-align="center" sm-font="normal 400 18px/1.5 --fontFamily-googleOpenSans">
+					<Text font="normal 400 22px/1.5 --fontFamily-googleSourceSansPro" color="#2a2a2a" lg-text-align="center" sm-font="normal 400 18px/1.5 --fontFamily-googleOpenSans">
 						Бизнес виза
 						<br />
 					</Text>
@@ -270,7 +272,7 @@ export default (() => {
 						sm-padding="0px 25px 0px 0px"
 					/>
 					<Text
-						font="normal 400 22px/1.5 --fontFamily-googleOpenSans"
+						font="normal 400 22px/1.5 --fontFamily-googleSourceSansPro"
 						color="#2a2a2a"
 						lg-text-align="center"
 						nout-text-align="center"
@@ -306,7 +308,7 @@ export default (() => {
 						sm-padding="0px 25px 0px 0px"
 					/>
 					<Text
-						font="normal 400 22px/1.5 --fontFamily-googleOpenSans"
+						font="normal 400 22px/1.5 --fontFamily-googleSourceSansPro"
 						color="#2a2a2a"
 						lg-text-align="center"
 						nout-text-align="center"
@@ -341,7 +343,7 @@ export default (() => {
 						sm-padding="0px 25px 0px 0px"
 					/>
 					<Text
-						font="normal 400 22px/1.5 --fontFamily-googleOpenSans"
+						font="normal 400 22px/1.5 --fontFamily-googleSourceSansPro"
 						color="#2a2a2a"
 						lg-text-align="center"
 						nout-text-align="center"
@@ -374,7 +376,7 @@ export default (() => {
 						sm-height="50px"
 						sm-padding="0px 25px 0px 0px"
 					/>
-					<Text font="normal 400 22px/1.5 --fontFamily-googleOpenSans" color="#2a2a2a" lg-text-align="center" sm-font="normal 400 18px/1.5 --fontFamily-googleOpenSans">
+					<Text font="normal 400 22px/1.5 --fontFamily-googleSourceSansPro" color="#2a2a2a" lg-text-align="center" sm-font="normal 400 18px/1.5 --fontFamily-googleOpenSans">
 						Научная виза
 					</Text>
 				</StackItem>
@@ -425,6 +427,10 @@ export default (() => {
 						px-position="relative"
 						px-right="65%"
 						sm-left="0px"
+						right="0px"
+						left="-65%"
+						moy-width="100%"
+						moy-height="100%"
 					/>
 				</StackItem>
 				<StackItem
@@ -475,7 +481,7 @@ export default (() => {
 					<Box width="30%" height="2px" min-height={0} background="#d4bd6a" />
 					<Text
 						color="#333333"
-						font="300 20px/1.55 sans-serif"
+						font="300 20px/1.55 --fontFamily-googleSourceSansPro"
 						lg-position="relative"
 						lg-bottom={0}
 						sm-width="100%"
@@ -784,6 +790,7 @@ export default (() => {
 					hyphens="manual"
 					moy-margin="0px 0px 0px 0px"
 					moy-padding="0px 0px 0px 0px"
+					font="700 40px --fontFamily-googleSourceSansPro"
 				>
 					Преимущества нашего сервиса
 				</Strong>
@@ -1236,6 +1243,7 @@ export default (() => {
 					text-indent="0"
 					text-overflow="clip"
 					hyphens="manual"
+					font="700 20px --fontFamily-googleSourceSansPro"
 				>
 					Google
 				</Strong>
@@ -1861,7 +1869,7 @@ Account No. IT29G0306933082100000004613
 					>
 						<Text
 							as="h3"
-							font="--headline3"
+							font="normal 500 28px/1.2 --fontFamily-googleSourceSansPro"
 							margin="0 0 20px 0"
 							color="#333333"
 							width="410px"
@@ -1958,7 +1966,7 @@ Account No. IT29G0306933082100000004613
 					<Override slot="StackItemContent" align-items="center" justify-content="center" />
 					{"        "}
 					<Text
-						font="--lead"
+						font="normal 300 20px/1.5 --fontFamily-googleSourceSansPro"
 						margin="0px 0px 0px 0px"
 						display="inline-block"
 						text-decoration-line="underline"
@@ -1972,7 +1980,7 @@ Account No. IT29G0306933082100000004613
 					<Override slot="StackItemContent" align-items="center" justify-content="center" />
 					{"        "}
 					<Text
-						font="--lead"
+						font="normal 300 20px/1.5 --fontFamily-googleSourceSansPro"
 						margin="0px 0px 0px 0px"
 						display="inline-block"
 						text-decoration-line="underline"
@@ -1986,7 +1994,7 @@ Account No. IT29G0306933082100000004613
 					<Override slot="StackItemContent" align-items="center" justify-content="center" />
 					{"        "}
 					<Text
-						font="--lead"
+						font="normal 300 20px/1.5 --fontFamily-googleSourceSansPro"
 						margin="0px 0px 0px 0px"
 						display="inline-block"
 						text-decoration-line="underline"
