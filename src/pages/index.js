@@ -2033,13 +2033,15 @@ Account No. IT29G0306933082100000004613
 							height="50px"
 							sm-width="100%"
 							px-border-color="#c4c4c4"
-							px-border-style="1px solid"
+							px-border-style="solid"
 							type="text"
 							name="Ваше имя"
 							as="input"
 							px-font="normal 300 20px/1.5 --fontFamily-googleSourceSansPro"
 							moy-border-width="0px 0px 1px 0px"
 							placeholder="Ваше имя"
+							padding="6px 16px 6px 0px"
+							px-border-width="0px 0px 1px 0px"
 						/>
 						<Input
 							width="100%"
@@ -2048,7 +2050,7 @@ Account No. IT29G0306933082100000004613
 							height="50px"
 							sm-width="100%"
 							px-border-color="#c4c4c4"
-							px-border-style="1px solid"
+							px-border-style="solid"
 							type="tel"
 							name="Телефон"
 							required={false}
@@ -2056,6 +2058,8 @@ Account No. IT29G0306933082100000004613
 							px-font="normal 300 20px/1.5 --fontFamily-googleSourceSansPro"
 							moy-border-width="0px 0px 1px 0px"
 							placeholder="Ваш телефон"
+							padding="6px 16px 6px 0px"
+							px-border-width="0px 0px 1px 0px"
 						/>
 						<Input
 							width="100%"
@@ -2064,7 +2068,7 @@ Account No. IT29G0306933082100000004613
 							height="50px"
 							sm-width="100%"
 							px-border-color="#c4c4c4"
-							px-border-style="1px solid"
+							px-border-style="solid"
 							type="text"
 							name="Ваш вопрос"
 							as="textarea"
@@ -2072,6 +2076,8 @@ Account No. IT29G0306933082100000004613
 							px-font="normal 300 20px/1.5 --fontFamily-googleSourceSansPro"
 							moy-border-width="0px 0px 1px 0px"
 							placeholder="Ваш вопрос"
+							padding="6px 16px 6px 0px"
+							px-border-width="0px 0px 1px 0px"
 						/>
 						<Stack>
 							{"    "}
