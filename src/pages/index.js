@@ -1990,6 +1990,8 @@ Account No. IT29G0306933082100000004613
 							margin="0px 0px 30px 0px"
 							height="50px"
 							sm-width="100%"
+							px-border-color="#c4c4c4"
+							px-border-style="none"
 						/>
 						<Input
 							width="100%"
@@ -1997,6 +1999,8 @@ Account No. IT29G0306933082100000004613
 							margin="0px 0px 30px 0px"
 							height="50px"
 							sm-width="100%"
+							px-border-color="#c4c4c4"
+							px-border-style="none"
 						/>
 						<Input
 							width="100%"
@@ -2004,6 +2008,8 @@ Account No. IT29G0306933082100000004613
 							height="50px"
 							margin="0px 0px 30px 0px"
 							sm-width="100%"
+							px-border-color="#c4c4c4"
+							px-border-style="none"
 						/>
 						<Stack>
 							{"    "}
