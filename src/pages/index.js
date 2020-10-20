@@ -27,6 +27,8 @@ export default (() => {
 			px-padding="0px 0 0px 0"
 			px-height="70px"
 			px-width="1521px"
+			width="1521px"
+			lg-width="100%"
 		>
 			<Stack>
 				{"    "}
