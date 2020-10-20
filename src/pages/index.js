@@ -1,6 +1,6 @@
 import React from "react";
 import theme from "theme";
-import { Theme, Image, Text, Span, Button, Strong, Box, Input, Link } from "@quarkly/widgets";
+import { Theme, Image, Text, Span, Button, Strong, Box, Link, Input } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { StackItem, Override, Stack, Section, Formspree } from "@quarkly/components";
 export default (() => {
@@ -1245,7 +1245,9 @@ export default (() => {
 					hyphens="manual"
 					font="700 20px --fontFamily-googleSourceSansPro"
 				>
-					Google
+					<Link href="#" px-color="#333333">
+						Google
+					</Link>
 				</Strong>
 			</Text>
 			<Stack margin="50px -16px -16px -16px" padding="0px 0px 0px 0" md-justify-content="center">
@@ -1292,27 +1294,58 @@ export default (() => {
 							</Text>
 							<Stack>
 								{"    "}
-								<StackItem width="15%" display="flex">
+								<StackItem
+									width="15%"
+									display="flex"
+									px-width="10%"
+									px-height="100%"
+									px-padding="16px 0px 16px 10px"
+									px-margin="0px 0px 0px 5px"
+								>
 									{"        "}
 									<Image width="64px" height="64px" src="https://static.tildacdn.com/tild6433-6532-4638-a636-336639313036/star.svg" />
 									{"    "}
 								</StackItem>
-								<StackItem width="15%" display="flex">
+								<StackItem
+									width="15%"
+									display="flex"
+									px-width="10%"
+									px-height="100%"
+									px-padding="16px 0px 16px 10px"
+								>
 									{"        "}
 									<Image width="64px" height="64px" src="https://static.tildacdn.com/tild6433-6532-4638-a636-336639313036/star.svg" />
 									{"    "}
 								</StackItem>
-								<StackItem width="15%" display="flex">
+								<StackItem
+									width="15%"
+									display="flex"
+									px-width="10%"
+									px-height="100%"
+									px-padding="16px 0px 16px 10px"
+								>
 									{"        "}
 									<Image width="64px" height="64px" src="https://static.tildacdn.com/tild6433-6532-4638-a636-336639313036/star.svg" />
 									{"    "}
 								</StackItem>
-								<StackItem width="15%" display="flex">
+								<StackItem
+									width="15%"
+									display="flex"
+									px-width="10%"
+									px-height="100%"
+									px-padding="16px 0px 16px 10px"
+								>
 									{"        "}
 									<Image width="64px" height="64px" src="https://static.tildacdn.com/tild6433-6532-4638-a636-336639313036/star.svg" />
 									{"    "}
 								</StackItem>
-								<StackItem width="15%" display="flex">
+								<StackItem
+									width="15%"
+									display="flex"
+									px-width="10%"
+									px-height="100%"
+									px-padding="16px 0px 16px 10px"
+								>
 									{"        "}
 									<Image width="64px" height="64px" src="https://static.tildacdn.com/tild6433-6532-4638-a636-336639313036/star.svg" />
 									{"    "}
@@ -1365,27 +1398,58 @@ export default (() => {
 							</Text>
 							<Stack>
 								{"    "}
-								<StackItem width="15%" display="flex">
+								<StackItem
+									width="15%"
+									display="flex"
+									px-width="10%"
+									px-height="100%"
+									px-padding="16px 0px 16px 10px"
+									px-margin="0px 0px 0px 5px"
+								>
 									{"        "}
 									<Image width="64px" height="64px" src="https://static.tildacdn.com/tild6433-6532-4638-a636-336639313036/star.svg" />
 									{"    "}
 								</StackItem>
-								<StackItem width="15%" display="flex">
+								<StackItem
+									width="15%"
+									display="flex"
+									px-width="10%"
+									px-height="100%"
+									px-padding="16px 0px 16px 10px"
+								>
 									{"        "}
 									<Image width="64px" height="64px" src="https://static.tildacdn.com/tild6433-6532-4638-a636-336639313036/star.svg" />
 									{"    "}
 								</StackItem>
-								<StackItem width="15%" display="flex">
+								<StackItem
+									width="15%"
+									display="flex"
+									px-width="10%"
+									px-height="100%"
+									px-padding="16px 0px 16px 10px"
+								>
 									{"        "}
 									<Image width="64px" height="64px" src="https://static.tildacdn.com/tild6433-6532-4638-a636-336639313036/star.svg" />
 									{"    "}
 								</StackItem>
-								<StackItem width="15%" display="flex">
+								<StackItem
+									width="15%"
+									display="flex"
+									px-width="10%"
+									px-height="100%"
+									px-padding="16px 0px 16px 10px"
+								>
 									{"        "}
 									<Image width="64px" height="64px" src="https://static.tildacdn.com/tild6433-6532-4638-a636-336639313036/star.svg" />
 									{"    "}
 								</StackItem>
-								<StackItem width="15%" display="flex">
+								<StackItem
+									width="15%"
+									display="flex"
+									px-width="10%"
+									px-height="100%"
+									px-padding="16px 0px 16px 10px"
+								>
 									{"        "}
 									<Image width="64px" height="64px" src="https://static.tildacdn.com/tild6433-6532-4638-a636-336639313036/star.svg" />
 									{"    "}
@@ -1435,37 +1499,68 @@ export default (() => {
 							<Text font="300 18px --fontFamily-googleSourceSansPro" color="#333333">
 								Наш сервис сделан для туристов которые хотят быстро и без ошибок оформить электронную визу в Россию. Оформление займет не больше 5 минут.
 							</Text>
-							<Stack>
-								{"    "}
-								<StackItem width="15%" display="flex">
-									{"        "}
-									<Image width="64px" height="64px" src="https://static.tildacdn.com/tild6433-6532-4638-a636-336639313036/star.svg" />
-									{"    "}
-								</StackItem>
-								<StackItem width="15%" display="flex">
-									{"        "}
-									<Image width="64px" height="64px" src="https://static.tildacdn.com/tild6433-6532-4638-a636-336639313036/star.svg" />
-									{"    "}
-								</StackItem>
-								<StackItem width="15%" display="flex">
-									{"        "}
-									<Image width="64px" height="64px" src="https://static.tildacdn.com/tild6433-6532-4638-a636-336639313036/star.svg" />
-									{"    "}
-								</StackItem>
-								<StackItem width="15%" display="flex">
-									{"        "}
-									<Image width="64px" height="64px" src="https://static.tildacdn.com/tild6433-6532-4638-a636-336639313036/star.svg" />
-									{"    "}
-								</StackItem>
-								<StackItem width="15%" display="flex">
-									{"        "}
-									<Image width="64px" height="64px" src="https://static.tildacdn.com/tild6433-6532-4638-a636-336639313036/star.svg" />
-									{"    "}
-								</StackItem>
-								{"    "}
-							</Stack>
 						</StackItem>
 					</Box>
+					<Stack>
+						{"    "}
+						<StackItem
+							width="15%"
+							display="flex"
+							px-width="10%"
+							px-height="100%"
+							px-padding="16px 0px 16px 10px"
+							px-margin="0px 0px 0px 5px"
+						>
+							{"        "}
+							<Image width="64px" height="64px" src="https://static.tildacdn.com/tild6433-6532-4638-a636-336639313036/star.svg" />
+							{"    "}
+						</StackItem>
+						<StackItem
+							width="15%"
+							display="flex"
+							px-width="10%"
+							px-height="100%"
+							px-padding="16px 0px 16px 10px"
+						>
+							{"        "}
+							<Image width="64px" height="64px" src="https://static.tildacdn.com/tild6433-6532-4638-a636-336639313036/star.svg" />
+							{"    "}
+						</StackItem>
+						<StackItem
+							width="15%"
+							display="flex"
+							px-width="10%"
+							px-height="100%"
+							px-padding="16px 0px 16px 10px"
+						>
+							{"        "}
+							<Image width="64px" height="64px" src="https://static.tildacdn.com/tild6433-6532-4638-a636-336639313036/star.svg" />
+							{"    "}
+						</StackItem>
+						<StackItem
+							width="15%"
+							display="flex"
+							px-width="10%"
+							px-height="100%"
+							px-padding="16px 0px 16px 10px"
+						>
+							{"        "}
+							<Image width="64px" height="64px" src="https://static.tildacdn.com/tild6433-6532-4638-a636-336639313036/star.svg" />
+							{"    "}
+						</StackItem>
+						<StackItem
+							width="15%"
+							display="flex"
+							px-width="10%"
+							px-height="100%"
+							px-padding="16px 0px 16px 10px"
+						>
+							{"        "}
+							<Image width="64px" height="64px" src="https://static.tildacdn.com/tild6433-6532-4638-a636-336639313036/star.svg" />
+							{"    "}
+						</StackItem>
+						{"    "}
+					</Stack>
 					{"    "}
 				</StackItem>
 				<StackItem
