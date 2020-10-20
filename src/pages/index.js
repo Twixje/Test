@@ -1916,7 +1916,18 @@ export default (() => {
 						sm-text-align="center"
 						sm-padding="0px 0px 0px 0px"
 					>
-						<Link href="#" px-color="#333333" px-hover-color="#c1a050" px-text-decoration-line="initial">
+						<Link
+							href="#"
+							px-color="#333333"
+							px-hover-color="#c1a050"
+							px-text-decoration-line="initial"
+							overflow-wrap="normal"
+							word-break="normal"
+							white-space="normal"
+							text-indent="0"
+							text-overflow="clip"
+							hyphens="manual"
+						>
 							Партенерская программа
 						</Link>
 					</Text>
