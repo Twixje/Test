@@ -167,6 +167,7 @@ export default (() => {
 						sm-margin="0px 0px 0px 0px"
 						sm-padding="0px 0px 0px 0px"
 						border-left="1px solid #d4bd6a"
+						px-height="100%"
 					>
 						<Text
 							font="18PX --fontFamily-googleSourceSansPro"
@@ -194,6 +195,8 @@ export default (() => {
 							color="#2a2a2a"
 							sm-padding="0px 0px 0px 0px"
 							sm-margin="16px 0px 16px 0px"
+							px-margin="16px 0px 16px 0px"
+							px-padding="0px 0px 0px 20px"
 						>
 							Мы вернем Вам деньги, если Вы не получите визу.
 						</Text>
