@@ -26,9 +26,10 @@ export default (() => {
 			max-width="100%"
 			px-padding="0px 0 0px 0"
 			px-height="70px"
-			px-width="1521px"
+			px-width="100%"
 			width="1521px"
 			lg-width="100%"
+			moy-width="100%"
 		>
 			<Stack>
 				{"    "}
@@ -2037,6 +2038,7 @@ Account No. IT29G0306933082100000004613
 							name="Ваше имя"
 							as="input"
 							px-font="normal 300 20px/1.5 --fontFamily-googleSourceSansPro"
+							moy-border-width="0px 0px 1px 0px"
 						/>
 						<Input
 							width="100%"
@@ -2051,6 +2053,7 @@ Account No. IT29G0306933082100000004613
 							required={false}
 							disabled={false}
 							px-font="normal 300 20px/1.5 --fontFamily-googleSourceSansPro"
+							moy-border-width="0px 0px 1px 0px"
 						/>
 						<Input
 							width="100%"
@@ -2065,6 +2068,7 @@ Account No. IT29G0306933082100000004613
 							as="textarea"
 							px-height="85px"
 							px-font="normal 300 20px/1.5 --fontFamily-googleSourceSansPro"
+							moy-border-width="0px 0px 1px 0px"
 						/>
 						<Stack>
 							{"    "}
