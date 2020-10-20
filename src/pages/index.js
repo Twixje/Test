@@ -21,7 +21,13 @@ export default (() => {
 			<meta name={"msapplication-TileImage"} content={"https://uploads.quarkly.io/5f82bd438a25ab001e4e7636/images/favicons.png?v=2020-10-20T08:26:54.650Z"} />
 			<meta name={"msapplication-TileColor"} content={"https://uploads.quarkly.io/5f82bd438a25ab001e4e7636/images/favicons.png?v=2020-10-20T08:26:54.650Z"} />
 		</Helmet>
-		<Section padding="10px 0 10px 0" max-width="100%" px-padding="0px 0 0px 0" px-height="70px">
+		<Section
+			padding="10px 0 10px 0"
+			max-width="100%"
+			px-padding="0px 0 0px 0"
+			px-height="70px"
+			px-width="1521px"
+		>
 			<Stack>
 				{"    "}
 				<StackItem width="40%" display="flex" md-width="40%" sm-width="30%">
@@ -1896,7 +1902,7 @@ export default (() => {
 						sm-text-align="center"
 						sm-padding="0px 0px 0px 0px"
 					>
-						<Link href="#" px-color="#333333" px-hover-color="#c1a050">
+						<Link href="#" px-color="#333333" px-hover-color="#c1a050" px-text-decoration-line="initial">
 							Как получить промокод
 						</Link>
 					</Text>
@@ -1908,7 +1914,7 @@ export default (() => {
 						sm-text-align="center"
 						sm-padding="0px 0px 0px 0px"
 					>
-						<Link href="#" px-color="#333333" px-hover-color="#c1a050">
+						<Link href="#" px-color="#333333" px-hover-color="#c1a050" px-text-decoration-line="initial">
 							Партенерская программа
 						</Link>
 					</Text>
@@ -2014,6 +2020,9 @@ Account No. IT29G0306933082100000004613
 							sm-width="100%"
 							px-border-color="#c4c4c4"
 							px-border-style="1px solid"
+							type="text"
+							name="Ваше имя"
+							as="input"
 						/>
 						<Input
 							width="100%"
@@ -2023,6 +2032,10 @@ Account No. IT29G0306933082100000004613
 							sm-width="100%"
 							px-border-color="#c4c4c4"
 							px-border-style="1px solid"
+							type="number"
+							name="Телефон"
+							required={false}
+							disabled={false}
 						/>
 						<Input
 							width="100%"
@@ -2032,6 +2045,9 @@ Account No. IT29G0306933082100000004613
 							sm-width="100%"
 							px-border-color="#c4c4c4"
 							px-border-style="1px solid"
+							type="text"
+							name="Ваш вопрос"
+							as="textarea"
 						/>
 						<Stack>
 							{"    "}
