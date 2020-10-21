@@ -544,6 +544,7 @@ export default (() => {
 			padding="24px 0 40px 0"
 			sm-height="100%"
 			md-height="100%"
+			px-background="#f7f7f7 url(https://static.tildacdn.com/tild3532-6264-4463-a631-393261623939/mapWhite.png) 40% 0%/1200px no-repeat"
 		>
 			<Stack
 				margin="50px- 50px -16px"
