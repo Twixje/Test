@@ -9,11 +9,11 @@ const customHtml = `
   margin: 0 auto;
   position: relative;
   overflow: hidden;
-  border:1px solid black;
+  border:0px solid black;
 }
 
 .mover-1 {
-  height: 150px;
+  height: 100px;
   width: 10000px;
   
   position: absolute;
@@ -27,8 +27,9 @@ const customHtml = `
 .mover-1 img {
   display:inline-block;
   vertical-align:middle;
-  width:100px;
+  width:85px;
   margin:0;
+  padding-left: 50px;
 }
 
 @keyframes moveSlideshow {
