@@ -27,7 +27,7 @@ const customHtml = `
 .mover-1 img {
   display:inline-block;
   vertical-align:middle;
-  width:85px;
+  width:100px;
   margin:0;
   padding-left: 50px;
   height: 100px !important;
