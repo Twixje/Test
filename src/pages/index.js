@@ -34,13 +34,27 @@ export default (() => {
 		>
 			<Stack>
 				{"    "}
-				<StackItem width="40%" display="flex" md-width="40%" sm-width="30%">
+				<StackItem
+					width="40%"
+					display="flex"
+					md-width="40%"
+					sm-width="30%"
+					px-height="91px"
+					px-padding="16px 16px 16px 16px"
+					px-margin="0px 0px 0px 0px"
+				>
 					{"        "}
 					<Image width="118px" height="59px" src="https://static.tildacdn.com/tild3365-3965-4062-b565-333661316334/logo2.svg" />
 					{"    "}
 				</StackItem>
 				{"    "}
-				<StackItem width="60%" display="flex" md-width="60%" sm-width="70%">
+				<StackItem
+					width="60%"
+					display="flex"
+					md-width="60%"
+					sm-width="70%"
+					px-margin="0px 0px 0px 0px"
+				>
 					<Override slot="StackItemContent" display="flex" align-items="center" justify-content="flex-end" />
 					{"        "}
 					<Image
@@ -120,6 +134,7 @@ export default (() => {
 							sm-font="normal 600 30px/0.7 &quot;Source Sans Pro&quot;, sans-serif"
 							sm-text-align="left"
 							font="600 48px --fontFamily-googleSourceSansPro"
+							px-font="600 48px/1.55 --fontFamily-googleSourceSansPro"
 						>
 							Электронная виза и{" "}
 							<br />
