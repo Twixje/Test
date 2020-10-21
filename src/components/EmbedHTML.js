@@ -29,7 +29,7 @@ const customHtml = `
   vertical-align:middle;
   width:100px;
   margin:0;
-  padding-left: 50px;
+  padding-left: 150px;
   height: 100px !important;
 }
 
