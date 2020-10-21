@@ -13,7 +13,7 @@ const customHtml = `
 }
 
 .mover-1 {
-  height: 100px;
+  height: 100px !important;
   width: 10000px;
   
   position: absolute;
@@ -30,6 +30,7 @@ const customHtml = `
   width:85px;
   margin:0;
   padding-left: 50px;
+  height: 100px !important;
 }
 
 @keyframes moveSlideshow {
