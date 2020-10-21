@@ -3,6 +3,7 @@ import theme from "theme";
 import { Theme, Image, Text, Span, Button, Strong, Box, Link, Input } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { StackItem, Override, Stack, Section, Formspree } from "@quarkly/components";
+import * as Components from "components";
 export default (() => {
 	return <Theme theme={theme}>
 		<Helmet>
@@ -1691,135 +1692,7 @@ export default (() => {
 			>
 				Мы принимаем
 			</Text>
-			<Stack justify-content="center" width="100%">
-				{"    "}
-				<StackItem width="15%" display="flex" sm-height="15%" sm-width="15%">
-					{"        "}
-					<Image
-						width="100px"
-						height="100px"
-						srcSet="https://static.tildacdn.com/tild6566-3632-4635-b261-623861326630/11app.jpg"
-						sm-width="100%"
-						sm-height="100%"
-					/>
-					{"    "}
-				</StackItem>
-				<StackItem width="15%" display="flex" sm-height="15%">
-					{"        "}
-					<Image
-						width="100px"
-						height="100px"
-						srcSet="https://static.tildacdn.com/tild3730-6166-4664-b937-663966316663/12G.jpg"
-						sm-width="100%"
-						sm-height="100%"
-					/>
-					{"    "}
-				</StackItem>
-				<StackItem width="15%" display="flex">
-					{"        "}
-					<Image
-						width="100px"
-						height="100px"
-						srcSet="https://static.tildacdn.com/tild3334-6366-4730-b632-366635326563/14vis.jpg"
-						sm-width="100%"
-						sm-height="100%"
-					/>
-					{"    "}
-				</StackItem>
-				<StackItem width="15%" display="flex">
-					{"        "}
-					<Image
-						width="100px"
-						height="100px"
-						srcSet="https://static.tildacdn.com/tild6338-3665-4333-b230-343966666562/15ms.jpg"
-						sm-width="100%"
-						sm-height="100%"
-					/>
-					{"    "}
-				</StackItem>
-				<StackItem width="15%" display="flex">
-					{"        "}
-					<Image
-						width="100px"
-						height="100px"
-						srcSet="https://static.tildacdn.com/tild3536-3035-4831-a566-623165313564/16am.jpg"
-						sm-width="100%"
-						sm-height="100%"
-					/>
-					{"    "}
-				</StackItem>
-				<StackItem width="15%" display="flex">
-					{"        "}
-					<Image
-						width="100px"
-						height="100px"
-						srcSet="https://static.tildacdn.com/tild3232-6366-4565-b930-616338633063/17jsb.jpg"
-						sm-width="100%"
-						sm-height="100%"
-					/>
-					{"    "}
-				</StackItem>
-				<Stack justify-content="center" width="100%">
-					{"    "}
-					<StackItem width="15%" display="flex">
-						{"        "}
-						<Image
-							width="100px"
-							height="100px"
-							srcSet="https://static.tildacdn.com/tild3866-6365-4437-b033-663030316236/7giro.jpg"
-							sm-width="100%"
-							sm-height="100%"
-						/>
-						{"    "}
-					</StackItem>
-					<StackItem width="15%" display="flex">
-						{"        "}
-						<Image
-							width="100px"
-							height="100px"
-							srcSet="https://static.tildacdn.com/tild3764-3537-4136-a463-333037366636/8eps.jpg"
-							sm-width="100%"
-							sm-height="100%"
-						/>
-						{"    "}
-					</StackItem>
-					<StackItem width="15%" display="flex">
-						{"        "}
-						<Image
-							width="100px"
-							height="100px"
-							srcSet="https://static.tildacdn.com/tild6362-3566-4562-b565-623133356361/9cb.jpg"
-							sm-width="100%"
-							sm-height="100%"
-						/>
-						{"    "}
-					</StackItem>
-					<StackItem width="15%" display="flex">
-						{"        "}
-						<Image
-							width="100px"
-							height="100px"
-							srcSet="https://static.tildacdn.com/tild6130-3935-4534-b935-646233663131/10banc.jpg"
-							sm-width="100%"
-							sm-height="100%"
-						/>
-						{"    "}
-					</StackItem>
-					<StackItem width="15%" display="flex">
-						{"        "}
-						<Image
-							width="100px"
-							height="100px"
-							srcSet="https://static.tildacdn.com/tild6430-3665-4436-a133-666636656666/13ali.jpg"
-							sm-width="100%"
-							sm-height="100%"
-						/>
-						{"    "}
-					</StackItem>
-					{"    "}
-				</Stack>
-				{"    "}
-			</Stack>
+			<Components.EmbedHTML />
 		</Section>
 		<Section>
 			<Image
