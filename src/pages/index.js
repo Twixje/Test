@@ -514,6 +514,7 @@ export default (() => {
 						width="80%"
 						moy-width="100%"
 						sm-font="600 30px/45px --fontFamily-googleSourceSansPro"
+						moy-margin="16px 0px 10px 0px"
 					>
 						Как получить электронную визу?
 					</Text>
@@ -559,7 +560,7 @@ export default (() => {
 			padding="24px 0 40px 0"
 			sm-height="100%"
 			md-height="100%"
-			px-background="#f7f7f7 url(https://static.tildacdn.com/tild3532-6264-4463-a631-393261623939/mapWhite.png) 40% 0%/1200px no-repeat"
+			px-background="#f7f7f7 url(https://static.tildacdn.com/tild3532-6264-4463-a631-393261623939/mapWhite.png) center center/1200px no-repeat"
 		>
 			<Stack
 				margin="50px- 50px -16px"
@@ -1281,9 +1282,17 @@ export default (() => {
 			</Stack>
 		</Section>
 		<Section background="#f7f7f7" padding="24px 0 100px 0">
-			<Text text-align="center" font="600 40px --fontFamily-googleSourceSansPro" color="#333333" moy-margin="16px 0px 30px 0px">
+			<Text text-align="center" font="600 40px --fontFamily-googleSourceSansPro" color="#333333" moy-margin="16px 0px 10px 0px">
 				Отзывы клиентов
 			</Text>
+			<Box
+				width="30%"
+				height="2px"
+				min-height={0}
+				background="#d4bd6a"
+				px-margin="0px 0px 10px 545px"
+				px-width="15%"
+			/>
 			<Text font="300 20px --fontFamily-googleSourceSansPro" text-align="center" color="#333333" sm-font="300 16px --fontFamily-googleSourceSansPro">
 				Больше отзывов о нашем сервисе на{" "}
 				<Strong
@@ -1699,15 +1708,25 @@ export default (() => {
 			/>
 		</Section>
 		<Section>
+			<Override slot="SectionContent" px-justify-content="center" />
 			<Text
 				font="600 40px --fontFamily-googleSourceSansPro"
 				text-align="center"
 				color="#333333"
-				moy-margin="16px 0px 30px 0px"
+				moy-margin="16px 0px 10px 0px"
 				margin="16px 0px 60px 0px"
+				px-margin="16px 0px 10px 0px"
 			>
 				Мы принимаем
 			</Text>
+			<Box
+				width="30%"
+				height="2px"
+				min-height={0}
+				background="#d4bd6a"
+				px-margin="0px 0px 30px 545px"
+				px-width="15%"
+			/>
 			<Components.EmbedHTML />
 		</Section>
 		<Section>
@@ -1788,6 +1807,7 @@ export default (() => {
 							font="normal 600 40px/1.2 --fontFamily-googleSourceSansPro"
 							color="#333333"
 							sm-text-align="center"
+							moy-margin="6px 0 10px 0"
 						>
 							Контакты
 						</Text>
