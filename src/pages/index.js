@@ -442,6 +442,7 @@ export default (() => {
 				sm-justify-content="center"
 				sm-flex-direction="row"
 				px-flex-direction="row-reverse"
+				test-flex-direction="row-reverse"
 			>
 				{"    "}
 				<StackItem
@@ -470,6 +471,12 @@ export default (() => {
 						left="-65%"
 						moy-width="100%"
 						moy-height="100%"
+						test-width="500px"
+						test-height="400px"
+						test-right="0%"
+						test-left="-60%"
+						test-top="auto"
+						test-position="relative"
 					/>
 				</StackItem>
 				<StackItem
@@ -561,6 +568,7 @@ export default (() => {
 			sm-height="100%"
 			md-height="100%"
 			px-background="#f7f7f7 url(https://static.tildacdn.com/tild3532-6264-4463-a631-393261623939/mapWhite.png) center center/1200px no-repeat"
+			test-background="#f7f7f7 url(https://static.tildacdn.com/tild3532-6264-4463-a631-393261623939/mapWhite.png) 50% 50%/1200px no-repeat"
 		>
 			<Stack
 				margin="50px- 50px -16px"
@@ -591,7 +599,13 @@ export default (() => {
 					md-margin="0px 0px 0px 0px"
 				>
 					{"        "}
-					<Text font="normal 300 20px/1.55 --fontFamily-googleSourceSansPro" margin="0px 0px 0px 0px" display="inline-block" color="#333333">
+					<Text
+						font="normal 300 20px/1.55 --fontFamily-googleSourceSansPro"
+						margin="0px 0px 0px 0px"
+						display="inline-block"
+						color="#333333"
+						test-color="#d4b6a"
+					>
 						<Strong
 							overflow-wrap="normal"
 							word-break="normal"
@@ -617,6 +631,7 @@ export default (() => {
 							moy-color="#c1a050"
 							moy-font="500 20px/31px &quot;Source Sans Pro&quot;, sans-serif"
 							px-color="#c1a050"
+							test-color="#c1a050"
 						>
 							Перейти →{" "}
 						</Strong>
@@ -1215,6 +1230,8 @@ export default (() => {
 								sm-margin="15px 0px 0px 0px"
 								px-width="120px"
 								px-height="68px"
+								test-width="100%"
+								test-margin="15px 15px 0px 100px"
 							/>
 							<Image
 								width="70px"
@@ -1223,6 +1240,8 @@ export default (() => {
 								margin="15px 15px 0px 0px"
 								px-width="120px"
 								px-height="68px"
+								test-height="%100"
+								test-width="100%"
 							/>
 						</Box>
 					</Box>
@@ -1292,6 +1311,10 @@ export default (() => {
 				background="#d4bd6a"
 				px-margin="0px 0px 10px 545px"
 				px-width="15%"
+				test-margin="0px 0px 10px 0px"
+				test-position="relative"
+				test-left="550px"
+				test-width="15%"
 			/>
 			<Text font="300 20px --fontFamily-googleSourceSansPro" text-align="center" color="#333333" sm-font="300 16px --fontFamily-googleSourceSansPro">
 				Больше отзывов о нашем сервисе на{" "}
@@ -1304,7 +1327,7 @@ export default (() => {
 					hyphens="manual"
 					font="700 20px --fontFamily-googleSourceSansPro"
 				>
-					<Link href="#" px-color="#333333">
+					<Link href="#" px-color="#333333" test-color="#333333">
 						Google
 					</Link>
 				</Strong>
@@ -1359,10 +1382,17 @@ export default (() => {
 									px-width="10%"
 									px-height="100%"
 									px-padding="16px 0px 16px 10px"
-									px-margin="0px 0px 0px 5px"
+									test-padding="16px 0px 16px 10px"
 								>
+									<Override slot="StackItemContent" test-padding="0px 0px 0px 0px" test-justify-content="center" />
 									{"        "}
-									<Image width="64px" height="64px" src="https://static.tildacdn.com/tild6433-6532-4638-a636-336639313036/star.svg" />
+									<Image
+										width="64px"
+										height="64px"
+										src="https://static.tildacdn.com/tild6433-6532-4638-a636-336639313036/star.svg"
+										test-width="32px"
+										test-padding="0px 0px 0px 0px"
+									/>
 									{"    "}
 								</StackItem>
 								<StackItem
@@ -1371,9 +1401,17 @@ export default (() => {
 									px-width="10%"
 									px-height="100%"
 									px-padding="16px 0px 16px 10px"
+									test-padding="16px 0px 16px 0px"
 								>
+									<Override slot="StackItemContent" test-padding="0px 0px 0px 0px" test-justify-content="center" />
 									{"        "}
-									<Image width="64px" height="64px" src="https://static.tildacdn.com/tild6433-6532-4638-a636-336639313036/star.svg" />
+									<Image
+										width="64px"
+										height="64px"
+										src="https://static.tildacdn.com/tild6433-6532-4638-a636-336639313036/star.svg"
+										test-width="32px"
+										test-padding="0px 0px 0px 0px"
+									/>
 									{"    "}
 								</StackItem>
 								<StackItem
@@ -1382,9 +1420,17 @@ export default (() => {
 									px-width="10%"
 									px-height="100%"
 									px-padding="16px 0px 16px 10px"
+									test-padding="16px 0px 16px 0px"
 								>
+									<Override slot="StackItemContent" test-padding="0px 0px 0px 0px" test-justify-content="center" />
 									{"        "}
-									<Image width="64px" height="64px" src="https://static.tildacdn.com/tild6433-6532-4638-a636-336639313036/star.svg" />
+									<Image
+										width="64px"
+										height="64px"
+										src="https://static.tildacdn.com/tild6433-6532-4638-a636-336639313036/star.svg"
+										test-width="32px"
+										test-padding="0px 0px 0px 0px"
+									/>
 									{"    "}
 								</StackItem>
 								<StackItem
@@ -1393,9 +1439,17 @@ export default (() => {
 									px-width="10%"
 									px-height="100%"
 									px-padding="16px 0px 16px 10px"
+									test-padding="16px 0px 16px 0px"
 								>
+									<Override slot="StackItemContent" test-padding="0px 0px 0px 0px" test-justify-content="center" />
 									{"        "}
-									<Image width="64px" height="64px" src="https://static.tildacdn.com/tild6433-6532-4638-a636-336639313036/star.svg" />
+									<Image
+										width="64px"
+										height="64px"
+										src="https://static.tildacdn.com/tild6433-6532-4638-a636-336639313036/star.svg"
+										test-width="32px"
+										test-padding="0px 0px 0px 0px"
+									/>
 									{"    "}
 								</StackItem>
 								<StackItem
@@ -1404,9 +1458,17 @@ export default (() => {
 									px-width="10%"
 									px-height="100%"
 									px-padding="16px 0px 16px 10px"
+									test-padding="16px 0px 16px 0px"
 								>
+									<Override slot="StackItemContent" test-padding="0px 0px 0px 0px" test-justify-content="center" />
 									{"        "}
-									<Image width="64px" height="64px" src="https://static.tildacdn.com/tild6433-6532-4638-a636-336639313036/star.svg" />
+									<Image
+										width="64px"
+										height="64px"
+										src="https://static.tildacdn.com/tild6433-6532-4638-a636-336639313036/star.svg"
+										test-width="32px"
+										test-padding="0px 0px 0px 0px"
+									/>
 									{"    "}
 								</StackItem>
 								{"    "}
@@ -1455,68 +1517,107 @@ export default (() => {
 							<Text font="300 18px --fontFamily-googleSourceSansPro" color="#333333">
 								Наш сервис сделан для туристов которые хотят быстро и без ошибок оформить электронную визу в Россию. Оформление займет не больше 5 минут.
 							</Text>
-							<Stack>
-								{"    "}
-								<StackItem
-									width="15%"
-									display="flex"
-									px-width="10%"
-									px-height="100%"
-									px-padding="16px 0px 16px 10px"
-									px-margin="0px 0px 0px 5px"
-								>
-									{"        "}
-									<Image width="64px" height="64px" src="https://static.tildacdn.com/tild6433-6532-4638-a636-336639313036/star.svg" />
-									{"    "}
-								</StackItem>
-								<StackItem
-									width="15%"
-									display="flex"
-									px-width="10%"
-									px-height="100%"
-									px-padding="16px 0px 16px 10px"
-								>
-									{"        "}
-									<Image width="64px" height="64px" src="https://static.tildacdn.com/tild6433-6532-4638-a636-336639313036/star.svg" />
-									{"    "}
-								</StackItem>
-								<StackItem
-									width="15%"
-									display="flex"
-									px-width="10%"
-									px-height="100%"
-									px-padding="16px 0px 16px 10px"
-								>
-									{"        "}
-									<Image width="64px" height="64px" src="https://static.tildacdn.com/tild6433-6532-4638-a636-336639313036/star.svg" />
-									{"    "}
-								</StackItem>
-								<StackItem
-									width="15%"
-									display="flex"
-									px-width="10%"
-									px-height="100%"
-									px-padding="16px 0px 16px 10px"
-								>
-									{"        "}
-									<Image width="64px" height="64px" src="https://static.tildacdn.com/tild6433-6532-4638-a636-336639313036/star.svg" />
-									{"    "}
-								</StackItem>
-								<StackItem
-									width="15%"
-									display="flex"
-									px-width="10%"
-									px-height="100%"
-									px-padding="16px 0px 16px 10px"
-								>
-									{"        "}
-									<Image width="64px" height="64px" src="https://static.tildacdn.com/tild6433-6532-4638-a636-336639313036/star.svg" />
-									{"    "}
-								</StackItem>
-								{"    "}
-							</Stack>
 						</StackItem>
 					</Box>
+					<Stack>
+						{"    "}
+						<StackItem
+							width="15%"
+							display="flex"
+							px-width="10%"
+							px-height="100%"
+							px-padding="16px 0px 16px 10px"
+							test-padding="16px 0px 16px 10px"
+						>
+							<Override slot="StackItemContent" test-padding="0px 0px 0px 0px" test-justify-content="center" />
+							{"        "}
+							<Image
+								width="64px"
+								height="64px"
+								src="https://static.tildacdn.com/tild6433-6532-4638-a636-336639313036/star.svg"
+								test-width="32px"
+								test-padding="0px 0px 0px 0px"
+							/>
+							{"    "}
+						</StackItem>
+						<StackItem
+							width="15%"
+							display="flex"
+							px-width="10%"
+							px-height="100%"
+							px-padding="16px 0px 16px 10px"
+							test-padding="16px 0px 16px 0px"
+						>
+							<Override slot="StackItemContent" test-padding="0px 0px 0px 0px" test-justify-content="center" />
+							{"        "}
+							<Image
+								width="64px"
+								height="64px"
+								src="https://static.tildacdn.com/tild6433-6532-4638-a636-336639313036/star.svg"
+								test-width="32px"
+								test-padding="0px 0px 0px 0px"
+							/>
+							{"    "}
+						</StackItem>
+						<StackItem
+							width="15%"
+							display="flex"
+							px-width="10%"
+							px-height="100%"
+							px-padding="16px 0px 16px 10px"
+							test-padding="16px 0px 16px 0px"
+						>
+							<Override slot="StackItemContent" test-padding="0px 0px 0px 0px" test-justify-content="center" />
+							{"        "}
+							<Image
+								width="64px"
+								height="64px"
+								src="https://static.tildacdn.com/tild6433-6532-4638-a636-336639313036/star.svg"
+								test-width="32px"
+								test-padding="0px 0px 0px 0px"
+							/>
+							{"    "}
+						</StackItem>
+						<StackItem
+							width="15%"
+							display="flex"
+							px-width="10%"
+							px-height="100%"
+							px-padding="16px 0px 16px 10px"
+							test-padding="16px 0px 16px 0px"
+						>
+							<Override slot="StackItemContent" test-padding="0px 0px 0px 0px" test-justify-content="center" />
+							{"        "}
+							<Image
+								width="64px"
+								height="64px"
+								src="https://static.tildacdn.com/tild6433-6532-4638-a636-336639313036/star.svg"
+								test-width="32px"
+								test-padding="0px 0px 0px 0px"
+							/>
+							{"    "}
+						</StackItem>
+						<StackItem
+							width="15%"
+							display="flex"
+							px-width="10%"
+							px-height="100%"
+							px-padding="16px 0px 16px 10px"
+							test-padding="16px 0px 16px 0px"
+						>
+							<Override slot="StackItemContent" test-padding="0px 0px 0px 0px" test-justify-content="center" />
+							{"        "}
+							<Image
+								width="64px"
+								height="64px"
+								src="https://static.tildacdn.com/tild6433-6532-4638-a636-336639313036/star.svg"
+								test-width="32px"
+								test-padding="0px 0px 0px 0px"
+							/>
+							{"    "}
+						</StackItem>
+						{"    "}
+					</Stack>
 					{"    "}
 				</StackItem>
 				<StackItem
@@ -1568,10 +1669,17 @@ export default (() => {
 							px-width="10%"
 							px-height="100%"
 							px-padding="16px 0px 16px 10px"
-							px-margin="0px 0px 0px 5px"
+							test-padding="16px 0px 16px 10px"
 						>
+							<Override slot="StackItemContent" test-padding="0px 0px 0px 0px" test-justify-content="center" />
 							{"        "}
-							<Image width="64px" height="64px" src="https://static.tildacdn.com/tild6433-6532-4638-a636-336639313036/star.svg" />
+							<Image
+								width="64px"
+								height="64px"
+								src="https://static.tildacdn.com/tild6433-6532-4638-a636-336639313036/star.svg"
+								test-width="32px"
+								test-padding="0px 0px 0px 0px"
+							/>
 							{"    "}
 						</StackItem>
 						<StackItem
@@ -1580,9 +1688,17 @@ export default (() => {
 							px-width="10%"
 							px-height="100%"
 							px-padding="16px 0px 16px 10px"
+							test-padding="16px 0px 16px 0px"
 						>
+							<Override slot="StackItemContent" test-padding="0px 0px 0px 0px" test-justify-content="center" />
 							{"        "}
-							<Image width="64px" height="64px" src="https://static.tildacdn.com/tild6433-6532-4638-a636-336639313036/star.svg" />
+							<Image
+								width="64px"
+								height="64px"
+								src="https://static.tildacdn.com/tild6433-6532-4638-a636-336639313036/star.svg"
+								test-width="32px"
+								test-padding="0px 0px 0px 0px"
+							/>
 							{"    "}
 						</StackItem>
 						<StackItem
@@ -1591,9 +1707,17 @@ export default (() => {
 							px-width="10%"
 							px-height="100%"
 							px-padding="16px 0px 16px 10px"
+							test-padding="16px 0px 16px 0px"
 						>
+							<Override slot="StackItemContent" test-padding="0px 0px 0px 0px" test-justify-content="center" />
 							{"        "}
-							<Image width="64px" height="64px" src="https://static.tildacdn.com/tild6433-6532-4638-a636-336639313036/star.svg" />
+							<Image
+								width="64px"
+								height="64px"
+								src="https://static.tildacdn.com/tild6433-6532-4638-a636-336639313036/star.svg"
+								test-width="32px"
+								test-padding="0px 0px 0px 0px"
+							/>
 							{"    "}
 						</StackItem>
 						<StackItem
@@ -1602,9 +1726,17 @@ export default (() => {
 							px-width="10%"
 							px-height="100%"
 							px-padding="16px 0px 16px 10px"
+							test-padding="16px 0px 16px 0px"
 						>
+							<Override slot="StackItemContent" test-padding="0px 0px 0px 0px" test-justify-content="center" />
 							{"        "}
-							<Image width="64px" height="64px" src="https://static.tildacdn.com/tild6433-6532-4638-a636-336639313036/star.svg" />
+							<Image
+								width="64px"
+								height="64px"
+								src="https://static.tildacdn.com/tild6433-6532-4638-a636-336639313036/star.svg"
+								test-width="32px"
+								test-padding="0px 0px 0px 0px"
+							/>
 							{"    "}
 						</StackItem>
 						<StackItem
@@ -1613,9 +1745,17 @@ export default (() => {
 							px-width="10%"
 							px-height="100%"
 							px-padding="16px 0px 16px 10px"
+							test-padding="16px 0px 16px 0px"
 						>
+							<Override slot="StackItemContent" test-padding="0px 0px 0px 0px" test-justify-content="center" />
 							{"        "}
-							<Image width="64px" height="64px" src="https://static.tildacdn.com/tild6433-6532-4638-a636-336639313036/star.svg" />
+							<Image
+								width="64px"
+								height="64px"
+								src="https://static.tildacdn.com/tild6433-6532-4638-a636-336639313036/star.svg"
+								test-width="32px"
+								test-padding="0px 0px 0px 0px"
+							/>
 							{"    "}
 						</StackItem>
 						{"    "}
@@ -1719,14 +1859,6 @@ export default (() => {
 			>
 				Мы принимаем
 			</Text>
-			<Box
-				width="30%"
-				height="2px"
-				min-height={0}
-				background="#d4bd6a"
-				px-margin="0px 0px 30px 545px"
-				px-width="15%"
-			/>
 			<Components.EmbedHTML />
 		</Section>
 		<Section>
@@ -1812,13 +1944,6 @@ export default (() => {
 							Контакты
 						</Text>
 					</Box>
-					<Box
-						width="30%"
-						height="2px"
-						min-height={0}
-						background="#d4bd6a"
-						px-margin="0px 0px 0px 67px"
-					/>
 					<Text
 						color="#333333"
 						font="200 20px --fontFamily-googleSourceSansPro"
@@ -1827,7 +1952,13 @@ export default (() => {
 						sm-text-align="center"
 						sm-padding="0px 0px 0px 0px"
 					>
-						<Link href="#" px-color="#333333" px-hover-color="#c1a050" px-text-decoration-line="initial">
+						<Link
+							href="#"
+							px-color="#333333"
+							px-hover-color="#c1a050"
+							px-text-decoration-line="initial"
+							test-color="#333333"
+						>
 							Как получить промокод
 						</Link>
 					</Text>
@@ -1850,6 +1981,7 @@ export default (() => {
 							text-indent="0"
 							text-overflow="clip"
 							hyphens="manual"
+							test-color="#333333"
 						>
 							Партенерская программа
 						</Link>
@@ -1966,6 +2098,7 @@ Account No. IT29G0306933082100000004613
 							px-border-width="0px 0px 1px 0px"
 							required
 							disabled={false}
+							test-padding="6px 16px 6px 15px"
 						/>
 						<Input
 							width="100%"
@@ -1984,6 +2117,7 @@ Account No. IT29G0306933082100000004613
 							placeholder="Ваш телефон"
 							padding="6px 16px 6px 0px"
 							px-border-width="0px 0px 1px 0px"
+							test-padding="6px 16px 6px 15px"
 						/>
 						<Input
 							width="100%"
@@ -2002,6 +2136,7 @@ Account No. IT29G0306933082100000004613
 							placeholder="Ваш вопрос"
 							padding="6px 16px 6px 0px"
 							px-border-width="0px 0px 1px 0px"
+							test-padding="6px 16px 6px 15px"
 						/>
 						<Stack>
 							{"    "}

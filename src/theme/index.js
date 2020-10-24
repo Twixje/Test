@@ -30,6 +30,12 @@ export default {
 				"type": "max-width",
 				"value": "1920"
 			}
+		],
+		"test": [
+			{
+				"type": "min-width",
+				"value": "2000"
+			}
 		]
 	},
 	"color": {
@@ -207,5 +213,5 @@ export default {
 			}
 		}
 	},
-	"version": 27
+	"version": 29
 }
